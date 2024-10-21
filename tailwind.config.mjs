@@ -5,8 +5,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Montserrat Variable", ...defaultTheme.fontFamily.sans],
+        sans: ["Roboto", ...defaultTheme.fontFamily.sans],
         sans2: ["Quicksand Variable", ...defaultTheme.fontFamily.sans],
+        bebas: ["Bebas Neue", ...defaultTheme.fontFamily.sans],
         serif: ["Merriweather", ...defaultTheme.fontFamily.serif],
         stock: [
           "ui-sans-serif",
@@ -20,17 +21,17 @@ export default {
       },
       colors: {
         accent: {
-          50: "#fff8ed",
-          100: "#fff0d4",
-          200: "#ffdea9",
-          300: "#ffbb59",
-          400: "#fea239",
-          500: "#fc8513",
-          600: "#ed6909",
-          700: "#c54f09",
-          800: "#9c3e10",
-          900: "#7e3510",
-          950: "#441906",
+          50: "#eff6ff",
+          100: "#dbeafe",
+          200: "#bfdbfe",
+          300: "#93c5fd",
+          400: "#60a5fa",
+          500: "#3b82f6",
+          600: "#2563eb",
+          700: "#1d4ed8",
+          800: "#1e40af",
+          900: "#1e3a8a",
+          950: "#172554",
         },
         primary: {
           50: "#fafaf9",

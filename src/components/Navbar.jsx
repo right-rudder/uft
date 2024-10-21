@@ -75,7 +75,7 @@ const Navbar = ({ pathname }) => {
   };
 
   return (
-    <nav className="w-full h-0 sticky inset-0 z-20 font-sans tracking-wider">
+    <nav className="w-full h-0 sticky inset-0 z-20 font-bebas">
       <div
         className={`${
           navBar || openMobile ? "bg-primary-950/95" : "bg-transparent"
@@ -92,20 +92,20 @@ const Navbar = ({ pathname }) => {
                 className="relative hover:brightness-110 duration-200 ease-in-out w-4/6 md:w-1/3 lg:w-8/12"
               >
                 <img
-                  src="/universal-flight-training-logo-blue-trimmed.webp"
-                  alt="SunCity Aviation Academy Logo"
-                  aria-label="SunCity Aviation Academy Logo"
-                  title="SunCity Aviation Academy"
+                  src="/universal-flight-training-logo-white-blue-200-trimmed.webp"
+                  alt="Universal Flight Training Logo"
+                  aria-label="Universal Flight Training Logo"
+                  title="Universal Flight Training"
                   loading="lazy"
                   className={`${navBar || openMobile ? "h-20 lg:h-24 w-3/4" : "h-20 lg:h-28 w-full"} object-contain duration-500`}
                 />
               </a>
-              <div className="hidden lg:flex justify-end w-full">
+              <div className="hidden lg:flex justify-end w-full text-2xl">
                 <ul className="flex justify-between align-middle w-11/12 items-center">
                   {navbarLinks.map((item, index) => (
                     <li
                       key={index}
-                      className={`${isActive(item, pathname) ? "decoration-transparent underline font-bold" : "font-medium"} py-0 uppercase tracking-tight relative group last:no-underline last:px-0`}
+                      className={`${isActive(item, pathname) ? "decoration-transparent underline font-normal" : "font-thin"} py-0 uppercase tracking-widest relative group last:no-underline last:px-0`}
                       onMouseEnter={() => setHoveredIndex(index)}
                       onMouseLeave={() => setHoveredIndex(null)}
                     >
@@ -113,14 +113,14 @@ const Navbar = ({ pathname }) => {
                         <a
                           href={item.link}
                           target={`${item.link.includes("http") ? "_blank" : "_self"}`}
-                          className="font-semibold text-lg duration-300 hover:underline decoration-accent-200 decoration-4 underline-offset-[10px] py-12 border-accent whitespace-nowrap group-last:font-bold group-last:hover:text-muted-950 group-last:bg-accent-300 group-last:py-3 group-last:px-5 group-last:rounded-sm group-last:hover:bg-accent-400 group-last:hover:no-underline"
+                          className="font-medium text-2xl duration-300 hover:underline decoration-accent-200 decoration-4 underline-offset-[10px] py-12 border-accent whitespace-nowrap group-last:font-normal groufont-thinr:text-muted-950 group-last:bg-accent-300 group-last:py-3 group-last:px-5 group-last:rounded-sm group-last:hover:bg-accent-400 group-last:hover:no-underline"
                         >
-                          <span className="relative font-semibold text-accent-50 group-last:text-muted-950">
+                          <span className="relative font-medium text-accent-50 group-last:text-muted-950">
                             {item.name}
                           </span>
                         </a>
                       ) : (
-                        <span className="font-semibold cursor-default text-accent-50 text-lg duration-300 hover:underline decoration-accent-200 decoration-4 underline-offset-[10px] py-12 whitespace-nowrap">
+                        <span className="font-medium cursor-default text-accent-50 text-2xl duration-300 hover:underline decoration-accent-200 decoration-4 underline-offset-[10px] py-12 whitespace-nowrap">
                           {item.name}
                         </span>
                       )}
@@ -131,7 +131,7 @@ const Navbar = ({ pathname }) => {
                           {item.submenu.map((subitem, subIndex) => (
                             <li
                               key={subIndex}
-                              className={`${isActive(subitem, pathname) ? "bg-accent-200 text-primary-900" : ""} relative hover:bg-accent-200 hover:scale-105 px-1 hover:font-semibold hover:shadow-sm drop-shadow-sm font-medium`}
+                              className={`${isActive(subitem, pathname) ? "bg-accent-200 text-primary-900" : ""} relative hover:bg-accent-200 hover:scale-105 px-1 hover:font-medium hover:shadow-sm drop-shadow-sm font-medium`}
                               onMouseEnter={() => setSubHoveredIndex(subIndex)}
                               onMouseLeave={() => setSubHoveredIndex(null)}
                             >
@@ -287,12 +287,12 @@ const Navbar = ({ pathname }) => {
                 <a
                   href={item.link}
                   target={`${item.link.includes("http") ? "_blank" : "_self"}`}
-                  className="font-bold p-5 block text-xl duration-300 text-white border-accent-200 whitespace-nowrap group-last:bg-black group-last:font-medium group-last:border-2 group-last:mt-12 group-last:py-4 group-last:px-8 group-last:rounded-full group-last:text-center group-last:mx-5"
+                  className="font-normal p-5 font-thinxl duration-300 text-white border-accent-200 whitespace-nowrap group-last:bg-black group-last:font-medium group-last:border-2 group-last:mt-12 group-last:py-4 group-last:px-8 group-last:rounded-full group-last:text-center group-last:mx-5"
                 >
                   {item.name}
                 </a>
               ) : (
-                <div className="font-bold relative p-5 w-full justify-center flex cursor-pointer text-xl duration-300  border-accent whitespace-nowrap">
+                <div className="font-normal relafont-thinfull justify-center flex cursor-pointer text-xl duration-300  border-accent whitespace-nowrap">
                   <p>{item.name}</p>
                   <div
                     className={`absolute right-3 p-2 pointer-events-none duration-500 ease-in-out rounded-full ${hoveredIndex === index ? "bg-primary/30 -rotate-90" : "bg-primary/30 rotate-90"} 
@@ -323,7 +323,7 @@ const Navbar = ({ pathname }) => {
                           {subitem.name}
                         </a>
                       ) : (
-                        <div className="font-normal p-5 w-full justify-between flex cursor-pointer text-lg duration-300 border-accent whitespace-nowrap">
+                        <div className="font-normal p-5 w-full justify-between flex cursor-pointer text-2xl duration-300 border-accent whitespace-nowrap">
                           <p>{subitem.name}</p>
                           <div
                             className={`p-1 pointer-events-none duration-300 rounded-full ${subHoveredIndex === subIndex ? "bg-white rotate-90" : "bg-accent -rotate-90"} 
@@ -345,8 +345,8 @@ const Navbar = ({ pathname }) => {
                               <a
                                 href={subsubitem.link}
                                 target={`${subsubitem.link.includes("http") ? "_blank" : "_self"}`}
-                                className="block p-5 font-bold"
-                              >
+                                className="block p-5 font-normal"
+   font-thin                >
                                 {subsubitem.name}
                               </a>
                             </li>
@@ -361,7 +361,7 @@ const Navbar = ({ pathname }) => {
           ))}
         </ul>
 
-        <div className="p-5 px-10 font-bold flex flex-col justify-center align-middle items-center gap-5 overflow-hidden">
+        <div className="p-5 px-10 font-normal flexfont-thinustify-center align-middle items-center gap-5 overflow-hidden">
           <div className="flex gap-3 items-center">
             <a
               href={`tel:${PHONE_NUMBER}`}

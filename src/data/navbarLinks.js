@@ -1,6 +1,6 @@
 export const navbarLinks = [
   {
-    name: "New to Flying?",
+    name: "Start Here",
     link: "/pilot-training-guide",
     submenu: [
       {
@@ -26,7 +26,7 @@ export const navbarLinks = [
     ],
   },
   {
-    name: "Training Courses",
+    name: "Pilot Programs",
     link: "/flight-training-pilot-programs",
     submenu: [
       {
@@ -80,20 +80,20 @@ export const navbarLinks = [
     ],
   },
 
-  {
-    name: "Youth Program",
-    link: "/youth-aviation-programs",
-    submenu: [
-      {
-        name: "Experience Aviation",
-        link: "/experience-aviation",
-      },
-      {
-        name: "Aviation 101",
-        link: "/youth-aviation-class",
-      },
-    ],
-  },
+  // {
+  //   name: "Youth Program",
+  //   link: "/youth-aviation-programs",
+  //   submenu: [
+  //     {
+  //       name: "Experience Aviation",
+  //       link: "/experience-aviation",
+  //     },
+  //     {
+  //       name: "Aviation 101",
+  //       link: "/youth-aviation-class",
+  //     },
+  //   ],
+  // },
 
   {
     name: "About",
@@ -118,7 +118,7 @@ export const navbarLinks = [
     ],
   },
   {
-    name: "Start Today",
+    name: "Apply Today",
     link: "/enroll-now",
     submenu: [],
   },
