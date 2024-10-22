@@ -2,7 +2,7 @@ const homePage = {
   data: {
     //SEO Header Stuff
     pageTitle:
-      "Sun City Aviation Academy | Miami South Florida Flight Training",
+      "Universal Flight Training | Sarasota Flight School for Pilot Training",
     pageDescription:
       "Grow and scale your aviation business. Right Rudder Marketing specializes in aviation marketing services, helping flight schools and aviation companies increase visibility and grow enrollment. We offer tailored digital marketing solutions, including SEO, web design, and lead generation to help you reach more aspiring pilots. With proven aviation marketing strategies, we can help your flight school stand out in the competitive market and boost student enrollment efficiently.",
     pageKeywords:
@@ -11,20 +11,20 @@ const homePage = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/sun-city-aviation-academy-flying-over-miami.jpg",
+      imagePath: "/src/assets/uft-student-solo-over-clearwater-tampa.jpg",
       imageAlt:
         "sun city aviation academy airplane flying over the city of miami",
-      headerH1: `Become a </br><span class="text-accent-300">Professional Pilot</span>`,
+      headerH1: `Are you ready to <br class="hidden lg:block" ><span class="text-accent-200">Become A Pilot</span>?`,
       paragraph:
-        "Your path to becoming a professional pilot starts here. Our experienced instructors will help you achieve your aviation goals. Join the family at Sun City.",
+        `Universal Flight Training is your flight school to<br class="hidden lg:block" >become a pilot in the Sarasota Bradenton Florida area.`,
       buttons: [
         {
-          name: "Enroll Now",
+          name: "Enroll Today",
           link: "/marketing-system",
           primary: false,
         },
         {
-          name: "Book a Discovery Flight",
+          name: "How To Guide",
           link: "/schedule-call",
           primary: false,
         },

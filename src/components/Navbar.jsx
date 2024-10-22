@@ -233,7 +233,7 @@ const Navbar = ({ pathname }) => {
       <div
         className={`${
           openMobile ? "max-h-screen" : "max-h-0"
-        } overflow-x-hidden duration-700 ease-in-out h-screen lg:hidden absolute w-full bg-gradient-to-b from-accent-300 to-yellow-500 z-20 top-0`}
+        } overflow-x-hidden duration-700 ease-in-out h-screen lg:hidden absolute w-full bg-gradient-to-b from-accent-300 to-accent-500 z-20 top-0`}
         id="mobile-menu"
       >
         <div className="flex justify-end pl-5 pr-[26px] py-6">
@@ -260,16 +260,16 @@ const Navbar = ({ pathname }) => {
           className="z-30 relative flex justify-center items-center align-middle"
         >
           <img
-            src="/sun-city-white-text-logo.webp"
-            alt="SunCity Aviation Academy Logo"
-            aria-label="SunCity Aviation Academy Logo"
-            title="SunCity Aviation Academy"
-            className="object-contain h-24 w-auto drop-shadow-sm"
+            src="/universal-flight-training-logo-white-blue-200-trimmed.webp"
+            alt="Universal Flight Training Logo"
+            aria-label="Universal Flight Training Logo"
+            title="Universal Flight Training"
+            className="object-contain h-10 w-auto drop-shadow-sm"
           />
         </a>
 
         <div
-          className={`absolute w-full h-48 bg-black top-0 z-20 duration-500 ease-in-out  ${
+          className={`absolute w-full h-32 bg-black top-0 z-20 duration-500 ease-in-out  ${
             openMobile
               ? "translate-x-0 opacity-90"
               : "-translate-x-full opacity-0"

@@ -23,6 +23,10 @@ export const navbarLinks = [
         name: "Financing",
         link: "/stratus-finance",
       },
+      {
+        name: "Aircraft Maintenance",
+        link: "/stratus-finance",
+      },
     ],
   },
   {
@@ -37,10 +41,10 @@ export const navbarLinks = [
         name: "Private Pilot",
         link: "/private-pilot-training",
       },
-      {
-        name: "Group Ground School",
-        link: "/group-ground-school",
-      },
+      // {
+      //   name: "Group Ground School",
+      //   link: "/group-ground-school",
+      // },
       {
         name: "Instrument Rating",
         link: "/instrument-rating",
@@ -69,14 +73,14 @@ export const navbarLinks = [
         name: "Instrument Proficiency Check",
         link: "/instrument-proficiency-check-ipc",
       },
-      {
-        name: "Wingman Course",
-        link: "/wingman-family-member-training",
-      },
-      {
-        name: "Sea Plane Safari",
-        link: "/seaplane-pilot-training",
-      },
+      // {
+      //   name: "Wingman Course",
+      //   link: "/wingman-family-member-training",
+      // },
+      // {
+      //   name: "Sea Plane Safari",
+      //   link: "/seaplane-pilot-training",
+      // },
     ],
   },
 

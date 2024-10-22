@@ -21,12 +21,12 @@ export const LOCATIONS = [
     state: "FL",
     zip: "33023",
     gMaps: "https://maps.app.goo.gl/yugDmTfMfqUNYQ7G7",
-    phone: "1-(754)423-2159",
+    phone: "(941) 210-4410",
   },
 ];
 
 // CHANGE client business info
-export const PHONE_NUMBER = "1-(754)423-2159";
+export const PHONE_NUMBER = "(941) 210-4410";
 export const ADDRESS_LINE_1 = "7201 S Airport Rd #504A";
 export const ADDRESS_LINE_2 = "Pembroke Pines, FL 33023";
 export const FACEBOOK_URL = "https://www.facebook.com/rightruddermarketing";
