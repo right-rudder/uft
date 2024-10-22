@@ -32,10 +32,10 @@ const homePage = {
     },
 
     programs: {
-      upperHeading: "Explore",
-      heading: "Our Programs",
+      upperHeading: "Learn More About",
+      heading: "Our Training Programs",
       description:
-        "Your aviation dreams take center stage here. Whether pursuing a professional career, building flight hours, or seeking leisurely adventure, we have the perfect path for you.",
+        "Whether you are pursuing a professional career, building flight hours, or seeking leisurely adventure, we have the perfect program for you, no matter what your experience level is.",
       cards: [
         {
           title: "Professional Pilot Course",
@@ -55,15 +55,15 @@ const homePage = {
             "Your passport to the skies! Learn to pilot your dreams with our Private Pilot Course.",
           link: "/private-pilot-training",
         },
-        {
-          title: "Group Ground School",
-          imagePath: "/src/assets/sun-city-group-ground-school-bg.webp",
-          imageAlt:
-            "sun city aviation group ground school students studying in a classroom",
-          description:
-            "Learn the fundamentals of aviation in a group setting and pass your pilot written exam.",
-          link: "/group-ground-school",
-        },
+        // {
+        //   title: "Group Ground School",
+        //   imagePath: "/src/assets/sun-city-group-ground-school-bg.webp",
+        //   imageAlt:
+        //     "sun city aviation group ground school students studying in a classroom",
+        //   description:
+        //     "Learn the fundamentals of aviation in a group setting and pass your pilot written exam.",
+        //   link: "/group-ground-school",
+        // },
         {
           title: "Instrument Rating",
           imagePath: "/src/assets/sun-city-instrument.webp",
@@ -126,58 +126,58 @@ const homePage = {
             "Stay current with our Instrument Proficiency Check (IPC) to ensure your instrument flying skills are up to date.",
           link: "/instrument-proficiency-check-ipc",
         },
-        {
-          title: "Wingman Course",
-          imagePath: "/src/assets/sun-city-wingman.jpg",
-          imageAlt: "sun city aviation pilot's family in the flight simulator",
-          description:
-            "Equip your loved ones with essential aviation safety skills through our Wingman Course.",
-          link: "/wingman-family-member-training",
-        },
-        {
-          title: "Sea Plane Safari",
-          imagePath: "/src/assets/sun-city-seaplane.jpeg",
-          imageAlt: "sun city aviation seaplane floating on the water",
-          description:
-            "Seaplane flying opens up an extraordinary new world for pilots. Start SES training here.",
-          link: "/seaplane-pilot-training",
-        },
+        // {
+        //   title: "Wingman Course",
+        //   imagePath: "/src/assets/sun-city-wingman.jpg",
+        //   imageAlt: "sun city aviation pilot's family in the flight simulator",
+        //   description:
+        //     "Equip your loved ones with essential aviation safety skills through our Wingman Course.",
+        //   link: "/wingman-family-member-training",
+        // },
+        // {
+        //   title: "Sea Plane Safari",
+        //   imagePath: "/src/assets/sun-city-seaplane.jpeg",
+        //   imageAlt: "sun city aviation seaplane floating on the water",
+        //   description:
+        //     "Seaplane flying opens up an extraordinary new world for pilots. Start SES training here.",
+        //   link: "/seaplane-pilot-training",
+        // },
       ],
     },
 
     whySuncity: {
-      upperHeading: "Why SunCity",
-      heading: "Our Commitment",
+      upperHeading: "You Can Become a Pilot",
+      heading: "The UFT EXPERIENCE",
       descriptions: [
-        "We offer a diverse range of programs designed to elevate you to new heights in the world of aviation. Our experienced instructors and state-of-the-art fleet ensure you receive the best training possible.",
-        "Luke Poulos, our founder, boasts over 20 years of aviation industry experience. His mission is to make Sun City Aviation Academy the top rated flight school in the country.",
+        "We are committed to your pilot training success.  We offer a diverse range of programs designed to elevate you to new heights in the world of aviation. Our experienced instructors and state-of-the-art fleet ensure you receive the best training possible.",
+        "When you choose to fly at Universal Flight Training, you are choosing to fly with the best of the best.  Come see why everyone in the Sarasota region is checking out UFT.",
       ],
       bullets: [
         {
-          title: "Experience in Aviation",
+          title: "LOCAL AVIATION EXPERTISE",
           descriptions: [
-            "Our instructors are seasoned professionals with years of experience in the aviation industry.",
+            "Our experienced instructors bring years of expertise to flight training in the Sarasota and Bradenton area, ensuring top quality instruction.",
           ],
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
         {
-          title: "Individualized Attention",
+          title: "PERSONALIZED FLIGHT TRAINING",
           descriptions: [
-            "We provide personalized training to ensure you receive the attention you need to succeed.",
+            "We offer customized, one-on-one training to help aviation students in Venice, Lakewood Ranch, and surrounding areas achieve their goals.",
           ],
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
         {
-          title: "Excellent Customer Service",
+          title: "DEDICATED CUSTOMER SERVICE",
           descriptions: [
-            "Our team is dedicated to providing you with the best customer service experience possible.",
+            "Our team is committed to providing outstanding service to aviation enthusiasts throughout the Sarasota and North Port region.",
           ],
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
         {
-          title: "Structured Lessons",
+          title: "COMPREHENSIVE FLIGHT LESSONS",
           descriptions: [
-            "Our programs are designed to provide you with a structured learning experience that will help you succeed.",
+            "Our structured training programs offer a well organized learning experience, tailored for aspiring pilots in Palmetto, Osprey, and nearby communities.",
           ],
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
@@ -190,11 +190,13 @@ const homePage = {
 
     quizCTA: {
       upperHeading: "Take Our Quiz",
-      heading: "Can You Become a Pilot?",
+      heading: "Is Flight School Right For Me?",
       descriptions: [
-        "Many people believe that becoming a pilot is out of reach due to concerns about expenses, time commitments, and safety. These concerns often arise from online research and general uncertainty. We understand these valid concerns and encourage you to speak with a Sun City team member to address any questions that may have arisen during your research.",
-        "At Sun City Aviation Academy, you don't need to make a substantial financial commitment upfront. It all begins with an affordable discovery flight, costing only a few hundred dollars. Pursuing your pilot's license is indeed a significant time investment, but it's a life changing achievement with long lasting rewards. Safety is our utmost priority at Sun City, ensuring your journey to becoming a pilot is both fulfilling and safe.",
-        `Wondering if a pilot's life is right for you? Discover if the world of aviation is right for you by taking our "Is Flying Right for Me?" quiz. This quiz is designed to help you explore your interests and determine if the skies are where you belong. Get started on your aviation journey by clicking below to take the quiz.`,
+        "Many people think that becoming a pilot is out of reach due to concerns about cost, time commitment, and safety. These doubts often come from online research or general uncertainty. We understand these concerns and invite you to connect with a team member at Universal Flight Training to discuss any questions that may have come up during your research.",
+
+        "At Universal Flight Training, you dont need to make a big financial commitment upfront. Your journey can start with an affordable discovery flight, which costs just a few hundred dollars. While pursuing your pilots license does require a significant time investment, its a life-changing achievement with long lasting rewards. Our top priority at UFT is safety, ensuring that your path to becoming a pilot is both safe and fun.",
+
+        `Wondering if a pilot's life is the right fit for you? Take our "Is Flying Right for Me?" quiz to find out. Designed to help you explore your interests, this quiz will guide you in deciding if the skies over Sarasota, Bradenton, or Lakewood Ranch are where you belong. Click below to start your aviation journey and see if flight training in the Sarasota area is your next adventure.`,
       ],
       imageLegend: `Luke Poulos<br><small class="text-white font-normal text-sm">Founder & CEO</small>`,
       imagePath: "/src/assets/sun-city-private-pilot-pass-checkride.webp",
