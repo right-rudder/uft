@@ -1,6 +1,6 @@
 // CHANGE Default title
 export const SITE_TITLE =
-  "Sun City Aviation Academy | Miami South Florida Flight Training";
+  "Universal Flight Training | Sarasota Flight School fo Pilot Training";
 
 // CHANGE default meta description -> should only be used in homepage technically, but is there for a fallback in case a page is missed
 export const SITE_DESCRIPTION =
@@ -11,7 +11,7 @@ export const SITE_DESCRIPTION =
 //typical keywords = how to become a pilot, flight school near, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot
 // CHANGE default keywords -> should only be used in homepage technically, but is there for a fallback in case a page is missed
 export const KEYWORDS =
-  "Sun City Aviation Academy, located at KHWO - North Perry Airport in Hollywood, Florida, is your gateway to flight training excellence in the vibrant Miami-Fort Lauderdale metropolitan area. Our flight school serves aspiring pilots from Hollywood, Fort Lauderdale, Miami, and neighboring communities across Broward County. With our team of experienced instructors and a comprehensive range of aviation programs, we're committed to helping you achieve your aviation dreams right here in the heart of South Florida. Join us at Sun City Aviation Academy and embark on your journey to becoming a skilled pilot in one of the nation's most exciting aviation hubs.";
+  "Universal Flight Training, located at SRQ - Sarasota Bradenton International Airport in Sarasota, Florida, how to become a pilot, flight school near, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot, flight school, pilot training";
 
 export const LOCATIONS = [
   {
