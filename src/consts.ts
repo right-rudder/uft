@@ -15,20 +15,20 @@ export const KEYWORDS =
 
 export const LOCATIONS = [
   {
-    title: `North Perry Airport<br><small class="text-xs -mt-3">KHWO</small>`,
-    address: "7201 S Airport Rd #504A",
-    city: "Pembroke Pines",
+    title: `Sarasota Bradenton International Airport<br><small class="text-xs -mt-3">SRQ</small>`,
+    address: "8140 15th St E",
+    city: "Sarasota",
     state: "FL",
-    zip: "33023",
-    gMaps: "https://maps.app.goo.gl/yugDmTfMfqUNYQ7G7",
+    zip: "34243",
+    gMaps: "https://g.co/kgs/y37xxhc",
     phone: "(941) 210-4410",
   },
 ];
 
 // CHANGE client business info
 export const PHONE_NUMBER = "(941) 210-4410";
-export const ADDRESS_LINE_1 = "7201 S Airport Rd #504A";
-export const ADDRESS_LINE_2 = "Pembroke Pines, FL 33023";
+export const ADDRESS_LINE_1 = "8140 15th St E";
+export const ADDRESS_LINE_2 = "Sarasota, FL 34243";
 export const FACEBOOK_URL = "https://www.facebook.com/rightruddermarketing";
 export const INSTAGRAM_URL = "https://www.instagram.com/rightruddermarketing/";
 export const LINKEDIN_URL = "http://linkedin.com/company/rightruddermarketing";
