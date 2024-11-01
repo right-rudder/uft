@@ -11,11 +11,11 @@ export const SITE_DESCRIPTION =
 //typical keywords = how to become a pilot, flight school near, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot
 // CHANGE default keywords -> should only be used in homepage technically, but is there for a fallback in case a page is missed
 export const KEYWORDS =
-  "Universal Flight Training, located at SRQ - Sarasota Bradenton International Airport in Sarasota, Florida, how to become a pilot, flight school near, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot, flight school, pilot training";
+  "Universal Flight Training, located at KSRQ - Sarasota Bradenton International Airport in Sarasota, Florida, how to become a pilot, flight school near, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot, flight school, pilot training";
 
 export const LOCATIONS = [
   {
-    title: `Sarasota Bradenton International Airport<br><small class="text-xs -mt-3">SRQ</small>`,
+    title: `Sarasota Bradenton International Airport<br><small class="text-xs -mt-3">KSRQ</small>`,
     address: "8140 15th St E",
     city: "Sarasota",
     state: "FL",
