@@ -13,7 +13,7 @@ const homePage = {
       stars: true,
       imagePath: "/src/assets/uft-student-solo-over-clearwater-tampa.jpg",
       imageAlt:
-        "sun city aviation academy airplane flying over the city of miami",
+        "universal flight training student flying solo over clearwater tampa",
       headerH1: `Are you ready to <br class="hidden lg:block" ><span class="text-accent-200">Become A Pilot</span>?`,
       paragraph:
         `Universal Flight Training is your flight school to<br class="hidden lg:block" >become a pilot in the Sarasota Bradenton Florida area.`,
@@ -145,7 +145,7 @@ const homePage = {
       ],
     },
 
-    whySuncity: {
+    whyUFT: {
       upperHeading: "You Can Become a Pilot",
       heading: "The UFT EXPERIENCE",
       descriptions: [
@@ -227,7 +227,7 @@ const homePage = {
     },
 
     testimonials: {
-      upperHeading: "The SunCity Family",
+      upperHeading: "The UFT Family",
       heading: "Our Students Love Us",
       headingText: [
         "While our main goal is to train future pilots safely and effectively, it’s important to us at SunCity Aviation Academy our students have a fun and comfortable environment to practice in.",
