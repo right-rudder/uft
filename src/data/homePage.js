@@ -246,20 +246,24 @@ const homePage = {
           author: "Nick S.",
         },
         {
-          body: "I finished and passed my private pilot license at Sun City and now I'm doing the Instrument rating. The school and staff are great, my instructor Marko is excellent!!!",
-          author: "Ivan L.",
+          body: "Great vibes from this place. We had a mechanical over the weekend and were grounded far from home. Jose and team went above and beyond (staying late on a Sunday!) to get us home by Sunday evening. This action speaks to the care and quality at this facility.",
+          author: "Seth P.",
         },
         {
-          body: "I recently had the pleasure of training with Sun City for my Initial Multi Engine Commercial Rating. It was amazing. I was referred to Sun City from a DPE (FAA Designated Pilot Examiner) after I had a bad experience with a flight school in Melbourne FL. If one of the most well-known DPEs in the South Florida area recommended it (out of many), it carried a lot of weight given this is what they do day in and day out. They know where the best instructors are, the most well-maintained airplanes, and best pass rates for checkrides. The recommendation did not disappoint.",
-          author: "Jeff B.",
+          body: "We rented a plane for a trip. Jose was very helpful in making our trip possible. His instructor Aldo was friendly and professional and helped get the checkout done quickly. The airplane was clean and well maintained. I highly recommend UFT for rental or flight instruction.",
+          author: "Ryan O.",
         },
         {
-          body: "I spent almost a full year with this Sun City family and I couldn’t be more grateful. Getting to the finish line for my PPL would not have happened without Georgette and Luke, the owners. They are like a second set of parents to me after this rating. They are by far the most family oriented flight school I have been apart of and if you give them the chance, they will treat you like their family.",
-          author: "Joelle D.",
+          body: "Jose - who runs the flying school - was a fantastic instructor for my introductory lesson - very professional, talking me through everything before, during and after the flight. And it's a great location to learn to fly - spectacular views all around. Definitely recommend!",
+          author: "Olliver K.",
         },
         {
-          body: "Anyone who care about having a positive  experience, prompt communication, and quality learning, you will not regret going to Sun City. Georgette and the staff are fantastic. The environment itself is built to enrich your personal understanding of flying. My son had a blast and can’t wait to continue. Thank you so much Georgette.",
-          author: "Olgyu C.",
+          body: "I started attending UFT for my Private Pilots License and have gone all the way through to CFI. The quality of the staff and instructors are great and I’ve thoroughly enjoyed my time here at UFT. I can’t thank the team enough for all of the care and support they put into my training. Great aircraft options as well. Would recommend to anyone looking to learn how to fly or rent an aircraft.",
+          author: "Aldo M.",
+        },
+        {
+          body: "Great school with great instructors and well maintained planes. The owner Jose and all his staff are great people. One of the few places that offers a ground school course for both PPL and IFR. Ramp has easy access to taxiways for quick departures so it doesn’t run up the hobbs on you while also allowing you to gain valuable communications experience. SRQ controllers are also very accommodating and know the tail numbers and work well with you for IFR training. Overall great experience and I highly recommend them.",
+          author: "Eric S.",
         },
       ],
     },
