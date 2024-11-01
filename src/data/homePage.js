@@ -39,18 +39,18 @@ const homePage = {
       cards: [
         {
           title: "Professional Pilot Course",
-          imagePath: "/src/assets/sun-city-airline-pilot-ppc.webp",
+          imagePath: "/src/assets/uft-professional-pilot-course.webp",
           imageAlt:
-            "sun city aviation professional pilots giving thumbs up in an airplane cockpit",
+            "UFT student and Instructor taking off",
           description:
             "Comprehensive program covering private, instrument, commercial, and multi-engine flight training.",
           link: "/professional-pilot-course",
         },
         {
           title: "Private Pilot",
-          imagePath: "/src/assets/sun-city-private-pilot.webp",
+          imagePath: "/src/assets/uft-private-pilot.webp",
           imageAlt:
-            "sun city aviation private pilot training students in front of a plane",
+            "Photograph of a plane", //Change later - more info
           description:
             "Your passport to the skies! Learn to pilot your dreams with our Private Pilot Course.",
           link: "/private-pilot-training",
@@ -66,27 +66,27 @@ const homePage = {
         // },
         {
           title: "Instrument Rating",
-          imagePath: "/src/assets/sun-city-instrument.webp",
+          imagePath: "/src/assets/uft-intrument-rating.webp",
           imageAlt:
-            "sun city aviation certified flight instructor and student in a cockpit",
+            "Photograph of assistive equipment", //Change later
           description:
             "Navigate through clouds and the skies with precision through our Instrument Rating course.",
           link: "/instrument-rating",
         },
         {
           title: "Commercial Pilot",
-          imagePath: "/src/assets/sun-city-commercial.webp",
+          imagePath: "/src/assets/uft-commercial-pilot-course-picture.webp",
           imageAlt:
-            "sun city aviation student and family displaying commercial pilot certificate",
+            "Photograph of plane's propellers",
           description:
             "Start your pilot career with our Commercial Pilot Course. Your path to the captain's seat is here.",
           link: "/commercial-pilot-training",
         },
         {
           title: "Airline Transport Pilot",
-          imagePath: "/src/assets/john-mcarthur-PrdNTrIrG8w-unsplash.jpg",
+          imagePath: "/src/assets/uft-airline-transport-pilot-course-picture.webp",
           imageAlt:
-            "sun city aviation instruments panel of a commercial airline airplane cockpit",
+            "Universal Flight Training airline transport pilot course cover picture",
           description:
             "For many this is their goal. The ATP certificate is a minimum requirement to join the airlines.",
           link: "/airline-transport-pilot-atp",
@@ -94,26 +94,26 @@ const homePage = {
         {
           title: "Multi-Engine Rating",
           imagePath:
-            "/src/assets/sun-city-aviation-academy-multi-engine-aircraft.jpg",
+            "/src/assets/uft-multi-engine-rating-course-picture.webp",
           imageAlt:
-            "sun city aviation student and flight instructor in front of a multi-engine airplane",
+            "Universal Flight Training Multi-Engine Rating course cover picture",
           description:
             "Master the art of multi engine flying and unlock new horizons in your aviation career.",
           link: "/multi-engine-rating",
         },
         {
           title: "Certified Flight Instructor",
-          imagePath: "/src/assets/sun-city-cfi-bg3.webp",
+          imagePath: "/src/assets/uft-certified-flight-instructor-course-picture.webp",
           imageAlt:
-            "sun city aviation student and flight instructor shaking hands",
+            "Universal Flight Training Certified Flight Instructor course cover picture",
           description:
             "Become a trusted guide in the world of aviation. Become a CFI and teach others to fly.",
           link: "/certified-flight-instructor-cfi",
         },
         {
           title: "Flight Review",
-          imagePath: "/src/assets/sun-city-bfr.webp",
-          imageAlt: "sun city aviation cessna airplane on a runway",
+          imagePath: "/src/assets/uft-flight-review-course-picture.webp",
+          imageAlt: "Universal Flight Training Flight Review course cover picture - Cessna Skyhawk",
           description:
             "Recurrent training requirement for pilots to ensure they maintain proficiency and safety standards.",
           link: "/flight-review-bfr",
@@ -121,7 +121,7 @@ const homePage = {
         {
           title: "Instrument Proficiency Check",
           imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
-          imageAlt: "sun city aviation clouds and sky",
+          imageAlt: "Universal Flight Training Instrument Proficiency Check course cover picture - day sky and some clouds",
           description:
             "Stay current with our Instrument Proficiency Check (IPC) to ensure your instrument flying skills are up to date.",
           link: "/instrument-proficiency-check-ipc",
@@ -182,10 +182,10 @@ const homePage = {
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
       ],
-      imageLegend: `Luke Poulos<br><small class="text-white font-normal text-sm">Founder & CEO</small>`,
-      imagePath: "/src/assets/sun-city-luke.webp",
+      imageLegend: `Joe Vazquez<br><small class="text-white font-normal text-sm">Chief Flight Instructor</small>`,
+      imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
       imageAlt:
-        "sun city aviation founder luke poulos in front of a sun city airplane",
+        "Chief Flight Instructor for Universal Flight Training Joe Vazquez",
     },
 
     quizCTA: {
@@ -235,15 +235,15 @@ const homePage = {
       ],
       buttonText: "Leave Us a Review",
       buttonLink:
-        "https://www.google.com/search?client=firefox-b-d&q=sun+city+aviation+academy#",
+        "https://www.google.com/search?client=firefox-b-d&q=universal+flight+training+flight+school#",
       reviews: [
         {
-          body: "This flight school provides premium service, wonderful atmosphere and excellent safety. I am very pleased with Sun City Aviation. I am working on getting my instrument rating and the Sun City team has been wonderful. My Flight Instructor Jean is great. I feel like I’m becoming a better pilot after each lesson. The planes are in great shape and I feel safe flying them (especially flying XC). Overall 5 Stars!",
-          author: "Hector R.",
+          body: "Our son Christian took his very first discovery flight at the age of 13 and it was an absolutely incredible experience!  That smile on his face says it all!  His instructor was so good with him and gave him some great information.  I would recommend this place to any future aviators, we will definitely be back!",
+          author: "Cori R.",
         },
         {
-          body: "Sun City Aviation is hands down one of the best flight schools out there! The instructors are not only super knowledgeable but also genuinely care about helping you succeed. They take the time to explain everything clearly, so you never feel lost. The planes are in great shape, and you always feel safe and comfortable when you’re up in the air. What I love most is the friendly and supportive vibe—everyone there is rooting for you. Whether you're just starting out or looking to level up your skills, Sun City Aviation is the place to be. Highly recommend!",
-          author: "Zaccur C.",
+          body: "Excellent place to train! Whether it is flying or taking a written knowledge exam, I highly recommend Universal Flight Training. The staff cares about your success. During my IRA knowledge exam, there was an unexpected county-wide internet outage. Jose allowed me to wait at the location until the internet was working again, and did everything in his power to help me take the test the same day it was scheduled. True class all around!",
+          author: "Nick S.",
         },
         {
           body: "I finished and passed my private pilot license at Sun City and now I'm doing the Instrument rating. The school and staff are great, my instructor Marko is excellent!!!",
