@@ -120,7 +120,7 @@ const homePage = {
         },
         {
           title: "Instrument Proficiency Check",
-          imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
+          imagePath: "/src/assets/uft-instrument-proficiency-check-cover-picture.jpg",
           imageAlt: "Universal Flight Training Instrument Proficiency Check course cover picture - day sky and some clouds",
           description:
             "Stay current with our Instrument Proficiency Check (IPC) to ensure your instrument flying skills are up to date.",
@@ -182,10 +182,10 @@ const homePage = {
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
       ],
-      imageLegend: `Joe Vazquez<br><small class="text-white font-normal text-sm">Chief Flight Instructor</small>`,
-      imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
+      imageLegend: `Don Behm<br><small class="text-white font-normal text-sm">Chief Flight Instructor</small>`,
+      imagePath: "/src/assets/uft-don-behm-chief-flight-instructor.jpg",
       imageAlt:
-        "Chief Flight Instructor for Universal Flight Training Joe Vazquez",
+        "Chief Flight Instructor for Universal Flight Training Don Behm",
     },
 
     quizCTA: {
@@ -198,10 +198,10 @@ const homePage = {
 
         `Wondering if a pilot's life is the right fit for you? Take our "Is Flying Right for Me?" quiz to find out. Designed to help you explore your interests, this quiz will guide you in deciding if the skies over Sarasota, Bradenton, or Lakewood Ranch are where you belong. Click below to start your aviation journey and see if flight training in the Sarasota area is your next adventure.`,
       ],
-      imageLegend: `Luke Poulos<br><small class="text-white font-normal text-sm">Founder & CEO</small>`,
-      imagePath: "/src/assets/sun-city-private-pilot-pass-checkride.webp",
+      imageLegend: ``,
+      imagePath: "/src/assets/uft-flight-school-right-for-me.jpg",
       imageAlt:
-        "sun city aviation student and flight instructor celebrating after passing a checkride",
+        "Universal flight school student posing in front of plane",
       buttons: [
         {
           name: "Take the Quiz",
