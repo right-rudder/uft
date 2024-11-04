@@ -10,9 +10,9 @@ const privatePilotCourse = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/uft-professional-pilot-course.webp",
+      imagePath: "/src/assets/private-pilot-course-cover.jpg",
       imageAlt:
-        "Universal flight training student and Instructor taking off",
+        "Universal flight training student and Instructor posing in front of airplane",
       headerH1: `Private <br class="hidden lg:block" ><span class="text-accent-300">Pilot Course</span>`,
       paragraph:
         `This course is the starting point for your aviation journey. Earning a private pilot certificate grants you the freedom to fly aircraft for personal and recreational enjoyment.`,
