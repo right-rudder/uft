@@ -53,7 +53,7 @@ const pilotTrainingGuide = {
             "Photograph of a plane", //Change later - more info
           description:
             "Your passport to the skies! Learn to pilot your dreams with our Private Pilot Course.",
-          link: "/private-pilot-training",
+          link: "/private-pilot-course",
         },
         // {
         //   title: "Group Ground School",
@@ -199,7 +199,7 @@ const pilotTrainingGuide = {
         `Wondering if a pilot's life is the right fit for you? Take our "Is Flying Right for Me?" quiz to find out. Designed to help you explore your interests, this quiz will guide you in deciding if the skies over Sarasota, Bradenton, or Lakewood Ranch are where you belong. Click below to start your aviation journey and see if flight training in the Sarasota area is your next adventure.`,
       ],
       imageLegend: `Luke Poulos<br><small class="text-white font-normal text-sm">Founder & CEO</small>`,
-      imagePath: "/src/assets/sun-city-private-pilot-pass-checkride.webp",
+      imagePath: "/src/assets/image-placeholder.jpg",
       imageAlt:
         "sun city aviation student and flight instructor celebrating after passing a checkride",
       buttons: [

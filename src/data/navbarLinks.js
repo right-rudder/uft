@@ -39,7 +39,7 @@ export const navbarLinks = [
       },
       {
         name: "Private Pilot",
-        link: "/private-pilot-training",
+        link: "/private-pilot-course",
       },
       // {
       //   name: "Group Ground School",

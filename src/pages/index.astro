@@ -9,6 +9,7 @@ import ContentSplit from "../components/ContentSplit.astro";
 import CTAColor from "../components/CTAColor.astro";
 import Testimonials from "../components/Testimonials.astro";
 import ContentCTA from "../components/ContentCTA.astro";
+import programsSwiper from "../data/programSwiper";
 
 const { data } = homePage;
 const images = import.meta.glob<{ default: ImageMetadata }>(
@@ -25,7 +26,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   <HeaderScreen content={data.header} />
   <BentoGrid />
 
-  <ProgramSwiper content={data.programs} />
+  <ProgramSwiper content={programsSwiper} />
   <ContentSplit content={data.whyUFT} />
   <ContentCTA content={data.quizCTA} />
   <Testimonials content={data.testimonials} />
