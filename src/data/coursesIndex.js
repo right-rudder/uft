@@ -11,9 +11,9 @@ const coursesIndex = {
         //top header
         header: {
           stars: true,
-          imagePath: "/src/assets/uft-professional-pilot-course.webp",
+          imagePath: "/src/assets/pilot-programs-index-cover.jpg",
           imageAlt:
-            "Universal flight training student and Instructor taking off",
+            "Photograph of a Universal Flight Training plane on the runway",
           headerH1: `Pilot <br class="hidden lg:block" ><span class="text-accent-300">PROGRAMS</span>`,
           paragraph:
             `Discover how UFT can help you achieve your aviation dreams. We offer a range of programs designed to guide you on your journey to becoming a pilot.`,
