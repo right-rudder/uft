@@ -13,7 +13,7 @@ export const navbarLinks = [
       },
       {
         name: "Flight Training",
-        link: "/flight-training-pilot-programs",
+        link: "/programs",
       },
       {
         name: "Become a Professional Pilot",
@@ -31,7 +31,7 @@ export const navbarLinks = [
   },
   {
     name: "Pilot Programs",
-    link: "/flight-training-pilot-programs",
+    link: "/programs",
     submenu: [
       {
         name: "Professional Pilot",

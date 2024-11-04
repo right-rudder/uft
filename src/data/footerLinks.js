@@ -16,7 +16,7 @@ export const footerLinks = [
       },
       {
         name: "Flight Training",
-        link: "/flight-training-pilot-programs",
+        link: "/programs",
       },
       {
         name: "Experience Aviation",

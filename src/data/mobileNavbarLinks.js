@@ -12,7 +12,7 @@ export const mobileNavbarLinks = [
       },
       {
         name: "Flight Training",
-        link: "/flight-training-pilot-programs",
+        link: "/programs",
       },
       {
         name: "Become a Professional Pilot",
