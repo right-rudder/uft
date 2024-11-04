@@ -1,4 +1,4 @@
-const homePage = {
+const pilotTrainingGuide = {
   data: {
     //SEO Header Stuff
     pageTitle:
@@ -14,7 +14,7 @@ const homePage = {
       imagePath: "/src/assets/uft-student-solo-over-clearwater-tampa.jpg",
       imageAlt:
         "universal flight training student flying solo over clearwater tampa",
-      headerH1: `Are you ready to <br class="hidden lg:block" ><span class="text-accent-200">Become A Pilot</span>?`,
+      headerH1: `Pilot Training <br class="hidden lg:block" ><span class="text-accent-200">GUIDE</span>`,
       paragraph:
         `Universal Flight Training is your flight school to<br class="hidden lg:block" >become a pilot in the Sarasota Bradenton Florida area.`,
       buttons: [
@@ -31,6 +31,119 @@ const homePage = {
       ],
     },
 
+    programs: {
+      upperHeading: "Learn More About",
+      heading: "Our Training Programs",
+      description:
+        "Whether you are pursuing a professional career, building flight hours, or seeking leisurely adventure, we have the perfect program for you, no matter what your experience level is.",
+      cards: [
+        {
+          title: "Professional Pilot Course",
+          imagePath: "/src/assets/uft-professional-pilot-course.webp",
+          imageAlt:
+            "UFT student and Instructor taking off",
+          description:
+            "Comprehensive program covering private, instrument, commercial, and multi-engine flight training.",
+          link: "/professional-pilot-course",
+        },
+        {
+          title: "Private Pilot",
+          imagePath: "/src/assets/uft-private-pilot.webp",
+          imageAlt:
+            "Photograph of a plane", //Change later - more info
+          description:
+            "Your passport to the skies! Learn to pilot your dreams with our Private Pilot Course.",
+          link: "/private-pilot-course",
+        },
+        // {
+        //   title: "Group Ground School",
+        //   imagePath: "/src/assets/sun-city-group-ground-school-bg.webp",
+        //   imageAlt:
+        //     "sun city aviation group ground school students studying in a classroom",
+        //   description:
+        //     "Learn the fundamentals of aviation in a group setting and pass your pilot written exam.",
+        //   link: "/group-ground-school",
+        // },
+        {
+          title: "Instrument Rating",
+          imagePath: "/src/assets/uft-intrument-rating.webp",
+          imageAlt:
+            "Photograph of assistive equipment", //Change later
+          description:
+            "Navigate through clouds and the skies with precision through our Instrument Rating course.",
+          link: "/instrument-rating",
+        },
+        {
+          title: "Commercial Pilot",
+          imagePath: "/src/assets/uft-commercial-pilot-course-picture.webp",
+          imageAlt:
+            "Photograph of plane's propellers",
+          description:
+            "Start your pilot career with our Commercial Pilot Course. Your path to the captain's seat is here.",
+          link: "/commercial-pilot-training",
+        },
+        {
+          title: "Airline Transport Pilot",
+          imagePath: "/src/assets/uft-airline-transport-pilot-course-picture.webp",
+          imageAlt:
+            "Universal Flight Training airline transport pilot course cover picture",
+          description:
+            "For many this is their goal. The ATP certificate is a minimum requirement to join the airlines.",
+          link: "/airline-transport-pilot-atp",
+        },
+        {
+          title: "Multi-Engine Rating",
+          imagePath:
+            "/src/assets/uft-multi-engine-rating-course-picture.webp",
+          imageAlt:
+            "Universal Flight Training Multi-Engine Rating course cover picture",
+          description:
+            "Master the art of multi engine flying and unlock new horizons in your aviation career.",
+          link: "/multi-engine-rating",
+        },
+        {
+          title: "Certified Flight Instructor",
+          imagePath: "/src/assets/uft-certified-flight-instructor-course-picture.webp",
+          imageAlt:
+            "Universal Flight Training Certified Flight Instructor course cover picture",
+          description:
+            "Become a trusted guide in the world of aviation. Become a CFI and teach others to fly.",
+          link: "/certified-flight-instructor-cfi",
+        },
+        {
+          title: "Flight Review",
+          imagePath: "/src/assets/uft-flight-review-course-picture.webp",
+          imageAlt: "Universal Flight Training Flight Review course cover picture - Cessna Skyhawk",
+          description:
+            "Recurrent training requirement for pilots to ensure they maintain proficiency and safety standards.",
+          link: "/flight-review-bfr",
+        },
+        {
+          title: "Instrument Proficiency Check",
+          imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
+          imageAlt: "Universal Flight Training Instrument Proficiency Check course cover picture - day sky and some clouds",
+          description:
+            "Stay current with our Instrument Proficiency Check (IPC) to ensure your instrument flying skills are up to date.",
+          link: "/instrument-proficiency-check-ipc",
+        },
+        // {
+        //   title: "Wingman Course",
+        //   imagePath: "/src/assets/sun-city-wingman.jpg",
+        //   imageAlt: "sun city aviation pilot's family in the flight simulator",
+        //   description:
+        //     "Equip your loved ones with essential aviation safety skills through our Wingman Course.",
+        //   link: "/wingman-family-member-training",
+        // },
+        // {
+        //   title: "Sea Plane Safari",
+        //   imagePath: "/src/assets/sun-city-seaplane.jpeg",
+        //   imageAlt: "sun city aviation seaplane floating on the water",
+        //   description:
+        //     "Seaplane flying opens up an extraordinary new world for pilots. Start SES training here.",
+        //   link: "/seaplane-pilot-training",
+        // },
+      ],
+    },
 
     whyUFT: {
       upperHeading: "You Can Become a Pilot",
@@ -69,10 +182,10 @@ const homePage = {
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
       ],
-      imageLegend: `Don Behm<br><small class="text-white font-normal text-sm">Chief Flight Instructor</small>`,
-      imagePath: "/src/assets/uft-don-behm-chief-flight-instructor.jpg",
+      imageLegend: `Joe Vazquez<br><small class="text-white font-normal text-sm">Chief Flight Instructor</small>`,
+      imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
       imageAlt:
-        "Chief Flight Instructor for Universal Flight Training Don Behm",
+        "Chief Flight Instructor for Universal Flight Training Joe Vazquez",
     },
 
     quizCTA: {
@@ -85,10 +198,10 @@ const homePage = {
 
         `Wondering if a pilot's life is the right fit for you? Take our "Is Flying Right for Me?" quiz to find out. Designed to help you explore your interests, this quiz will guide you in deciding if the skies over Sarasota, Bradenton, or Lakewood Ranch are where you belong. Click below to start your aviation journey and see if flight training in the Sarasota area is your next adventure.`,
       ],
-      imageLegend: ``,
-      imagePath: "/src/assets/uft-flight-school-right-for-me.jpg",
+      imageLegend: `Luke Poulos<br><small class="text-white font-normal text-sm">Founder & CEO</small>`,
+      imagePath: "/src/assets/image-placeholder.jpg",
       imageAlt:
-        "Universal flight school student posing in front of plane",
+        "sun city aviation student and flight instructor celebrating after passing a checkride",
       buttons: [
         {
           name: "Take the Quiz",
@@ -156,4 +269,4 @@ const homePage = {
     },
   },
 };
-export default homePage;
+export default pilotTrainingGuide;

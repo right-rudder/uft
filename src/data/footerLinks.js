@@ -41,7 +41,7 @@ export const footerLinks = [
       },
       {
         name: "PPC",
-        link: "/private-pilot-training",
+        link: "/private-pilot-course",
       },
       {
         name: "IR",
