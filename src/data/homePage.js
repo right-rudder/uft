@@ -102,8 +102,8 @@ const homePage = {
       upperHeading: "The UFT Family",
       heading: "Our Students Love Us",
       headingText: [
-        "While our main goal is to train future pilots safely and effectively, it’s important to us at SunCity Aviation Academy our students have a fun and comfortable environment to practice in.",
-        "Check out what our students and guests have to say about their experiences at SunCity.",
+        "At Universal Flight Training, our top priority is to train future pilots safely and effectively, but we also strive to create a fun and comfortable learning environment.",
+        "See what our students and visitors have to say about their experiences at UFT!",
       ],
       buttonText: "Leave Us a Review",
       buttonLink:
