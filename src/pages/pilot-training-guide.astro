@@ -6,6 +6,7 @@ import HeaderScreen from "../components/HeaderScreen.astro";
 import ProgramSwiper from "../components/ProgramSwiper.astro";
 import ContentSplit from "../components/ContentSplit.astro";
 import CTAColor from "../components/CTAColor.astro";
+import flyWithUsCTA from "../data/flyWithUsCTA.js";
 import Testimonials from "../components/Testimonials.astro";
 import ContentCTA from "../components/ContentCTA.astro";
 
@@ -24,9 +25,6 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   <HeaderScreen content={data.header} />
 
   <ProgramSwiper content={data.programs} />
-  <ContentSplit content={data.whyUFT} />
-  <ContentCTA content={data.quizCTA} />
-  <Testimonials content={data.testimonials} />
-  <CTAColor content={data.flyWithUsCTA} />
+  <CTAColor content={flyWithUsCTA} />
   <script src="../scripts/creativeSwiper.js"></script>
 </BaseLayout>
