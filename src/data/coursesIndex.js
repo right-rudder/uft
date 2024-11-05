@@ -14,7 +14,7 @@ const coursesIndex = {
           imagePath: "/src/assets/pilot-programs-index-cover.jpg",
           imageAlt:
             "Photograph of a Universal Flight Training plane on the runway",
-          headerH1: `Pilot <br class="hidden lg:block" ><span class="text-accent-300">PROGRAMS</span>`,
+          headerH1: `Pilot <br class="hidden lg:block" ><span class="text-accent-200">PROGRAMS</span>`,
           paragraph:
             `Discover how UFT can help you achieve your aviation dreams. We offer a range of programs designed to guide you on your journey to becoming a pilot.`,
           buttons: [

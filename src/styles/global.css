@@ -2,13 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Vipnagorgialla';
+  src: url('/fonts/vipnagorgialla-rg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer components {
   .btn-primary {
     @apply text-center font-bebas text-5xl uppercase font-bold py-3 px-6 bg-primary-700 w-fit text-white rounded-sm hover:bg-primary-800 duration-300;
   }
  
   .btn-accent {
-    @apply text-center font-bebas text-5xl uppercase font-bold py-3 px-6 bg-accent-300 w-fit text-black rounded-sm hover:bg-accent-400 duration-300;
+    @apply text-center font-bebas text-5xl uppercase font-bold py-3 px-6 bg-accent-200 w-fit text-black rounded-sm hover:bg-accent-600 hover:text-white duration-300;
   }
 
   .btn-animate {

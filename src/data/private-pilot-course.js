@@ -13,7 +13,7 @@ const privatePilotCourse = {
       imagePath: "/src/assets/private-pilot-course-cover.jpg",
       imageAlt:
         "Universal flight training student and Instructor posing in front of airplane",
-      headerH1: `Private <br class="hidden lg:block" ><span class="text-accent-300">Pilot Course</span>`,
+      headerH1: `Private <br class="hidden lg:block" ><span class="text-accent-200">Pilot Course</span>`,
       paragraph:
         `This course is the starting point for your aviation journey. Earning a private pilot certificate grants you the freedom to fly aircraft for personal and recreational enjoyment.`,
       buttons: [
@@ -75,7 +75,7 @@ const privatePilotCourse = {
 
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
-      headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
+      headerH1: `Get Your <span class="text-accent-200">FREE</span><br> Pilot Training Guide!`,
       paragraph:
         "We have a free booklet which explains everything you need to know for your pilot certificate.",
       buttons: [
