@@ -92,7 +92,7 @@ const Navbar = ({ pathname }) => {
                 className="relative hover:brightness-110 duration-200 ease-in-out w-4/6 md:w-1/3 lg:w-8/12"
               >
                 <img
-                  src="/universal-flight-training-logo-white-blue-200-trimmed.webp"
+                  src="/uft-logo-new-bg-blue-removebg-preview.webp"
                   alt="Universal Flight Training Logo"
                   aria-label="Universal Flight Training Logo"
                   title="Universal Flight Training"
@@ -260,7 +260,7 @@ const Navbar = ({ pathname }) => {
           className="z-30 relative flex justify-center items-center align-middle"
         >
           <img
-            src="/universal-flight-training-logo-white-blue-200-trimmed.webp"
+            src="/uft-logo-new-bg-blue-removebg-preview.webp"
             alt="Universal Flight Training Logo"
             aria-label="Universal Flight Training Logo"
             title="Universal Flight Training"
