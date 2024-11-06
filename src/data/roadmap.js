@@ -38,8 +38,8 @@ const Roadmap = {
           "The next step for most aspiring airline pilots is to obtain a Flight Instructor Certificate. Becoming a certificated flight instructor (CFI) allows you to build valuable flight hours while earning an income. Flight instructing is one of the most common ways for new pilots to accumulate the flight experience necessary to meet airline hiring requirements.",
           "As a CFI, you’ll refine your own skills by teaching others, which can be immensely rewarding and beneficial to your development. Instructing requires a deep understanding of aviation principles and enhances your ability to communicate complex concepts. This role allows you to immerse yourself in the aviation community, make professional connections, and gain insights into the industry as you work toward your ultimate goal.",
         ],
-        imagePath: "/src/assets/uft-certified-flight-instructor-course-picture.webp",
-        imageAlt: "placeholder",
+        imagePath: "/src/assets/uft-student-instructor-bumping-fists.jpg",
+        imageAlt: "Universal Fligh Trainning student bumping fists with instructor",
       },
       {
         title: "Add Multi-Engine Rating",
@@ -48,7 +48,7 @@ const Roadmap = {
           "The multi-engine rating training builds upon your existing skills, adding a new layer of complexity and decision-making. Pilots must learn to manage the additional power and speed, as well as the unique aerodynamic characteristics of multi-engine planes. Gaining this rating is crucial to advancing in your career and is typically the final step before beginning to accumulate the necessary hours to meet airline hiring standards.",
         ],
         imagePath: "/src/assets/uft-multi-engine-plane.jpg",
-        imageAlt: "placeholder",
+        imageAlt: "Universal Flight Training picture from a multi-engine plane on the runway",
       },
       {
         title: "Gain Experience & Interview",
@@ -56,8 +56,8 @@ const Roadmap = {
           "With the foundational certificates and ratings complete, the next phase is building experience. Most airlines require applicants to hold an Airline Transport Pilot (ATP) Certificate, which includes a minimum of 1,500 hours of flight time. Flight instructing, banner towing, or other commercial pilot roles are common ways to accumulate these hours while gaining experience in diverse flight conditions and honing your skills.",
           "Once you reach between 500 and 1,500 hours, you can begin interviewing with airlines for a First Officer position. The interview process typically includes both technical questions, where you demonstrate your piloting knowledge, and an HR interview to assess your fit within the airline’s culture. Successful candidates receive a conditional offer of employment, setting them on the final path to becoming a commercial airline pilot.",
         ],
-        imagePath: "/src/assets/image-placeholder.webp",
-        imageAlt: "placeholder",
+        imagePath: "/src/assets/tim-gouw-bwki71ap-y8-unsplash.jpg",
+        imageAlt: "Picture of a job interview, sourced from unsplash, piture by Tim Gouw",
       },
       {
         title: "Commercial Pilot Job",
@@ -65,8 +65,8 @@ const Roadmap = {
           "After meeting the requirements of the Airline Transport Pilot Certificate, you are eligible to fly for an airline. Most regional airlines will consider candidates who have reached this milestone, allowing you to start your career as a First Officer. In this role, you’ll work under the guidance of an experienced captain and gain firsthand exposure to the airline operating environment.",
           "Flying for a regional airline is an opportunity to accumulate real-world experience in commercial aviation, preparing you for potential advancement to larger aircraft and major airlines in the future. With continued training and experience, you’ll be well on your way to a fulfilling career as a commercial airline pilot.",
         ],
-        imagePath: "/src/assets/image-placeholder.webp",
-        imageAlt: "placeholder",
+        imagePath: "/src/assets/rayyu-maldives-unsplash-airline-pilots.jpg",
+        imageAlt: "Picture of airline pilots in a cockpit, sourced from unsplash, piture by Rayyu Maldives",
       },
     ],
     finalParagraph:
