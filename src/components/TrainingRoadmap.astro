@@ -47,14 +47,14 @@ const { content } = Astro.props;
               >
                 <div class="pt-12 lg:pt-10 flex flex-col justify-center align-middle items-center w-full lg:w-1/2">
                   <h3
-                    class={`${index % 2 ? "right-2" : "left-2"} top-2 absolute font-sans text-5xl bg-accent-300 rounded-md py-2 px-5 font-semibold text-primary-900 -z-0`}
+                    class={`${index % 2 ? "right-2" : "left-2"} top-2 absolute font-sans text-sm bg-accent-300 rounded-md py-2 px-5 font-semibold text-accent-100 -z-0`}
                   >
-                    {index + 1}
+                    Step {index + 1}
                   </h3>
                   <div
                     class={`${index % 2 ? "lg:text-left lg:pl-6" : "lg:text-right lg:pr-6"} px-3 text-center z-10`}
                   >
-                    <h3 class="text-3xl md:text-4xl mb-4 font-bold tracking-tight text-main-red">
+                    <h3 class="text-3xl md:text-3xl mb-4 font-bold tracking-tight text-main-red">
                       {step.title}
                     </h3>
                     {step.paragraphs.map((par) => (
