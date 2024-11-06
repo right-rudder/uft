@@ -4,11 +4,10 @@ import pilotTrainingGuide from "../data/pilot-training-guide.js";
 import type { ImageMetadata } from "astro";
 import HeaderScreen from "../components/HeaderScreen.astro";
 import ProgramSwiper from "../components/ProgramSwiper.astro";
-import ContentSplit from "../components/ContentSplit.astro";
 import CTAColor from "../components/CTAColor.astro";
 import flyWithUsCTA from "../data/flyWithUsCTA.js";
-import Testimonials from "../components/Testimonials.astro";
-import ContentCTA from "../components/ContentCTA.astro";
+import TrainingRoadmap from "../components/TrainingRoadmap.astro";
+import Roadmap from "../data/roadmap.js";
 
 const { data } = pilotTrainingGuide;
 const images = import.meta.glob<{ default: ImageMetadata }>(
@@ -23,6 +22,8 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 >
   <!-- HEADER -->
   <HeaderScreen content={data.header} />
+
+  <TrainingRoadmap content={Roadmap}/>
 
   <ProgramSwiper content={data.programs} />
   <CTAColor content={flyWithUsCTA} />
