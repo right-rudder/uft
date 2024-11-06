@@ -20,7 +20,7 @@ const programsSwiper = {
         "Photograph of a plane", //Change later - more info
       description:
         "Your passport to the skies! Learn to pilot your dreams with our Private Pilot Course.",
-      link: "/private-pilot-course",
+      link: "/programs/private-pilot-course",
     },
     {
       title: "Instrument Rating",
