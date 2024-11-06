@@ -72,21 +72,84 @@ const privatePilotCourse = {
         primary: true,
       },
     },
-
-    bookCTA: {
-      upperHeading: "Still looking for more information on pilot training?",
-      headerH1: `Get Your <span class="text-accent-200">FREE</span><br> Pilot Training Guide!`,
-      paragraph:
-        "We have a free booklet which explains everything you need to know for your pilot certificate.",
-      buttons: [
+    roadmap: {
+      upperHeading: "Roadmap",
+      heading: "Private Pilot License",
+      descriptions: [
+        "Your aviation dreams are our priority. Whether you’re aiming for a professional career, building flight hours, or exploring for fun, we offer the ideal path to reach your goals.",
+      ],
+      steps: [
         {
-          name: "Download Now",
-          link: "/book-download",
-          primary: true,
+          title: "Meet Eligibility Requirements",
+          paragraphs: [
+            "To start your journey toward a Private Pilot License, you’ll need to meet a few basic eligibility requirements set by the FAA. Here at Universal Flight Training, we help guide you through this process, which includes obtaining a third-class medical certificate (or higher) from an FAA-authorized aviation medical examiner. This medical clearance ensures you’re ready to begin training and handle the responsibilities of flying.",
+            "In addition to the medical exam, you’ll need to be at least 17 years old and able to read, speak, write, and understand English. Once cleared, you’re ready to start flight training!",
+          ],
+          imagePath: "/src/assets/image-placeholder.webp",
+          imageAlt: "placeholder",
+        },
+        {
+          title: "Ground School Training",
+          paragraphs: [
+            "Universal Flight Training includes 10 hours of ground instruction, designed to equip you with essential knowledge on topics like airspace, weather, navigation, and aircraft systems. These ground lessons prepare you not only for your written exam but also for the practical aspects of flying, ensuring you’re ready to make quick and informed decisions in the cockpit.",
+            "Our experienced instructors provide personalized guidance, helping you understand the material thoroughly. With Universal’s ground school, you’ll be well-prepared to pass the FAA Knowledge Test, a critical step on your way to earning your Private Pilot License.",
+          ],
+          imagePath: "/src/assets/image-placeholder.webp",
+          imageAlt: "placeholder",
+        },
+        {
+          title: "Flight Training",
+          paragraphs: [
+            "With ground school underway, your flight training begins! Universal Flight Training offers 40 hours of aircraft time, 20 of which will be conducted with an instructor. During these flights, you’ll learn essential maneuvers such as takeoffs, landings, climbs, descents, and turns, gaining confidence and control as you progress. In addition, you’ll practice emergency procedures and work on honing your skills to meet FAA standards.",
+            "As part of the 40 hours, you’ll also complete at least 3 hours of simulated instrument training and 3 hours of night flying, essential skills for safe, well-rounded piloting.",
+          ],
+          imagePath: "/src/assets/image-placeholder.webp",
+          imageAlt: "placeholder",
+        },
+        {
+          title: "Solo Flight Experience",
+          paragraphs: [
+            "A major milestone in your training is your first solo flight. Once your instructor feels you’re ready, you’ll fly alone as pilot in command (PIC) for the first time. At Universal Flight Training, we’ll prepare you thoroughly for this experience, ensuring you feel confident and capable. You’ll complete 10 solo hours, practicing maneuvers, navigation, and cross-country flying.",
+            "Solo flying is a thrilling experience that represents a big step toward becoming a licensed pilot. It reinforces your independence and ability to manage the aircraft without direct assistance.",
+          ],
+          imagePath: "/src/assets/image-placeholder.webp",
+          imageAlt: "placeholder",
+        },
+        {
+          title: "Cross-Country and Night Training",
+          paragraphs: [
+            "Part of the PPL requirements includes cross-country flights and additional night training. At Universal Flight Training, we provide guided cross-country training to prepare you for navigating longer flights to unfamiliar airports. You’ll plan routes, monitor fuel consumption, communicate with various air traffic controllers, and handle weather challenges along the way.",
+            "Night flying training is also essential. It helps you build confidence in navigating and operating in reduced visibility. These skills expand your capability to fly in different conditions and prepare you for real-world situations you’ll encounter as a licensed pilot.",
+          ],
+          imagePath: "/src/assets/image-placeholder.webp",
+          imageAlt: "placeholder",
+        },
+        {
+          title: "Pass the FAA Knowledge Test",
+          paragraphs: [
+            "Before moving to your checkride, you’ll need to pass the FAA Knowledge Test, a written exam covering key topics from ground school. At Universal Flight Training, our ground school sessions are designed to thoroughly prepare you for this exam. We provide test preparation materials and practice exams to ensure you’re ready to succeed.",
+            "Our instructors will support you every step of the way, helping you master the material and pass with confidence.",
+          ],
+          imagePath: "/src/assets/image-placeholder.webp",
+          imageAlt: "placeholder",
+        },
+        {
+          title: "Prepare for and Pass the Checkride",
+          paragraphs: [
+            "The final step is the checkride, an FAA-administered test that includes both an oral and practical exam. During the oral portion, you’ll demonstrate your knowledge of aviation principles, regulations, and safety procedures. In the practical portion, you’ll perform a series of flight maneuvers with an FAA examiner to showcase your flying skills.",
+            "At Universal Flight Training, our instructors prepare you thoroughly for this assessment, providing mock checkrides and personalized feedback to help you succeed. Once you pass, you’ll receive your Private Pilot Certificate and can act as PIC in a single-engine airplane under Visual Flight Rules (VFR).",
+          ],
+          imagePath: "/src/assets/image-placeholder.webp",
+          imageAlt: "placeholder",
         },
       ],
-      imagePath: "/src/assets/image-placeholder.jpg",
-      imageAlt: "Right Rudder Marketing team on the runway",
+      finalParagraph:
+        "Completing your Private Pilot License with Universal Flight Training gives you the skills and certification to fly confidently and independently.",
+      finalButton: {
+        name: "Enroll Now",
+        link: "/enroll-now",
+        primary: true,
+      },
     },
   },
 };

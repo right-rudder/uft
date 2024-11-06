@@ -5,10 +5,10 @@ import ProgramSwiper from "../../components/ProgramSwiper.astro";
 import CTAColor from "../../components/CTAColor.astro";
 import flyWithUsCTA from "../../data/flyWithUsCTA.js";
 import PageSummary from "../../components/PageSummary.astro";
-import BookCTA from "../../components/BookCTA.astro";
-import Content from "../../components/Content.astro";
 import privatePilotCourse from "../../data/private-pilot-course.js";
 import programsSwiper from "../../data/programSwiper";
+import TrainingRoadmap from "../../components/TrainingRoadmap.astro";
+
 
 const { data } = privatePilotCourse;
 ---
@@ -21,8 +21,7 @@ const { data } = privatePilotCourse;
   <!-- HEADER -->
   <HeaderScreen content={data.header} />
   <PageSummary content={data.pageSummary} />
-  <Content data={data.howToPPL} />
-  <BookCTA content={data.bookCTA} />
+  <TrainingRoadmap content={data.roadmap}/>
   <ProgramSwiper content={programsSwiper} />
   <CTAColor content={flyWithUsCTA} />
   <script src="../../scripts/creativeSwiper.js"></script>
