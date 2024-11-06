@@ -29,7 +29,7 @@ const programsSwiper = {
         "Photograph of assistive equipment", //Change later
       description:
         "Navigate through clouds and the skies with precision through our Instrument Rating course.",
-      link: "/instrument-rating",
+      link: "/programs/instrument-rating",
     },
     {
       title: "Commercial Pilot",
@@ -38,7 +38,7 @@ const programsSwiper = {
         "Photograph of plane's propellers",
       description:
         "Start your pilot career with our Commercial Pilot Course. Your path to the captain's seat is here.",
-      link: "/commercial-pilot-training",
+      link: "/programs/commercial-pilot-training",
     },
     {
       title: "Airline Transport Pilot",
@@ -47,7 +47,7 @@ const programsSwiper = {
         "Universal Flight Training airline transport pilot course cover picture",
       description:
         "For many this is their goal. The ATP certificate is a minimum requirement to join the airlines.",
-      link: "/airline-transport-pilot-atp",
+      link: "/programs/airline-transport-pilot-atp",
     },
     {
       title: "Multi-Engine Rating",
@@ -57,7 +57,7 @@ const programsSwiper = {
         "Universal Flight Training Multi-Engine Rating course cover picture",
       description:
         "Master the art of multi engine flying and unlock new horizons in your aviation career.",
-      link: "/multi-engine-rating",
+      link: "/programs/multi-engine-rating",
     },
     {
       title: "Certified Flight Instructor",
@@ -66,7 +66,7 @@ const programsSwiper = {
         "Universal Flight Training Certified Flight Instructor course cover picture",
       description:
         "Become a trusted guide in the world of aviation. Become a CFI and teach others to fly.",
-      link: "/certified-flight-instructor-cfi",
+      link: "/programs/certified-flight-instructor-cfi",
     },
     {
       title: "Flight Review",
@@ -74,7 +74,7 @@ const programsSwiper = {
       imageAlt: "Universal Flight Training Flight Review course cover picture - Cessna Skyhawk",
       description:
         "Recurrent training requirement for pilots to ensure they maintain proficiency and safety standards.",
-      link: "/flight-review-bfr",
+      link: "/programs/flight-review-bfr",
     },
     {
       title: "Instrument Proficiency Check",
@@ -82,7 +82,7 @@ const programsSwiper = {
       imageAlt: "Universal Flight Training Instrument Proficiency Check course cover picture - day sky and some clouds",
       description:
         "Stay current with our Instrument Proficiency Check (IPC) to ensure your instrument flying skills are up to date.",
-      link: "/instrument-proficiency-check-ipc",
+      link: "/programs/instrument-proficiency-check-ipc",
     },
   ],
 };

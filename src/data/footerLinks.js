@@ -37,7 +37,7 @@ export const footerLinks = [
     links: [
       {
         name: "Professional Pilot",
-        link: "/professional-pilot-course",
+        link: "/pilot-training-guide",
       },
       {
         name: "PPC",
@@ -45,23 +45,23 @@ export const footerLinks = [
       },
       {
         name: "IR",
-        link: "/instrument-rating",
+        link: "/programs/instrument-rating",
       },
       {
         name: "CPL",
-        link: "/commercial-pilot-training",
+        link: "/programs/commercial-pilot-training",
       },
       {
         name: "ME Rating",
-        link: "/multi-engine-rating",
+        link: "/programs/multi-engine-rating",
       },
       {
         name: "CFI",
-        link: "/certified-flight-instructor-cfi",
+        link: "/programs/certified-flight-instructor-cfi",
       },
       {
         name: "ATP",
-        link: "/airline-transport-pilot-atp",
+        link: "/programs/airline-transport-pilot-atp",
       },
     ],
   },

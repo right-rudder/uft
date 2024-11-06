@@ -1,6 +1,6 @@
 export const mobileNavbarLinks = [
   {
-    name: "New to Flying?",
+    name: "Start Here",
     submenu: [
       {
         name: "Why Become a Pilot?",
@@ -25,69 +25,43 @@ export const mobileNavbarLinks = [
     ],
   },
   {
-    name: "Training Courses",
+    name: "Pilot Programs",
     submenu: [
       {
         name: "Professional Pilot",
-        link: "/professional-pilot-course",
+        link: "/pilot-training-guide",
       },
       {
         name: "Private Pilot",
         link: "/programs/private-pilot-course",
       },
       {
-        name: "Group Ground School",
-        link: "/group-ground-school",
-      },
-      {
         name: "Instrument Rating",
-        link: "/instrument-rating",
+        link: "/programs/instrument-rating",
       },
       {
         name: "Commercial Pilot",
-        link: "/commercial-pilot-training",
+        link: "/programs/commercial-pilot-training",
       },
       {
         name: "Multi-Engine Rating",
-        link: "/multi-engine-rating",
+        link: "/programs/multi-engine-rating",
       },
       {
         name: "Flight Instructor",
-        link: "/certified-flight-instructor-cfi",
+        link: "/programs/certified-flight-instructor-cfi",
       },
       {
         name: "Airline Transport Pilot",
-        link: "/airline-transport-pilot-atp",
+        link: "/programs/airline-transport-pilot-atp",
       },
       {
         name: "Flight Review",
-        link: "/flight-review-bfr",
+        link: "/programs/flight-review-bfr",
       },
       {
         name: "Instrument Proficiency Check",
-        link: "/instrument-proficiency-check-ipc",
-      },
-      {
-        name: "Wingman Course",
-        link: "/wingman-family-member-training",
-      },
-      {
-        name: "Sea Plane Safari",
-        link: "/seaplane-pilot-training",
-      },
-    ],
-  },
-
-  {
-    name: "Youth Program",
-    submenu: [
-      {
-        name: "Experience Aviation",
-        link: "/experience-aviation",
-      },
-      {
-        name: "Aviation 101",
-        link: "/youth-aviation-class",
+        link: "/programs/instrument-proficiency-check-ipc",
       },
     ],
   },
