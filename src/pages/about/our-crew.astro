@@ -1,0 +1,38 @@
+---
+import BookCTA from "../../components/BookCTA.astro";
+import ContentCTA from "../../components/ContentCTA.astro";
+import CTAColor from "../../components/CTAColor.astro";
+import GoogleMaps from "../../components/GoogleMaps.astro";
+import HeaderScreen from "../../components/HeaderScreen.astro";
+import ImageComp from "../../components/ImageComp.astro";
+import PageSummary from "../../components/PageSummary.astro";
+import Partners from "../../components/Partners.astro";
+import StaffGrid from "../../components/StaffGrid.astro";
+import TeamGrid from "../../components/TeamGrid.astro";
+import ourTeam from "../../data/our-team";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const { data } = ourTeam;
+---
+
+<BaseLayout
+  siteTitle={data.pageTitle}
+  siteDescription={data.pageDescription}
+  keywords={data.pageKeywords}
+>
+  <HeaderScreen content={data.header} />
+
+  <PageSummary content={data.pageSummary} />
+
+  <StaffGrid data={data.staffGrid} />
+  <!-- <ContentCTA content={data.quizCTA} /> -->
+  <!-- <TeamGrid data={data.teamGrid} /> -->
+
+  <!-- <Partners
+    heading={data.partners.heading}
+    organizations={data.partners.organizations}
+  /> -->
+
+  <!-- <BookCTA content={data.bookCTA} /> -->
+  <CTAColor content={data.flyWithUsCTA} />
+</BaseLayout>
