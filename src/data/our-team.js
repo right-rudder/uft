@@ -3,7 +3,7 @@ const ourTeam = {
     //SEO Header Stuff
     pageTitle: "Our Team | Universal Flight Academy",
     pageDescription:
-      "Our team of experienced pilots and instructors are dedicated to providing the highest quality flight training in South Florida. Learn more about our team and how they can help you achieve your aviation goals.",
+      "Our team of experienced pilots and instructors are dedicated to providing the highest quality flight training in Sarasota. Learn more about our team and how they can help you achieve your aviation goals.",
     pageKeywords:
       "flight school, flight training, pilot training, aviation academy, flight instructors, aviation instructors, flight school instructors, aviation school instructors, flight school team, aviation academy team, flight instructors team, aviation instructors team",
 
@@ -31,8 +31,8 @@ const ourTeam = {
     pageSummary: {
       title: `How It All Started?`,
       paragraphs: [
-        "Founded in December 2022 by Joe Vasquez, Universal Flight Academy embodies a lifelong passion for aviation and teaching. Inspired by his grandfather's legacy and fueled by his father's teaching experience in the medical field, Joe is driven to nurture aspiring aviators.",
-        "With a solid background in aviation, including Part 135 charter operations and Part 121 airline experience, he understands the importance of a strong foundation in flight training. He also knows firsthand how the guidance of a knowledgeable instructor can give students a competitive edge in the aviation industry.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
       ],
     },
 
