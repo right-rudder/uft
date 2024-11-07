@@ -7,28 +7,12 @@ export const footerLinks = [
         link: "/",
       },
       {
-        name: "Why Become a Pilot?",
-        link: "/why-become-a-pilot",
-      },
-      {
         name: "Discovery Flight",
         link: "/discovery-flight",
       },
       {
         name: "Flight Training",
         link: "/programs",
-      },
-      {
-        name: "Experience Aviation",
-        link: "/experience-aviation",
-      },
-      {
-        name: "Aviation 101",
-        link: "/youth-aviation-class",
-      },
-      {
-        name: "Financing",
-        link: "/stratus-finance",
       },
     ],
   },
@@ -58,10 +42,6 @@ export const footerLinks = [
       {
         name: "CFI",
         link: "/programs/certified-flight-instructor-cfi",
-      },
-      {
-        name: "ATP",
-        link: "/programs/airline-transport-pilot-atp",
       },
     ],
   },

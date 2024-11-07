@@ -3,34 +3,11 @@ export const navbarLinks = [
     name: "Start Here",
     link: "/pilot-training-guide",
     submenu: [
-      {
-        name: "Why Become a Pilot?",
-        link: "/why-become-a-pilot",
-      },
-      {
-        name: "Discovery Flight",
-        link: "/discovery-flight",
-      },
-      {
-        name: "Flight Training",
-        link: "/programs",
-      },
-      {
-        name: "Become a Professional Pilot",
-        link: "/professional-pilot-course",
-      },
-      {
-        name: "Financing",
-        link: "/stratus-finance",
-      },
-      {
-        name: "Aircraft Maintenance",
-        link: "/stratus-finance",
-      },
     ],
   },
   {
     name: "Pilot Programs",
+    link: "/programs",
     submenu: [
       {
         name: "Professional Pilot",
@@ -55,18 +32,6 @@ export const navbarLinks = [
       {
         name: "Flight Instructor",
         link: "/programs/certified-flight-instructor-cfi",
-      },
-      {
-        name: "Airline Transport Pilot",
-        link: "/programs/airline-transport-pilot-atp",
-      },
-      {
-        name: "Flight Review",
-        link: "/programs/flight-review-bfr",
-      },
-      {
-        name: "Instrument Proficiency Check",
-        link: "/programs/instrument-proficiency-check-ipc",
       },
     ],
   },

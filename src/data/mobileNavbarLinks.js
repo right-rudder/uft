@@ -3,30 +3,18 @@ export const mobileNavbarLinks = [
     name: "Start Here",
     submenu: [
       {
-        name: "Why Become a Pilot?",
-        link: "/why-become-a-pilot",
-      },
-      {
-        name: "Discovery Flight",
-        link: "/discovery-flight",
-      },
-      {
-        name: "Flight Training",
-        link: "/programs",
-      },
-      {
-        name: "Become a Professional Pilot",
-        link: "/professional-pilot-course",
-      },
-      {
-        name: "Financing",
-        link: "/stratus-finance",
+        name: "Pilot Training Guide",
+        link: "/pilot-training-guide",
       },
     ],
   },
   {
     name: "Pilot Programs",
     submenu: [
+      {
+        name: "All Programs",
+        link: "/programs",
+      },
       {
         name: "Professional Pilot",
         link: "/pilot-training-guide",
@@ -50,18 +38,6 @@ export const mobileNavbarLinks = [
       {
         name: "Flight Instructor",
         link: "/programs/certified-flight-instructor-cfi",
-      },
-      {
-        name: "Airline Transport Pilot",
-        link: "/programs/airline-transport-pilot-atp",
-      },
-      {
-        name: "Flight Review",
-        link: "/programs/flight-review-bfr",
-      },
-      {
-        name: "Instrument Proficiency Check",
-        link: "/programs/instrument-proficiency-check-ipc",
       },
     ],
   },
@@ -88,7 +64,7 @@ export const mobileNavbarLinks = [
     ],
   },
   {
-    name: "Start Today",
+    name: "Apply Today",
     link: "/enroll-now",
     submenu: [],
   },
