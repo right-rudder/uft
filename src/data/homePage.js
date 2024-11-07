@@ -14,7 +14,7 @@ const homePage = {
       imagePath: "/src/assets/uft-student-solo-over-clearwater-tampa.jpg",
       imageAlt:
         "universal flight training student flying solo over clearwater tampa",
-      headerH1: `Are you ready to <br class="hidden lg:block" ><div class="bg-gradient-to-br from-accent-600 via-accent-300 to-accent-400 bg-clip-text text-transparent">Become A Pilot?</div>`,
+      headerH1: `Are you ready to <br class="hidden lg:block" ><div class="bg-gradient-to-br from-accent-500 via-accent-300 to-accent-400 bg-clip-text text-transparent">Become A Pilot?</div>`,
       paragraph: `Universal Flight Training is your flight school to<br class="hidden lg:block" >become a pilot in the Sarasota Bradenton Florida area.`,
       buttons: [
         {

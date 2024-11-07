@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Vipnagorgialla';
-  src: url('/fonts/vipnagorgialla-rg.woff') format('woff');
+  font-family: "Vipnagorgialla";
+  src: url("/fonts/vipnagorgialla-rg.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -14,9 +14,9 @@
   .btn-primary {
     @apply text-center font-bebas text-5xl uppercase font-bold py-3 px-6 bg-primary-700 w-fit text-white rounded-sm hover:bg-primary-800 duration-300;
   }
- 
+
   .btn-accent {
-    @apply text-center font-bebas text-5xl uppercase font-bold py-3 px-6 bg-accent-200 w-fit text-black rounded-sm hover:bg-accent-600 hover:text-white duration-300;
+    @apply text-center font-bebas uppercase py-3 px-6 w-fit rounded-sm hover:text-white duration-300 bg-accent-500 text-white font-medium text-3xl hover:bg-accent-400 -skew-x-12;
   }
 
   .btn-animate {
@@ -31,14 +31,15 @@
   }
 
   .tooltip {
-  @apply invisible opacity-0 absolute rounded-sm shadow-md shadow-slate-800/50 bg-gray-50 text-center text-gray-800;
+    @apply invisible opacity-0 absolute rounded-sm shadow-md shadow-slate-800/50 bg-gray-50 text-center text-gray-800;
   }
 
   .has-tooltip:hover .tooltip {
     @apply visible opacity-95 transition-all duration-300 cursor-help;
   }
 
-  .swiper-button-next, .swiper-button-prev {
+  .swiper-button-next,
+  .swiper-button-prev {
     @apply bg-gray-100 opacity-20 hover:opacity-70 duration-300 ease-in-out px-8 py-9;
   }
 }
