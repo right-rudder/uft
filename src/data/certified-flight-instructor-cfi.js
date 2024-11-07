@@ -10,7 +10,7 @@ const flightInstructor = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/image-placeholder.webp",
+      imagePath: "/src/assets/152109048_3732287966865562_1261879482188929274_n.jpg",
       imageAlt: "placeholder",
       headerH1: `Certified Flight Instructor <br class="hidden lg:block" ><span class="text-accent-200">Course</span>`,
       paragraph:
@@ -50,8 +50,8 @@ const flightInstructor = {
             "The journey to becoming a Certified Flight Instructor begins with meeting specific prerequisites, as outlined by FAA regulations. At Universal Flight Training, we’ll guide you through each requirement, ensuring you’re prepared for this new role in aviation. To start, you must be at least 18 years old, proficient in English, and hold a valid Commercial Pilot or Airline Transport Pilot certificate with the relevant ratings for the instruction you intend to provide.",
             "Our training program provides dedicated support for fulfilling all regulatory prerequisites, so you can focus on building the skills and knowledge needed to be an effective instructor.",
           ],
-          imagePath: "/src/assets/image-placeholder.webp",
-          imageAlt: "placeholder",
+          imagePath: "/src/assets/uft-commercial-pilot-passed-checkride-on-top-of-cessna-172.jpg",
+          imageAlt: "UFT student holding pilot certificate",
         },
         {
           title: "Complete Ground Instruction",
@@ -59,8 +59,8 @@ const flightInstructor = {
             "Effective ground instruction is at the core of becoming a Certified Flight Instructor. At Universal Flight Training, you’ll complete 48 hours of in-depth ground training that covers the fundamentals of instruction, including teaching strategies, lesson planning, and aeronautical knowledge.",
             "Our curriculum emphasizes Cessna’s proven teaching methodologies, designed to produce competent, safety-focused pilots. With our experienced instructors and robust course materials, you’ll be well-prepared to handle all topics on the FAA knowledge exams and to pass on your knowledge confidently to future students.",
           ],
-          imagePath: "/src/assets/image-placeholder.webp",
-          imageAlt: "placeholder",
+          imagePath: "/src/assets/ground-school-training.jpg",
+          imageAlt: "Universal Flight school students attending ground school",
         },
         {
           title: "Conduct Flight Instruction Training",
@@ -68,8 +68,8 @@ const flightInstructor = {
             "Once you’ve gained a solid foundation in instructional techniques on the ground, you’ll complete 15 hours of flight training to build the practical teaching skills required of a CFI. This flight training includes essential maneuvers, safety procedures, and emergency response techniques, ensuring you’re ready to provide students with the highest quality instruction.",
             "During your flight sessions, you’ll practice the stall awareness, spin entry, and spin recovery maneuvers necessary to teach these critical skills to your students. Universal Flight Training’s structured curriculum helps you develop the expertise needed to pass on these skills to student pilots effectively.",
           ],
-          imagePath: "/src/assets/image-placeholder.webp",
-          imageAlt: "placeholder",
+          imagePath: "/src/assets/Flight-Simulation-Training.webp",
+          imageAlt: "Picture of a pilot instructing a student on a simulator, sourced from learntofly.edu.au",
         },
         {
           title: "Pass the Knowledge and Practical Tests",
@@ -77,8 +77,8 @@ const flightInstructor = {
             "The final step to obtaining your CFI certification is passing the FAA knowledge and practical exams. These exams test your understanding of instructional principles and aeronautical knowledge, as well as your ability to perform and teach flight maneuvers. Universal Flight Training offers personalized checkride preparation sessions to help you approach this final stage with confidence.",
             "Once you pass the exams, you’ll officially earn your CFI certificate, enabling you to begin teaching students and building valuable flight hours toward even higher-level aviation opportunities.",
           ],
-          imagePath: "/src/assets/image-placeholder.webp",
-          imageAlt: "placeholder",
+          imagePath: "/src/assets/avery-evans-7rRH23jkIwo-unsplash.jpg",
+          imageAlt: "Picture of a person studying for a test, sourced from unsplash, piture by Avery Evans",
         },
       ],
       finalParagraph:
