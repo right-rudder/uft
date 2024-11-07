@@ -10,8 +10,8 @@ const multiEngineRating = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/image-placeholder.webp",
-      imageAlt: "placeholder",
+      imagePath: "/src/assets/uft-multi-engine-plane.jpg",
+      imageAlt: "Picture of Universal Flight Training's multi-engine plane",
       headerH1: `Multi-Engine rating <br class="hidden lg:block" ><span class="text-accent-200">Course</span>`,
       paragraph:
         `The Multi-Engine Rating course is ideal for pilots who are ready to expand their skills by moving into multi-engine aircraft. Whether you’re looking to fly more complex planes, build multi-engine experience, or prepare for commercial opportunities, this rating provides the essential training needed to handle twin-engine operations.`,
@@ -50,8 +50,8 @@ const multiEngineRating = {
             "Before taking to the skies, you’ll begin with ground instruction specifically focused on the systems, aerodynamics, and handling characteristics of multi-engine aircraft. Universal Flight Training provides a comprehensive Multi-Engine Kit as part of this course, along with classroom sessions that break down the critical topics like engine-out procedures, weight and balance considerations, and emergency protocols.",
             "Our ground training prepares you for the specific demands of multi-engine flying, helping you understand how to manage both engines, troubleshoot potential issues, and confidently approach your first flight in a twin-engine plane.",
           ],
-          imagePath: "/src/assets/image-placeholder.webp",
-          imageAlt: "placeholder",
+          imagePath: "/src/assets/ground-school-training.jpg",
+          imageAlt: "Universal Flight school students attending ground school",
         },
         {
           title: "Conduct Multi-Engine Flight Training",
@@ -59,8 +59,8 @@ const multiEngineRating = {
             "Once you’re familiar with the principles of multi-engine flight, you’ll begin hands-on training in our dedicated multi-engine aircraft. This 10-hour flight training block includes dual instruction, allowing you to gain practical experience in managing two engines simultaneously and handling emergencies, such as an engine failure during flight.",
             "At Universal Flight Training, our experienced instructors will guide you through advanced maneuvers, single-engine operation, and the unique flight dynamics that come with a twin-engine plane. This focused flight time builds the skill and confidence needed for safe, proficient multi-engine operations.",
           ],
-          imagePath: "/src/assets/image-placeholder.webp",
-          imageAlt: "placeholder",
+          imagePath: "/src/assets/kristopher-allison-KU4zYj4u0mo-unsplash.jpg",
+          imageAlt: "Picture of a pilot flying a plane, sourced from unsplash, piture by Kristopher Allison",
         },
         {
           title: "Pass the Multi-Engine Checkride",
@@ -68,8 +68,8 @@ const multiEngineRating = {
             "The final step in earning your Multi-Engine Rating is the checkride, which includes both an oral and practical exam to assess your knowledge and flying ability in a multi-engine environment. Here at Universal Flight Training, we offer mock checkrides, detailed feedback, and one-on-one prep sessions to ensure you’re fully ready for this final evaluation.",
             "During the checkride, you’ll demonstrate essential skills such as handling engine-out scenarios, executing precise multi-engine maneuvers, and applying proper procedures in a range of flight conditions. Passing the checkride officially qualifies you to operate multi-engine aircraft, expanding your opportunities and enhancing your skillset as a pilot.",
           ],
-          imagePath: "/src/assets/image-placeholder.webp",
-          imageAlt: "placeholder",
+          imagePath: "/src/assets/B07I6838_Small_Web-e1559673395429-1650x926.jpg",
+          imageAlt: "Picture of a multi-engine plane flying, sourced from piper.com",
         },
       ],
       finalParagraph:
