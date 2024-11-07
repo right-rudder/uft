@@ -7,28 +7,12 @@ export const footerLinks = [
         link: "/",
       },
       {
-        name: "Why Become a Pilot?",
-        link: "/why-become-a-pilot",
-      },
-      {
         name: "Discovery Flight",
         link: "/discovery-flight",
       },
       {
         name: "Flight Training",
-        link: "/flight-training-pilot-programs",
-      },
-      {
-        name: "Experience Aviation",
-        link: "/experience-aviation",
-      },
-      {
-        name: "Aviation 101",
-        link: "/youth-aviation-class",
-      },
-      {
-        name: "Financing",
-        link: "/stratus-finance",
+        link: "/programs",
       },
     ],
   },
@@ -37,31 +21,27 @@ export const footerLinks = [
     links: [
       {
         name: "Professional Pilot",
-        link: "/professional-pilot-course",
+        link: "/pilot-training-guide",
       },
       {
         name: "PPC",
-        link: "/private-pilot-training",
+        link: "/programs/private-pilot-course",
       },
       {
         name: "IR",
-        link: "/instrument-rating",
+        link: "/programs/instrument-rating",
       },
       {
         name: "CPL",
-        link: "/commercial-pilot-training",
+        link: "/programs/commercial-pilot-training",
       },
       {
         name: "ME Rating",
-        link: "/multi-engine-rating",
+        link: "/programs/multi-engine-rating",
       },
       {
         name: "CFI",
-        link: "/certified-flight-instructor-cfi",
-      },
-      {
-        name: "ATP",
-        link: "/airline-transport-pilot-atp",
+        link: "/programs/certified-flight-instructor-cfi",
       },
     ],
   },

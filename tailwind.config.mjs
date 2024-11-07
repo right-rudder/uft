@@ -5,8 +5,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Nunito", ...defaultTheme.fontFamily.sans],
-        sans2: ["Quicksand Variable", ...defaultTheme.fontFamily.sans],
+        sans: ["Vipnagorgialla", ...defaultTheme.fontFamily.sans],
+        sans2: ["Vipnagorgialla", ...defaultTheme.fontFamily.sans],
         bebas: ["Bebas Neue", ...defaultTheme.fontFamily.sans],
         serif: ["Merriweather", ...defaultTheme.fontFamily.serif],
         stock: [
@@ -21,17 +21,12 @@ export default {
       },
       colors: {
         accent: {
-          50: "#eff6ff",
-          100: "#dbeafe",
-          200: "#bfdbfe",
-          300: "#93c5fd",
-          400: "#60a5fa",
-          500: "#3b82f6",
-          600: "#2563eb",
-          700: "#1d4ed8",
-          800: "#1e40af",
-          900: "#1e3a8a",
-          950: "#172554",
+          100: "#D7F1FD",
+          200: "#B8D7F7",
+          300: "#015AB9",
+          400: "#054682",
+          500: "#022A58",
+          600: "#001234"
         },
         primary: {
           50: "#fafaf9",

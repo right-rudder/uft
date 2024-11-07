@@ -13,7 +13,7 @@ const homePage = {
       stars: true,
       imagePath: "/src/assets/uft-student-solo-over-clearwater-tampa.jpg",
       imageAlt:
-        "sun city aviation academy airplane flying over the city of miami",
+        "universal flight training student flying solo over clearwater tampa",
       headerH1: `Are you ready to <br class="hidden lg:block" ><span class="text-accent-200">Become A Pilot</span>?`,
       paragraph:
         `Universal Flight Training is your flight school to<br class="hidden lg:block" >become a pilot in the Sarasota Bradenton Florida area.`,
@@ -31,121 +31,8 @@ const homePage = {
       ],
     },
 
-    programs: {
-      upperHeading: "Learn More About",
-      heading: "Our Training Programs",
-      description:
-        "Whether you are pursuing a professional career, building flight hours, or seeking leisurely adventure, we have the perfect program for you, no matter what your experience level is.",
-      cards: [
-        {
-          title: "Professional Pilot Course",
-          imagePath: "/src/assets/sun-city-airline-pilot-ppc.webp",
-          imageAlt:
-            "sun city aviation professional pilots giving thumbs up in an airplane cockpit",
-          description:
-            "Comprehensive program covering private, instrument, commercial, and multi-engine flight training.",
-          link: "/professional-pilot-course",
-        },
-        {
-          title: "Private Pilot",
-          imagePath: "/src/assets/sun-city-private-pilot.webp",
-          imageAlt:
-            "sun city aviation private pilot training students in front of a plane",
-          description:
-            "Your passport to the skies! Learn to pilot your dreams with our Private Pilot Course.",
-          link: "/private-pilot-training",
-        },
-        // {
-        //   title: "Group Ground School",
-        //   imagePath: "/src/assets/sun-city-group-ground-school-bg.webp",
-        //   imageAlt:
-        //     "sun city aviation group ground school students studying in a classroom",
-        //   description:
-        //     "Learn the fundamentals of aviation in a group setting and pass your pilot written exam.",
-        //   link: "/group-ground-school",
-        // },
-        {
-          title: "Instrument Rating",
-          imagePath: "/src/assets/sun-city-instrument.webp",
-          imageAlt:
-            "sun city aviation certified flight instructor and student in a cockpit",
-          description:
-            "Navigate through clouds and the skies with precision through our Instrument Rating course.",
-          link: "/instrument-rating",
-        },
-        {
-          title: "Commercial Pilot",
-          imagePath: "/src/assets/sun-city-commercial.webp",
-          imageAlt:
-            "sun city aviation student and family displaying commercial pilot certificate",
-          description:
-            "Start your pilot career with our Commercial Pilot Course. Your path to the captain's seat is here.",
-          link: "/commercial-pilot-training",
-        },
-        {
-          title: "Airline Transport Pilot",
-          imagePath: "/src/assets/john-mcarthur-PrdNTrIrG8w-unsplash.jpg",
-          imageAlt:
-            "sun city aviation instruments panel of a commercial airline airplane cockpit",
-          description:
-            "For many this is their goal. The ATP certificate is a minimum requirement to join the airlines.",
-          link: "/airline-transport-pilot-atp",
-        },
-        {
-          title: "Multi-Engine Rating",
-          imagePath:
-            "/src/assets/sun-city-aviation-academy-multi-engine-aircraft.jpg",
-          imageAlt:
-            "sun city aviation student and flight instructor in front of a multi-engine airplane",
-          description:
-            "Master the art of multi engine flying and unlock new horizons in your aviation career.",
-          link: "/multi-engine-rating",
-        },
-        {
-          title: "Certified Flight Instructor",
-          imagePath: "/src/assets/sun-city-cfi-bg3.webp",
-          imageAlt:
-            "sun city aviation student and flight instructor shaking hands",
-          description:
-            "Become a trusted guide in the world of aviation. Become a CFI and teach others to fly.",
-          link: "/certified-flight-instructor-cfi",
-        },
-        {
-          title: "Flight Review",
-          imagePath: "/src/assets/sun-city-bfr.webp",
-          imageAlt: "sun city aviation cessna airplane on a runway",
-          description:
-            "Recurrent training requirement for pilots to ensure they maintain proficiency and safety standards.",
-          link: "/flight-review-bfr",
-        },
-        {
-          title: "Instrument Proficiency Check",
-          imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
-          imageAlt: "sun city aviation clouds and sky",
-          description:
-            "Stay current with our Instrument Proficiency Check (IPC) to ensure your instrument flying skills are up to date.",
-          link: "/instrument-proficiency-check-ipc",
-        },
-        // {
-        //   title: "Wingman Course",
-        //   imagePath: "/src/assets/sun-city-wingman.jpg",
-        //   imageAlt: "sun city aviation pilot's family in the flight simulator",
-        //   description:
-        //     "Equip your loved ones with essential aviation safety skills through our Wingman Course.",
-        //   link: "/wingman-family-member-training",
-        // },
-        // {
-        //   title: "Sea Plane Safari",
-        //   imagePath: "/src/assets/sun-city-seaplane.jpeg",
-        //   imageAlt: "sun city aviation seaplane floating on the water",
-        //   description:
-        //     "Seaplane flying opens up an extraordinary new world for pilots. Start SES training here.",
-        //   link: "/seaplane-pilot-training",
-        // },
-      ],
-    },
 
-    whySuncity: {
+    whyUFT: {
       upperHeading: "You Can Become a Pilot",
       heading: "The UFT EXPERIENCE",
       descriptions: [
@@ -182,10 +69,10 @@ const homePage = {
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
       ],
-      imageLegend: `Luke Poulos<br><small class="text-white font-normal text-sm">Founder & CEO</small>`,
-      imagePath: "/src/assets/sun-city-luke.webp",
+      imageLegend: `Don Behm<br><small class="text-white font-normal text-sm">Chief Flight Instructor</small>`,
+      imagePath: "/src/assets/uft-don-behm-chief-flight-instructor.jpg",
       imageAlt:
-        "sun city aviation founder luke poulos in front of a sun city airplane",
+        "Chief Flight Instructor for Universal Flight Training Don Behm",
     },
 
     quizCTA: {
@@ -198,10 +85,10 @@ const homePage = {
 
         `Wondering if a pilot's life is the right fit for you? Take our "Is Flying Right for Me?" quiz to find out. Designed to help you explore your interests, this quiz will guide you in deciding if the skies over Sarasota, Bradenton, or Lakewood Ranch are where you belong. Click below to start your aviation journey and see if flight training in the Sarasota area is your next adventure.`,
       ],
-      imageLegend: `Luke Poulos<br><small class="text-white font-normal text-sm">Founder & CEO</small>`,
-      imagePath: "/src/assets/sun-city-private-pilot-pass-checkride.webp",
+      imageLegend: ``,
+      imagePath: "/src/assets/uft-flight-school-right-for-me.jpg",
       imageAlt:
-        "sun city aviation student and flight instructor celebrating after passing a checkride",
+        "Universal flight school student posing in front of plane",
       buttons: [
         {
           name: "Take the Quiz",
@@ -211,55 +98,44 @@ const homePage = {
       ],
     },
 
-    flyWithUsCTA: {
-      imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
-      imageAlt: "Right Rudder Marketing team on the runway",
-      headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
-      paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
-      buttons: [
-        {
-          name: "Schedule Today",
-          link: "/discovery-flight",
-          primary: true,
-        },
-      ],
-    },
-
     testimonials: {
-      upperHeading: "The SunCity Family",
+      upperHeading: "The UFT Family",
       heading: "Our Students Love Us",
       headingText: [
-        "While our main goal is to train future pilots safely and effectively, it’s important to us at SunCity Aviation Academy our students have a fun and comfortable environment to practice in.",
-        "Check out what our students and guests have to say about their experiences at SunCity.",
+        "At Universal Flight Training, our top priority is to train future pilots safely and effectively, but we also strive to create a fun and comfortable learning environment.",
+        "See what our students and visitors have to say about their experiences at UFT!",
       ],
       buttonText: "Leave Us a Review",
       buttonLink:
-        "https://www.google.com/search?client=firefox-b-d&q=sun+city+aviation+academy#",
+        "https://www.google.com/search?client=firefox-b-d&q=universal+flight+training+flight+school#",
       reviews: [
         {
-          body: "This flight school provides premium service, wonderful atmosphere and excellent safety. I am very pleased with Sun City Aviation. I am working on getting my instrument rating and the Sun City team has been wonderful. My Flight Instructor Jean is great. I feel like I’m becoming a better pilot after each lesson. The planes are in great shape and I feel safe flying them (especially flying XC). Overall 5 Stars!",
-          author: "Hector R.",
+          body: "Our son Christian took his very first discovery flight at the age of 13 and it was an absolutely incredible experience!  That smile on his face says it all!  His instructor was so good with him and gave him some great information.  I would recommend this place to any future aviators, we will definitely be back!",
+          author: "Cori R.",
         },
         {
-          body: "Sun City Aviation is hands down one of the best flight schools out there! The instructors are not only super knowledgeable but also genuinely care about helping you succeed. They take the time to explain everything clearly, so you never feel lost. The planes are in great shape, and you always feel safe and comfortable when you’re up in the air. What I love most is the friendly and supportive vibe—everyone there is rooting for you. Whether you're just starting out or looking to level up your skills, Sun City Aviation is the place to be. Highly recommend!",
-          author: "Zaccur C.",
+          body: "Excellent place to train! Whether it is flying or taking a written knowledge exam, I highly recommend Universal Flight Training. The staff cares about your success. During my IRA knowledge exam, there was an unexpected county-wide internet outage. Jose allowed me to wait at the location until the internet was working again, and did everything in his power to help me take the test the same day it was scheduled. True class all around!",
+          author: "Nick S.",
         },
         {
-          body: "I finished and passed my private pilot license at Sun City and now I'm doing the Instrument rating. The school and staff are great, my instructor Marko is excellent!!!",
-          author: "Ivan L.",
+          body: "Great vibes from this place. We had a mechanical over the weekend and were grounded far from home. Jose and team went above and beyond (staying late on a Sunday!) to get us home by Sunday evening. This action speaks to the care and quality at this facility.",
+          author: "Seth P.",
         },
         {
-          body: "I recently had the pleasure of training with Sun City for my Initial Multi Engine Commercial Rating. It was amazing. I was referred to Sun City from a DPE (FAA Designated Pilot Examiner) after I had a bad experience with a flight school in Melbourne FL. If one of the most well-known DPEs in the South Florida area recommended it (out of many), it carried a lot of weight given this is what they do day in and day out. They know where the best instructors are, the most well-maintained airplanes, and best pass rates for checkrides. The recommendation did not disappoint.",
-          author: "Jeff B.",
+          body: "We rented a plane for a trip. Jose was very helpful in making our trip possible. His instructor Aldo was friendly and professional and helped get the checkout done quickly. The airplane was clean and well maintained. I highly recommend UFT for rental or flight instruction.",
+          author: "Ryan O.",
         },
         {
-          body: "I spent almost a full year with this Sun City family and I couldn’t be more grateful. Getting to the finish line for my PPL would not have happened without Georgette and Luke, the owners. They are like a second set of parents to me after this rating. They are by far the most family oriented flight school I have been apart of and if you give them the chance, they will treat you like their family.",
-          author: "Joelle D.",
+          body: "Jose - who runs the flying school - was a fantastic instructor for my introductory lesson - very professional, talking me through everything before, during and after the flight. And it's a great location to learn to fly - spectacular views all around. Definitely recommend!",
+          author: "Olliver K.",
         },
         {
-          body: "Anyone who care about having a positive  experience, prompt communication, and quality learning, you will not regret going to Sun City. Georgette and the staff are fantastic. The environment itself is built to enrich your personal understanding of flying. My son had a blast and can’t wait to continue. Thank you so much Georgette.",
-          author: "Olgyu C.",
+          body: "I started attending UFT for my Private Pilots License and have gone all the way through to CFI. The quality of the staff and instructors are great and I’ve thoroughly enjoyed my time here at UFT. I can’t thank the team enough for all of the care and support they put into my training. Great aircraft options as well. Would recommend to anyone looking to learn how to fly or rent an aircraft.",
+          author: "Aldo M.",
+        },
+        {
+          body: "Great school with great instructors and well maintained planes. The owner Jose and all his staff are great people. One of the few places that offers a ground school course for both PPL and IFR. Ramp has easy access to taxiways for quick departures so it doesn’t run up the hobbs on you while also allowing you to gain valuable communications experience. KSRQ controllers are also very accommodating and know the tail numbers and work well with you for IFR training. Overall great experience and I highly recommend them.",
+          author: "Eric S.",
         },
       ],
     },

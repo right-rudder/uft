@@ -3,102 +3,39 @@ export const navbarLinks = [
     name: "Start Here",
     link: "/pilot-training-guide",
     submenu: [
-      {
-        name: "Why Become a Pilot?",
-        link: "/why-become-a-pilot",
-      },
-      {
-        name: "Discovery Flight",
-        link: "/discovery-flight",
-      },
-      {
-        name: "Flight Training",
-        link: "/flight-training-pilot-programs",
-      },
-      {
-        name: "Become a Professional Pilot",
-        link: "/professional-pilot-course",
-      },
-      {
-        name: "Financing",
-        link: "/stratus-finance",
-      },
-      {
-        name: "Aircraft Maintenance",
-        link: "/stratus-finance",
-      },
     ],
   },
   {
     name: "Pilot Programs",
-    link: "/flight-training-pilot-programs",
+    link: "/programs",
     submenu: [
       {
         name: "Professional Pilot",
-        link: "/professional-pilot-course",
+        link: "/pilot-training-guide",
       },
       {
         name: "Private Pilot",
-        link: "/private-pilot-training",
+        link: "/programs/private-pilot-course",
       },
-      // {
-      //   name: "Group Ground School",
-      //   link: "/group-ground-school",
-      // },
       {
         name: "Instrument Rating",
-        link: "/instrument-rating",
+        link: "/programs/instrument-rating",
       },
       {
         name: "Commercial Pilot",
-        link: "/commercial-pilot-training",
+        link: "/programs/commercial-pilot-training",
       },
       {
         name: "Multi-Engine Rating",
-        link: "/multi-engine-rating",
+        link: "/programs/multi-engine-rating",
       },
       {
         name: "Flight Instructor",
-        link: "/certified-flight-instructor-cfi",
+        link: "/programs/certified-flight-instructor-cfi",
       },
-      {
-        name: "Airline Transport Pilot",
-        link: "/airline-transport-pilot-atp",
-      },
-      {
-        name: "Flight Review",
-        link: "/flight-review-bfr",
-      },
-      {
-        name: "Instrument Proficiency Check",
-        link: "/instrument-proficiency-check-ipc",
-      },
-      // {
-      //   name: "Wingman Course",
-      //   link: "/wingman-family-member-training",
-      // },
-      // {
-      //   name: "Sea Plane Safari",
-      //   link: "/seaplane-pilot-training",
-      // },
     ],
   },
-
-  // {
-  //   name: "Youth Program",
-  //   link: "/youth-aviation-programs",
-  //   submenu: [
-  //     {
-  //       name: "Experience Aviation",
-  //       link: "/experience-aviation",
-  //     },
-  //     {
-  //       name: "Aviation 101",
-  //       link: "/youth-aviation-class",
-  //     },
-  //   ],
-  // },
-
+  
   {
     name: "About",
     link: "/about",
