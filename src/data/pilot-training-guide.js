@@ -44,7 +44,7 @@ const pilotTrainingGuide = {
             "UFT student and Instructor taking off",
           description:
             "Comprehensive program covering private, instrument, commercial, and multi-engine flight training.",
-          link: "/professional-pilot-course",
+          link: "/pilot-training-guide",
         },
         {
           title: "Private Pilot",
