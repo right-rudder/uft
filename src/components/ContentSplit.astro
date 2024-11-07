@@ -24,7 +24,7 @@ const { content } = Astro.props;
       content.descriptions &&
         content.descriptions.map((p) => (
           <p
-            class="mx-auto mb-3 text-base tracking-loose text-muted-700"
+            class="mx-auto mb-3 text-lg tracking-loose text-muted-700"
             set:html={p}
           />
         ))
