@@ -2,17 +2,12 @@ export const navbarLinks = [
   {
     name: "Start Here",
     link: "/pilot-training-guide",
-    submenu: [
-    ],
+    submenu: [],
   },
   {
     name: "Pilot Programs",
     link: "/programs",
     submenu: [
-      {
-        name: "Professional Pilot",
-        link: "/pilot-training-guide",
-      },
       {
         name: "Private Pilot",
         link: "/programs/private-pilot-course",
