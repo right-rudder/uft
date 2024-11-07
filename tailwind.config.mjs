@@ -6,7 +6,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Vipnagorgialla", ...defaultTheme.fontFamily.sans],
-        sans2: ["Vipnagorgialla", ...defaultTheme.fontFamily.sans],
+        sans2: ["Montserrat Variable", ...defaultTheme.fontFamily.sans],
         bebas: ["Bebas Neue", ...defaultTheme.fontFamily.sans],
         serif: ["Merriweather", ...defaultTheme.fontFamily.serif],
         stock: [
