@@ -33,7 +33,7 @@ export const navbarLinks = [
 
   {
     name: "About",
-    link: "/about",
+    link: "/about/our-crew",
     submenu: [
       {
         name: "Our Crew",
