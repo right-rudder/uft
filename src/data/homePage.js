@@ -98,27 +98,12 @@ const homePage = {
       ],
     },
 
-    flyWithUsCTA: {
-      imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
-      imageAlt: "Right Rudder Marketing team on the runway",
-      headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
-      paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
-      buttons: [
-        {
-          name: "Schedule Today",
-          link: "/discovery-flight",
-          primary: true,
-        },
-      ],
-    },
-
     testimonials: {
       upperHeading: "The UFT Family",
       heading: "Our Students Love Us",
       headingText: [
-        "While our main goal is to train future pilots safely and effectively, it’s important to us at SunCity Aviation Academy our students have a fun and comfortable environment to practice in.",
-        "Check out what our students and guests have to say about their experiences at SunCity.",
+        "At Universal Flight Training, our top priority is to train future pilots safely and effectively, but we also strive to create a fun and comfortable learning environment.",
+        "See what our students and visitors have to say about their experiences at UFT!",
       ],
       buttonText: "Leave Us a Review",
       buttonLink:

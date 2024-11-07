@@ -1,93 +1,43 @@
 export const mobileNavbarLinks = [
   {
-    name: "New to Flying?",
+    name: "Start Here",
     submenu: [
       {
-        name: "Why Become a Pilot?",
-        link: "/why-become-a-pilot",
-      },
-      {
-        name: "Discovery Flight",
-        link: "/discovery-flight",
-      },
-      {
-        name: "Flight Training",
-        link: "/flight-training-pilot-programs",
-      },
-      {
-        name: "Become a Professional Pilot",
-        link: "/professional-pilot-course",
-      },
-      {
-        name: "Financing",
-        link: "/stratus-finance",
+        name: "Pilot Training Guide",
+        link: "/pilot-training-guide",
       },
     ],
   },
   {
-    name: "Training Courses",
+    name: "Pilot Programs",
     submenu: [
       {
+        name: "All Programs",
+        link: "/programs",
+      },
+      {
         name: "Professional Pilot",
-        link: "/professional-pilot-course",
+        link: "/pilot-training-guide",
       },
       {
         name: "Private Pilot",
-        link: "/private-pilot-course",
-      },
-      {
-        name: "Group Ground School",
-        link: "/group-ground-school",
+        link: "/programs/private-pilot-course",
       },
       {
         name: "Instrument Rating",
-        link: "/instrument-rating",
+        link: "/programs/instrument-rating",
       },
       {
         name: "Commercial Pilot",
-        link: "/commercial-pilot-training",
+        link: "/programs/commercial-pilot-training",
       },
       {
         name: "Multi-Engine Rating",
-        link: "/multi-engine-rating",
+        link: "/programs/multi-engine-rating",
       },
       {
         name: "Flight Instructor",
-        link: "/certified-flight-instructor-cfi",
-      },
-      {
-        name: "Airline Transport Pilot",
-        link: "/airline-transport-pilot-atp",
-      },
-      {
-        name: "Flight Review",
-        link: "/flight-review-bfr",
-      },
-      {
-        name: "Instrument Proficiency Check",
-        link: "/instrument-proficiency-check-ipc",
-      },
-      {
-        name: "Wingman Course",
-        link: "/wingman-family-member-training",
-      },
-      {
-        name: "Sea Plane Safari",
-        link: "/seaplane-pilot-training",
-      },
-    ],
-  },
-
-  {
-    name: "Youth Program",
-    submenu: [
-      {
-        name: "Experience Aviation",
-        link: "/experience-aviation",
-      },
-      {
-        name: "Aviation 101",
-        link: "/youth-aviation-class",
+        link: "/programs/certified-flight-instructor-cfi",
       },
     ],
   },
@@ -114,7 +64,7 @@ export const mobileNavbarLinks = [
     ],
   },
   {
-    name: "Start Today",
+    name: "Apply Today",
     link: "/enroll-now",
     submenu: [],
   },

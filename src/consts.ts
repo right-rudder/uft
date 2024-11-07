@@ -4,7 +4,7 @@ export const SITE_TITLE =
 
 // CHANGE default meta description -> should only be used in homepage technically, but is there for a fallback in case a page is missed
 export const SITE_DESCRIPTION =
-  "Our mission is to train professional, safe, and proficient pilots, who will one day excel in the aviation industry. When you fly with the team at Sun City Aviation Academy, you're family. Individualized instruction means you're more than just a number. You're a future Sun City aviator.";
+  "Our mission is to train professional, safe, and proficient pilots, who will one day excel in the aviation industry. When you fly with the team at Universal Flight Training, you're family. Individualized instruction means you're more than just a number. You're a future UFT aviator.";
 
 //SEO tip -> keyword + city 1
 //Should have between 5-10 different localities to mix and match keywords
