@@ -15,8 +15,7 @@ const pilotTrainingGuide = {
       imageAlt:
         "universal flight training student flying solo over clearwater tampa",
       headerH1: `Pilot Training <br class="hidden lg:block" ><span class="text-accent-200">GUIDE</span>`,
-      paragraph:
-        `Universal Flight Training is your flight school to<br class="hidden lg:block" >become a pilot in the Sarasota Bradenton Florida area.`,
+      paragraph: `Universal Flight Training is your flight school to<br class="hidden lg:block" >become a pilot in the Sarasota Bradenton Florida area.`,
       buttons: [
         {
           name: "Enroll Today",
@@ -40,8 +39,7 @@ const pilotTrainingGuide = {
         {
           title: "Professional Pilot Course",
           imagePath: "/src/assets/uft-professional-pilot-course.webp",
-          imageAlt:
-            "UFT student and Instructor taking off",
+          imageAlt: "UFT student and Instructor taking off",
           description:
             "Comprehensive program covering private, instrument, commercial, and multi-engine flight training.",
           link: "/pilot-training-guide",
@@ -49,8 +47,7 @@ const pilotTrainingGuide = {
         {
           title: "Private Pilot",
           imagePath: "/src/assets/uft-private-pilot.webp",
-          imageAlt:
-            "Photograph of a plane", //Change later - more info
+          imageAlt: "Photograph of a plane", //Change later - more info
           description:
             "Your passport to the skies! Learn to pilot your dreams with our Private Pilot Course.",
           link: "/programs/private-pilot-course",
@@ -58,8 +55,7 @@ const pilotTrainingGuide = {
         {
           title: "Instrument Rating",
           imagePath: "/src/assets/uft-intrument-rating.webp",
-          imageAlt:
-            "Photograph of assistive equipment", //Change later
+          imageAlt: "Photograph of assistive equipment", //Change later
           description:
             "Navigate through clouds and the skies with precision through our Instrument Rating course.",
           link: "/instrument-rating",
@@ -67,15 +63,15 @@ const pilotTrainingGuide = {
         {
           title: "Commercial Pilot",
           imagePath: "/src/assets/uft-commercial-pilot-course-picture.webp",
-          imageAlt:
-            "Photograph of plane's propellers",
+          imageAlt: "Photograph of plane's propellers",
           description:
             "Start your pilot career with our Commercial Pilot Course. Your path to the captain's seat is here.",
           link: "/commercial-pilot-training",
         },
         {
           title: "Airline Transport Pilot",
-          imagePath: "/src/assets/uft-airline-transport-pilot-course-picture.webp",
+          imagePath:
+            "/src/assets/uft-airline-transport-pilot-course-picture.webp",
           imageAlt:
             "Universal Flight Training airline transport pilot course cover picture",
           description:
@@ -84,8 +80,7 @@ const pilotTrainingGuide = {
         },
         {
           title: "Multi-Engine Rating",
-          imagePath:
-            "/src/assets/uft-multi-engine-rating-course-picture.webp",
+          imagePath: "/src/assets/uft-multi-engine-rating-course-picture.webp",
           imageAlt:
             "Universal Flight Training Multi-Engine Rating course cover picture",
           description:
@@ -94,7 +89,8 @@ const pilotTrainingGuide = {
         },
         {
           title: "Certified Flight Instructor",
-          imagePath: "/src/assets/uft-certified-flight-instructor-course-picture.webp",
+          imagePath:
+            "/src/assets/uft-certified-flight-instructor-course-picture.webp",
           imageAlt:
             "Universal Flight Training Certified Flight Instructor course cover picture",
           description:
@@ -104,7 +100,8 @@ const pilotTrainingGuide = {
         {
           title: "Flight Review",
           imagePath: "/src/assets/uft-flight-review-course-picture.webp",
-          imageAlt: "Universal Flight Training Flight Review course cover picture - Cessna Skyhawk",
+          imageAlt:
+            "Universal Flight Training Flight Review course cover picture - Cessna Skyhawk",
           description:
             "Recurrent training requirement for pilots to ensure they maintain proficiency and safety standards.",
           link: "/flight-review-bfr",
@@ -112,7 +109,8 @@ const pilotTrainingGuide = {
         {
           title: "Instrument Proficiency Check",
           imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
-          imageAlt: "Universal Flight Training Instrument Proficiency Check course cover picture - day sky and some clouds",
+          imageAlt:
+            "Universal Flight Training Instrument Proficiency Check course cover picture - day sky and some clouds",
           description:
             "Stay current with our Instrument Proficiency Check (IPC) to ensure your instrument flying skills are up to date.",
           link: "/instrument-proficiency-check-ipc",

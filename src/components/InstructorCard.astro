@@ -3,11 +3,11 @@ const { name, qualifications, imagePath, bio } = Astro.props;
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/assets/*.{jpeg,jpg,png,gif}"
+  "/src/assets/*.{jpeg,jpg,png,gif,webp}"
 );
 if (!images[imagePath])
   throw new Error(
-    `"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`
+    `"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif,webp}"`
   );
 ---
 
@@ -32,7 +32,7 @@ if (!images[imagePath])
       {name}
     </h2>
     {
-      qualifications.map((qualification) => (
+      qualifications && qualifications.map((qualification) => (
         <p class="uppercase tracking-widest text-xs font-bold group-hover:text-red-700 duration-700">
           {qualification}
         </p>

@@ -35,18 +35,14 @@ export const navbarLinks = [
       },
     ],
   },
-  
+
   {
     name: "About",
     link: "/about",
     submenu: [
       {
-        name: "Our Story",
-        link: "/about/our-story",
-      },
-      {
-        name: "Our Team",
-        link: "/about/our-team",
+        name: "Our Crew",
+        link: "/about/our-crew",
       },
       {
         name: "Our Fleet",
