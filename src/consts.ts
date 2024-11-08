@@ -26,6 +26,9 @@ export const LOCATIONS = [
 ];
 
 // CHANGE client business info
+export const COMPANY_NAME = "Universal Flight Training";
+export const COMPANY_NAME_CAPS = "UNIVERSAL FLIGHT TRAINING";
+export const COMPANY_NICKNAME = "UFT";
 export const PHONE_NUMBER = "(941) 210-4410";
 export const ADDRESS_LINE_1 = "8140 15th St E";
 export const ADDRESS_LINE_2 = "Sarasota, FL 34243";
