@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Header from "../components/Header.astro";
+import HeaderScreen from "../components/HeaderScreen.astro";
 import DiscoveryForm from "../components/DiscoveryForm.astro"
 import discoveryForm from "../data/discovery-form-data.js";
 
@@ -12,8 +12,8 @@ const { data } = discoveryForm;
   siteDescription={data.pageDescription}
   keywords={data.pageKeywords}
 >
-  <Header data={data.header} />
-  <DiscoveryForm data={data.info} />
+  <HeaderScreen content={data.header} />
+  <DiscoveryForm content={data.info} />
 
   <script src="../scripts/emailValidation.js"></script>
 </BaseLayout>
