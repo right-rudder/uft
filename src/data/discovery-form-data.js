@@ -19,11 +19,13 @@ const discoveryForm = {
 
     header: {
       imagePath:
-        "/src/assets/119517263_3305221329572230_8971995653778154908_n.jpg",
+        "/src/assets/nicolas-jossi-ERUiIwjIf3Q-unsplash.jpg",
       imageAlt: `${COMPANY_NAME} Fly Over Sunset`,
       headerH1: "Discovery Flight",
       paragraph:
         `Sign up a discovery flight at ${COMPANY_NAME}. See what it feels to fly on one of our aircrafts!`,
+      buttons: [],
+  
     },
 
     info:{
