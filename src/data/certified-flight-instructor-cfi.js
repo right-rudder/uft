@@ -30,7 +30,7 @@ const flightInstructor = {
     },
 
     pageSummary: {
-      title: `Certified Flight Instructor<br> Certification`,
+      title: `Flight Instructor<br> Certification`,
       paragraphs: [
         "Becoming a CFI allows you to teach student pilots the essential techniques, safety protocols, and knowledge they need to become licensed pilots. Not only does this certification allow you to earn income as a flight instructor, but it also builds valuable flight hours and enhances your aviation knowledge. As a CFI, you’ll be qualified to teach ground and flight lessons, preparing your students for the Private Pilot License, Instrument Rating, and even advanced certificates. In the future, you can add multi-engine and instrument ratings to your instructor qualifications, making you an even more versatile educator.",
         "Let’s walk through the steps to earn your Certified Flight Instructor Certificate with Universal Flight Training.",
