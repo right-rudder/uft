@@ -24,6 +24,7 @@ const enrollForm = {
       headerH1: "Enroll Now",
       paragraph:
         `Sign up for flight training at ${COMPANY_NAME}. This is the first step to achieving your aviation goals!`,
+      buttons: [],
     },
 
     info:{
