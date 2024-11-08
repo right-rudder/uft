@@ -21,7 +21,7 @@ const sportPilot = {
       imageAlt: `${COMPANY_NAME} (${COMPANY_NICKNAME}) sport plane on runway`,
       headerH1: `${COURSES[0][6].title} <br class="hidden lg:block" ><span class="text-accent-200">Course</span>`,
       paragraph:
-        `The Sport Pilot Course at Universal Flight Training is perfect for those wanting to get into aviation quickly and affordably. Designed for aspiring pilots interested in flying Light Sport Aircraft (LSA), this certification offers an expedited path to pilothood. With fewer requirements compared to the Private Pilot Certificate, the Sport Pilot license is ideal for those eager to start flying sooner, with reduced training costs and time commitments. Earning this certification allows you to pilot some of the most versatile, enjoyable aircraft in the sky, while enjoying the freedom and excitement of aviation.`,
+        `The Sport Pilot Course at Universal Flight Training offers a quick and affordable way to earn your certification. Designed for Light Sport Aircraft (LSA), it requires fewer hours and costs less than a Private Pilot Certificate, allowing you to start flying sooner.`,
       buttons: [
         {
           name: "Enroll Today",
