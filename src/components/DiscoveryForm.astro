@@ -1,5 +1,5 @@
 ---
-const { data } = Astro.props;
+const { content } = Astro.props;
 
 const GHL_ENROLL_FORM_WEBHOOK_URL =
   "";
@@ -49,7 +49,7 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
                 ></path>
               </svg>
             </dt>
-            <dd>{data.address_1}<br />{data.address_2}</dd>
+            <dd>{content.address_1}<br />{content.address_2}</dd>
           </div>
           <div class="flex gap-x-4">
             <dt class="flex-none">
@@ -70,8 +70,8 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
               </svg>
             </dt>
             <dd>
-              <a class="hover:text-gray-900" href={`tel:${data.phone_num}`}
-                >{data.phone_num}</a
+              <a class="hover:text-gray-900" href={`tel:${content.phone_num}`}
+                >{content.phone_num}</a
               >
             </dd>
           </div>
@@ -94,8 +94,8 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
               </svg>
             </dt>
             <dd>
-              <a class="hover:text-gray-900" href={`mailto:${data.email}`}
-                >{data.email}</a
+              <a class="hover:text-gray-900" href={`mailto:${content.email}`}
+                >{content.email}</a
               >
             </dd>
           </div>
@@ -192,7 +192,7 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
           <label
             for="agree-data-collection"
             class="text-gray-800 text-sm lg:text-base font-sans2"
-            set:html={data.checkboxText}
+            set:html={content.checkboxText}
           />
         </div>
         <button
@@ -246,7 +246,7 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
         const formData = new FormData(contactForm);
 
         // Check the value of the honeypot field
-        const confirmEmailValue = formData.get("confirm-email");
+        const confirmEmailValue = formcontent.get("confirm-email");
         if (confirmEmailValue === "" || confirmEmailValue === null) {
           // If the honeypot field is empty, it's a human
           // Set the form action to the URL for processing the form and redirecting to thank you
@@ -255,7 +255,7 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
 
         // Convert FormData to URLSearchParams
         const urlSearchParams = new URLSearchParams();
-        for (const pair of formData.entries()) {
+        for (const pair of formcontent.entries()) {
           urlSearchParams.append(pair[0], pair[1]);
         }
 
