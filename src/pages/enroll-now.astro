@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Header from "../components/Header.astro";
+import HeaderScreen from "../components/HeaderScreen.astro";
 import EnrollForm from "../components/EnrollForm.astro"
 import enrollForm from "../data/enroll-form-data.js";
 
@@ -12,8 +12,8 @@ const { data } = enrollForm;
   siteDescription={data.pageDescription}
   keywords={data.pageKeywords}
 >
-  <Header data={data.header} />
-  <EnrollForm data={data.info} />
+  <HeaderScreen content={data.header} />
+  <EnrollForm content={data.info} />
 
   <script src="../scripts/emailValidation.js"></script>
 </BaseLayout>
