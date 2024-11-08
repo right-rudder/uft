@@ -2,7 +2,7 @@
 import programsSwiper from "../data/programSwiper";
 
 
-const { data } = Astro.props;
+const { content } = Astro.props;
 
 const GHL_ENROLL_FORM_WEBHOOK_URL =
   "https://services.leadconnectorhq.com/hooks/SmZxqjL2v5KaWPxMSMbW/webhook-trigger/0mubV6oCeGRAtK8GQB4G";
@@ -44,7 +44,7 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
                 ></path>
               </svg>
             </dt>
-            <dd>{data.address_1}<br />{data.address_2}</dd>
+            <dd>{content.address_1}<br />{content.address_2}</dd>
           </div>
           <div class="flex gap-x-4">
             <dt class="flex-none">
@@ -65,8 +65,8 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
               </svg>
             </dt>
             <dd>
-              <a class="hover:text-gray-900" href={`tel:${data.phone_num}`}
-                >{data.phone_num}</a
+              <a class="hover:text-gray-900" href={`tel:${content.phone_num}`}
+                >{content.phone_num}</a
               >
             </dd>
           </div>
@@ -89,8 +89,8 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
               </svg>
             </dt>
             <dd>
-              <a class="hover:text-gray-900" href={`mailto:${data.email}`}
-                >{data.email}</a
+              <a class="hover:text-gray-900" href={`mailto:${content.email}`}
+                >{content.email}</a
               >
             </dd>
           </div>
@@ -189,7 +189,7 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
           <label
             for="agree-data-collection"
             class="text-gray-800 text-sm lg:text-base font-sans2"
-            set:html={data.checkboxText}
+            set:html={content.checkboxText}
           />
         </div>
         <button
