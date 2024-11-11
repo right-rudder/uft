@@ -43,6 +43,10 @@ export const footerLinks = [
         name: "CFI",
         link: "/programs/certified-flight-instructor-cfi",
       },
+      {
+        name: "SP",
+        link: "/programs/sport-pilot",
+      },
     ],
   },
   {
