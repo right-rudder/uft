@@ -37,7 +37,7 @@ export const navbarLinks = [
 
   {
     name: "Services",
-    link: "/about/our-crew",
+    link: "/services/maintenance",
     submenu: [
       {
         name: "Maintenance",
