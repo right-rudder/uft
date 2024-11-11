@@ -2,10 +2,10 @@
 import programsSwiper from "../data/programSwiper";
 
 
+
 const { content } = Astro.props;
 
-const GHL_ENROLL_FORM_WEBHOOK_URL =
-  "https://services.leadconnectorhq.com/hooks/SmZxqjL2v5KaWPxMSMbW/webhook-trigger/0mubV6oCeGRAtK8GQB4G";
+const CONTACT_WEBHOOK_URL = import.meta.env.CONTACT_WEBHOOK_URL;
 
 ---
 
@@ -205,7 +205,7 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
     </div>
   </div>
 </section>
-<script define:vars={{ GHL_ENROLL_FORM_WEBHOOK_URL }}>
+<script define:vars={{ CONTACT_WEBHOOK_URL }}>
   const checkbox = document.getElementById("agree-data-collection");
   const submitButton = document.getElementById("submit-button");
 
@@ -247,7 +247,7 @@ const GHL_ENROLL_FORM_WEBHOOK_URL =
         if (confirmEmailValue === "" || confirmEmailValue === null) {
           // If the honeypot field is empty, it's a human
           // Set the form action to the URL for processing the form and redirecting to thank you
-          contactForm.action = GHL_ENROLL_FORM_WEBHOOK_URL;
+          contactForm.action = CONTACT_WEBHOOK_URL;
         }
 
         // Convert FormData to URLSearchParams
