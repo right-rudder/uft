@@ -150,15 +150,7 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"articles": Record<string, {
-  id: string;
-  slug: string;
-  body: string;
-  collection: "articles";
-  data: any;
-  render(): Render[".md"];
-}>;
-"blog": {
+		"blog": {
 "Choosing-the-Right-Flight-School-six-Factors-to-Consider.md": {
 	id: "Choosing-the-Right-Flight-School-six-Factors-to-Consider.md";
   slug: "choosing-the-right-flight-school-six-factors-to-consider";
