@@ -39,6 +39,23 @@ export const mobileNavbarLinks = [
         name: "Flight Instructor",
         link: "/programs/certified-flight-instructor-cfi",
       },
+      {
+        name: "Sport Pilot",
+        link: "/programs/sport-pilot",
+      },
+    ],
+  },
+  {
+    name: "Services",
+    submenu: [
+      {
+        name: "Maintenance",
+        link: "/services/maintenance",
+      },
+      {
+        name: "CATS Testing",
+        link: "/services/cats",
+      },
     ],
   },
 
@@ -64,7 +81,7 @@ export const mobileNavbarLinks = [
     ],
   },
   {
-    name: "Apply Today",
+    name: "Enroll Today",
     link: "/enroll-now",
     submenu: [],
   },
