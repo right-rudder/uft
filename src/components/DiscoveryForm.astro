@@ -244,7 +244,7 @@ const DISCOVERY_FLIGHT_WEBHOOK_URL = import.meta.env.DISCOVERY_FLIGHT_WEBHOOK_UR
         const formData = new FormData(contactForm);
 
         // Check the value of the honeypot field
-        const confirmEmailValue = formcontent.get("confirm-email");
+        const confirmEmailValue = formData.get("confirm-email");
         if (confirmEmailValue === "" || confirmEmailValue === null) {
           // If the honeypot field is empty, it's a human
           // Set the form action to the URL for processing the form and redirecting to thank you
@@ -253,7 +253,7 @@ const DISCOVERY_FLIGHT_WEBHOOK_URL = import.meta.env.DISCOVERY_FLIGHT_WEBHOOK_UR
 
         // Convert FormData to URLSearchParams
         const urlSearchParams = new URLSearchParams();
-        for (const pair of formcontent.entries()) {
+        for (const pair of formData.entries()) {
           urlSearchParams.append(pair[0], pair[1]);
         }
 
