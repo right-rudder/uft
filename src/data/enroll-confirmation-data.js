@@ -15,7 +15,7 @@ const enrollConfirmation = {
 
     header: {
       imagePath:
-        "/src/assets/119517263_3305221329572230_8971995653778154908_n.jpg",
+        "/src/assets/uft-plane-sunny.jpg",
       imageAlt: `${COMPANY_NAME} Fly Over Sunset`,
       headerH1: "THANK YOU",
       paragraph:
