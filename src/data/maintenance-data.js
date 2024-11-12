@@ -31,6 +31,7 @@ const maintenancePage = {
 
     info:{
       form_url: import.meta.env.MAINTENANCE_WEBHOOK_URL,
+      redirect_url: "/maintenance-confirmation",
       form_h: "Book a Service",
       form_p1: "Keep your aircraft in top condition and experience peace of mind in every flight.",
       form_p2: "Schedule your maintenance services with us today. Fill out the form to get started.",
