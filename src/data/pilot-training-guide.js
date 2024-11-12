@@ -19,12 +19,12 @@ const pilotTrainingGuide = {
       buttons: [
         {
           name: "Enroll Today",
-          link: "/marketing-system",
+          link: "/enroll-now",
           primary: false,
         },
         {
-          name: "How To Guide",
-          link: "/schedule-call",
+          name: "Discovery Flight",
+          link: "/discovery-flight",
           primary: false,
         },
       ],

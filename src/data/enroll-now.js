@@ -11,7 +11,7 @@ const enrollInfo = {
 
     header: {
       imagePath:
-        "/src/assets/119517263_3305221329572230_8971995653778154908_n.jpg",
+        "/src/assets/uft-plane-sunny.jpg",
       imageAlt: "Universal Flight Training Fly Over Sunset",
       headerH1: "Enroll Now",
       paragraph:
