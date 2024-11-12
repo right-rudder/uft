@@ -30,7 +30,7 @@ const maintenancePage = {
     },
 
     info:{
-      form_url: "",
+      form_url: import.meta.env.MAINTENANCE_WEBHOOK_URL,
       form_h: "Book a Service",
       form_p1: "Keep your aircraft in top condition and experience peace of mind in every flight.",
       form_p2: "Schedule your maintenance services with us today. Fill out the form to get started.",
@@ -54,8 +54,14 @@ const maintenancePage = {
         "Other (Please specify in Notes)",
       ],
       extra_info: [
-        "Aircraft Manufacturer",
-        "Aircraft Type",
+        {
+          label: "Aircraft Manufacturer",
+          id: "aircraft-manufacturer",
+        },
+        {
+          label: "Aircraft Type",
+          id: "aircraft-type",
+        },
       ],
       checkboxText: `I agree to <a href="/terms-of-service" target="_blank" class="font-semibold hover:underline">terms</a> & <a href="/privacy-policy" target="_blank" class="font-semibold hover:underline">conditions</a> provided by the company. By providing my phone number, I agree to receive text messages from the business.`,
     },
