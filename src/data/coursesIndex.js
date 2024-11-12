@@ -20,12 +20,12 @@ const coursesIndex = {
           buttons: [
             {
               name: "Enroll Today",
-              link: "/marketing-system",
+              link: "/enroll-now",
               primary: false,
             },
             {
               name: "How To Guide",
-              link: "/schedule-call",
+              link: "/pilot-training-guide",
               primary: false,
             },
           ],
