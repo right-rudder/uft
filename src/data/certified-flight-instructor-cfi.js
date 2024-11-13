@@ -10,8 +10,8 @@ const flightInstructor = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/152109048_3732287966865562_1261879482188929274_n.jpg",
-      imageAlt: "placeholder",
+      imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
+      imageAlt: "universal flight training CFI cover, sourced from unsplash, picture by Avel Chuklanov",
       headerH1: `Certified Flight Instructor <br class="hidden lg:block" ><span class="text-accent-200">Course</span>`,
       paragraph:
         `The Certified Flight Instructor (CFI) course is a rewarding opportunity to share your passion for aviation while guiding new pilots through the fundamentals of flying. This certification empowers you to pass on your knowledge and skills, helping future aviators achieve their own dreams and fostering a safe, competent aviation community.`,
