@@ -1,7 +1,7 @@
 const ourTeam = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Our Team | Universal Flight Academy",
+    pageTitle: "Our Team | Universal Flight Training",
     pageDescription:
       "Our team of experienced pilots and instructors are dedicated to providing the highest quality flight training in Sarasota. Learn more about our team and how they can help you achieve your aviation goals.",
     pageKeywords:
@@ -10,7 +10,7 @@ const ourTeam = {
     //top header
     header: {
       imagePath: "/src/assets/cessna-in-uft-hangar.jpg",
-      imageAlt: "Cessna airplane in the Universal Flight Academy hangar",
+      imageAlt: "Cessna airplane in the Universal Flight Training hangar",
       headerH1: `Come See</br><span class="bg-gradient-to-br from-accent-500 via-accent-200 to-accent-400 bg-clip-text text-transparent">What Everyone's Talking About</span>`,
       paragraph:
         "Our team of experienced pilots and instructors are dedicated to providing the highest quality flight training in Sarasota. Learn more about our team and how they can help you achieve your aviation goals.",
@@ -29,260 +29,127 @@ const ourTeam = {
     },
 
     pageSummary: {
-      title: `How It All Started?`,
+      title: `About Us`,
       paragraphs: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
-      ],
-    },
-
-    gMaps: [
-      {
-        location: "Pembroke Pines, FL",
-        inverted: false,
-        body: "Come visit us at our Pembroke Pines location. We are located at North Perry Airport KHWO.",
-        gMapUrl:
-          "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3586.1442401064114!2d-80.232982!3d25.996092!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a96c916c96bb%3A0x7fe41940c41420e8!2sSun%20City%20Aviation%20Academy!5e0!3m2!1sen!2sus!4v1729617103276!5m2!1sen!2sus",
-      },
-    ],
-
-    partners: {
-      heading:
-        "Universal Flight Academy is a partner affiliate with the following organizations:",
-      organizations: [
-        {
-          name: "Stratus Financial",
-          imagePath: "/src/assets/stratus_logo.webp",
-          imageAlt: "Stratus Financial logo",
-          link: "https://stratus.finance/",
-        },
-        {
-          name: "FSANA",
-          imagePath: "/src/assets/FSANA-logo.webp",
-          imageAlt: "FSANA logo",
-          link: "https://fsana.com/",
-        },
-        {
-          name: "Women In Action",
-          imagePath: "/src/assets/wai-full-color-logo.png",
-          imageAlt: "Women in action logo",
-          link: "https://www.wai.org/",
-        },
-        {
-          name: "Miramar - Pembroke Pines - Chamber of Commerce",
-          imagePath: "/src/assets/mirarmar-coc.webp",
-          imageAlt: "Miramar - Pembroke Pines - Chamber of Commerce logo",
-          link: "https://www.miramarpembrokepines.org/",
-        },
-        {
-          name: "Right Rudder Marketing",
-          imagePath: "/src/assets/RRM-hor-textBlack-bgTrans-150.webp",
-          imageAlt: "Right Rudder Marketing logo",
-          link: "https://rightruddermarketing.com/",
-        },
+        "Universal Flight Training (UFT) is dedicated to providing top-tier, personalized flight instruction at Sarasota Bradenton International Airport. With a range of programs from Private Pilot to advanced certifications, we equip students with the skills and confidence needed to thrive in the skies. Our experienced instructors and diverse fleet ensure a high-quality, safe training experience tailored to each individual’s goals.",
+        "Beyond training, UFT serves the local aviation community with reliable aircraft maintenance and support services. Whether you’re beginning your aviation journey or seeking advanced skills, UFT is here to guide you every step of the way. Join us and discover a team committed to helping you reach new heights in aviation!",
       ],
     },
 
     staffGrid: {
+      imagePath: "/src/assets/uft-entire-team-picture.jpg",
+      imageAlt: "Universal Flight Training crew",    
       upperHeading: "Meet Our Team",
-      heading: "Our Leadership Team",
+      heading: "About us",
       description:
-        "The leadership team at Universal Flight Academy is dedicated to providing the highest quality flight training in Sarasota. With years of experience and a passion for aviation, our team is here to help you achieve your aviation goals.",
+        `Universal Flight Training (UFT) was founded on a commitment to delivering exceptional, safe, and tailored flight instruction for aspiring and seasoned pilots alike. Located at Sarasota Bradenton International Airport, UFT provides a comprehensive range of flight training programs, from Private Pilot to advanced certifications, each designed to build confidence and competence in the skies. With a diverse fleet and a team of highly experienced Certified Flight Instructors, we ensure that every student receives personalized instruction that aligns with their goals and skill level. At UFT, we go beyond standard training, offering immersive experiences that prepare our students to excel in a dynamic aviation environment.<br>
+        Our mission is to inspire and equip the next generation of aviators through accessible, high-quality training in a supportive and professional atmosphere. We are proud to serve the Sarasota region and to be a trusted resource in the aviation community, not only for training but also for aircraft maintenance and support. Whether you’re just beginning your aviation journey or seeking advanced certifications, Universal Flight Training is here to guide you every step of the way, ensuring a rewarding and memorable experience that helps you achieve your dreams in aviation. Join us and take flight with a team that’s dedicated to your success!`,
+      members: [],
+    },
+
+    adminTeamGrid: {
+      imagePath: "/src/assets/uft-admin-team-picture.jpg",
+      imageAlt: "Universal Flight Training crew",    
+      upperHeading: "Admin Team",
+      heading: "The Backbone of Universal Flight Training",
+      description:
+        "Our administrative team is committed to delivering top-notch support and service at every stage of your aviation journey. With years of industry experience and a dedication to excellence, our staff is here to ensure your experience with Universal Flight Training is seamless and supportive, helping you stay focused on reaching your aviation goals.",
       members: [
         {
-          name: "Joe Vasquez",
-          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
+          name: `Jose Santos<br><small class="text-white font-normal text-sm">CEO of Universal Flight Training</small>`,
+          imagePath: "/src/assets/uft-jose-santos-ceo.jpg",
           imageAlt:
-            "Universal Flight Academy Certified Founder & CEO Luke Poulos",
-          bio: "Joe Vazquez has been a flight instructor since 1987 and is experienced in a wide variety of single & multi-engine aircraft and gliders. He is an FAA rated part 141 chief instructor, serving in that role at Hanover, Virginia until his move to Florida in May 2020. Mr. Vazquez is also a Major General in the Civil Air Patrol and served as National Commander/CEO from Aug 2014 until Sept 2017. He is a retired Computer Engineer, having worked for Dupont and CSC during his career as an Operations Manager. He is a 1983 graduate of the University of Georgia and holds degrees in Computer Science and Psychology. His wife, Leslie, is also a CFI/CFII/MEI and CAP Lt. Colonel.",
-          rank: "Chief Flight Instructor",
+            "Universal Flight Training CEO Jose Santos",
         },
         {
-          name: "CJ Marsini",
-          imagePath: "/src/assets/uft-cj-marsini-flight-instructor.webp",
+          name: `Gary Nickasch<br><small class="text-white font-normal text-sm">Director of Flight Training and Standards</small>`,
+          imagePath: "/src/assets/uft-gary-nickasch-director-of-flight-training-and-standards.jpg",
           imageAlt:
-            "Universal Flight Academy Director of Operations Joe Cannizzaro",
-          bio: "CJ Marsini is a third generation pilot who was sitting on his grandfathers lap flying ultralights and Ercoupes at 3 years old.  Five years ago he decided he wanted to make aviation his full time career and has taken his training to multiple environments, including South Carolina, Tennessee, Michigan, Alabama, New Jersey, and Florida.  His diverse training has allowed him to be able to teach students of all skill levels in all types of weather.  He started off as an Uber driver to pay for his initial training while he followed his dream of becoming a full time pilot and now has amassed over 1,600 hours over five years and looks to pass on all of the knowledge he has learned to the next generation of pilots.",
-          rank: "Assistant Chief Flight Instructor",
+            "Universal Flight Training Director of Flight Training and Standards Gary Nickasch",
         },
         {
-          name: "Dan Gormley",
-          imagePath: "/src/assets/uft-dan-gormley-cfi.webp",
-          imageAlt: "Universal Flight Academy Chief Pilot Paul Janecki",
-          bio: "Dan Gormley knew he wanted to be a pilot since his early teens, after his brother, who is a captain at Delta Air Lines, bought him a discovery flight for his birthday. He finally started his aviation journey in 2021, 5 months after graduating from high school. Since then, Dan has flown over 1,000 hours in various airplanes, including, but not limited to, complex, multi-engine, and tailwheel airplanes. His unwavering passion has led him to utilize his knowledge, skills, and abilities to provide a safe and productive learning experience for his students.",
-          rank: "CFI",
+          name: `Jacob Kyser<br><small class="text-white font-normal text-sm">Vice President</small>`,
+          imagePath: "/src/assets/uft-jacob-kyser-vice-president.jpg",
+          imageAlt:
+            "Universal Flight Training Vice President Jacob Kyser",
         },
         {
-          name: "Kiatrell Zachery",
-          imagePath: "/src/assets/uft-kiatrell-zachery-cfi.webp",
+          name: `Joe Vasquez<br><small class="text-white font-normal text-sm">Chief Flight Instructor</small>`,
+          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.jpg",
           imageAlt:
-            "Universal Flight Academy Director of Sales, Service, & Finance Cris Freilich",
-          bio: "Kiatrell fell in love with aviation as a young kid. He would go on to learn how to fly at Baylor University. He then continued his training in West Virginia before finishing up additional Florida ratings. He has his MEI & CFI ratings and would love to share his passion for flying with you! Fun fact: He loves flying with his wife and their 150lb English Mastiff!",
-          rank: "CFI/MEI",
-        },
-        {
-          name: "Thomas Donetz",
-          imagePath: "/src/assets/uft-thomas-donetz-cfii.webp",
-          imageAlt:
-            "Universal Flight Academy Executive Business Manager Georgette Poulos",
-          bio: "Thomas has loved airplanes since as long as he can remember. Aviation became his passion in 2021 when he took his first discovery flight in New Jersey. After achieving his Private Pilots License, he moved to Florida to continue his ratings and became an instrument instructor. He’s looking forward to meeting new students and teaching the wonders of aviation while building his hours to become a career pilot for the airlines.",
-          rank: "CFI/CFII",
-        },
-        {
-          name: "Justin Gorrell",
-          imagePath: "/src/assets/uft-justin-gorrell-cfi.webp",
-          imageAlt:
-            "Universal Flight Academy Executive Business Manager Georgette Poulos",
-          bio: "Justin's fascination with airplanes and travel inspired him to begin flight training with us in late 2021. Since then, he has made progress in his own pilot training and has now joined our team as a CFI. Justin is passionate about sharing his knowledge and is dedicated to helping his students achieve their aviation goals with his patient and encouraging teaching style. Future goals include continuing to learn more and earning CFI-I and MEI ratings by the end of 2024!",
-          rank: "CFI",
-        },
-        {
-          name: "Jackson Septer",
-          imagePath: "/src/assets/uft-jackson-septer-cfi.webp",
-          imageAlt:
-            "Universal Flight Academy Executive Business Manager Georgette Poulos",
-          bio: "Jackson Fell in love with flying after downloading Microsoft Flight Simulator on his computer in high school. After doing a discovery flight, he was hooked and has since been training and currently attends Embry Riddle Aeronautical University. His goal is to continue developing his career, imparting knowledge, and eventually work for a major airline. ",
-          rank: "CFI",
-        },
-        {
-          name: "Matthew Bach",
-          imagePath: "/src/assets/uft-matthew-bach-cfii.webp",
-          imageAlt:
-            "Universal Flight Academy Executive Business Manager Georgette Poulos",
-          bio: "Matthew Bach found his passion for aviation at 12 years old. For his birthday, he was gifted a discovery flight from a FedEx pilot and right away, he knew he wanted to be pursue this as a career. Since then he has achieved his ratings up to his flight instructor to help future aviators and guide them through the process of achieving their goals as well.",
-          rank: "CFI/CFII",
+            "Universal Flight Training Chief Flight Instructor Joe Vasquez",
         },
       ],
     },
-
-    teamGrid: {
-      upperHeading: "Meet Our Team",
-      heading: "The Backbone of Universal Flight Academy",
+    flightTeamGrid: {
+      imagePath: "/src/assets/uft-flight-team-picture.jpg",
+      imageAlt: "Universal Flight Training crew",    
+      upperHeading: "Flight Instructors Team",
+      heading: "Guiding You to New Heights",
       description:
-        "Our team of staff and instructors are dedicated to providing the highest quality flight training in South Florida. With years of experience and a passion for aviation, our team is here to help you achieve your aviation goals.",
+        "Our team of experienced flight instructors is dedicated to providing top-quality training and mentorship at every step of your aviation journey. With a deep passion for flying and years of expertise, our instructors are here to ensure you receive exceptional guidance and support, helping you stay focused and confident as you work toward achieving your aviation dreams with Universal Flight Training.",
       members: [
         {
-          name: "Jean Dorcelien",
-          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
+          name: `Gary Nickasch<br><small class="text-white font-normal text-sm">Director of Flight Training and Standards</small>`,
+          imagePath: "/src/assets/uft-gary-nickasch-director-of-flight-training-and-standards.jpg",
           imageAlt:
-            "Universal Flight Academy Certified Flight Instructor Jean Dorcelien",
-          rank: "Flight Instructor",
+            "Universal Flight Training Director of Flight Training and Standards Gary Nickasch",
         },
         {
-          name: "Nicolas McCaulsky",
-          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
+          name: `Joe Vasquez<br><small class="text-white font-normal text-sm">Chief Flight Instructor</small>`,
+          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.jpg",
           imageAlt:
-            "Universal Flight Academy Certified Flight Instructor Nicolas McCaulsky",
-          rank: "Flight Instructor",
+            "Universal Flight Training Chief Flight Instructor Joe Vasquez",
         },
         {
-          name: "Gleb Sokolov",
-          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
+          name: `Daniel Gormley<br><small class="text-white font-normal text-sm">Flight Instructor</small>`,
+          imagePath: "/src/assets/uft-Daniel-Gormley-instructor.jpg",
           imageAlt:
-            "Universal Flight Academy Certified Flight Instructor Gleb Sokolov",
-          rank: "Flight Instructor",
+            "Universal Flight Training Flight Instructor Daniel Gormley",
         },
         {
-          name: "Marko Pavlichenko",
-          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
+          name: `Justin Gorrell<br><small class="text-white font-normal text-sm">Flight Instructor</small>`,
+          imagePath: "/src/assets/uft-Justin-Gorrell-instructor.jpg",
           imageAlt:
-            "Universal Flight Academy Dispatch Administrator Mafer Caceres",
-          rank: "Dispatch Administrator<br>Social Media Specialist",
+            "Universal Flight Training Flight Instructor Justin Gorrell",
         },
         {
-          name: "Marko Pavlichenko",
-          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
+          name: `Matthew Bach<br><small class="text-white font-normal text-sm">Flight Instructor</small>`,
+          imagePath: "/src/assets/uft-Matthew-Bach-instructor.jpg",
           imageAlt:
-            "Sun City Aviation Certified Flight Instructor Marko Pavlichenko",
-          rank: "Flight Instructor",
+            "Universal Flight Training Flight Instructor Matthew Bach",
         },
         {
-          name: "Alexis Vassel",
-          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
+          name: `Thomas Donetz<br><small class="text-white font-normal text-sm">Flight Instructor</small>`,
+          imagePath: "/src/assets/uft-Thomas-Donetz-instructor.jpg",
           imageAlt:
-            "Sun City Aviation Certified Flight Instructor Alexis Vassel",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Charles Mesina",
-          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Charles Mesina",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Cara Ming",
-          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
-          imageAlt: "Sun City Aviation Certified Flight Instructor Cara Ming",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Jacqueline Wicker-McAllister",
-          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Jacqueline Wicker-McAllister",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Andrew Graeler",
-          imagePath: "/src/assets/man-silhouette.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Andrew Graeler",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Angel Christophe",
-          imagePath: "/src/assets/man-silhouette.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Angel Christophe",
-          rank: "Office Manager",
-        },
-        {
-          name: "Zaccur Christophe",
-          imagePath: "/src/assets/man-silhouette.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Zaccur Christophe",
-          rank: "Inventory Manager",
-        },
-        {
-          name: "Brian Combs",
-          imagePath: "/src/assets/man-silhouette.webp",
-          imageAlt: "Sun City Aviation Certified Flight Instructor Brian Combs",
-          rank: "Outreach Director",
+            "Universal Flight Training Flight Instructor Thomas Donetz",
         },
       ],
     },
-
-    bookCTA: {
-      upperHeading: "Still looking for more information on pilot training?",
-      headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
-      paragraph:
-        "We have a free booklet which explains everything you need to know for your pilot certificate.",
-      buttons: [
+    maintenanceTeamGrid: {
+      imagePath: "/src/assets/uft-maintenance-team-picture.jpg",
+      imageAlt: "Universal Flight Training maintenance crew",
+      upperHeading: "Maintenance Team",
+      heading: "Keeping You Safe and Ready to Fly",
+      description:
+        "Our skilled maintenance team is committed to ensuring your aircraft is in top condition for every flight. With decades of experience and a meticulous approach, our technicians provide exceptional service to keep your plane performing reliably and safely. Whether it’s routine maintenance or specialized inspections, our team is here to support you with precision and care, so you can focus on enjoying your time in the skies.",
+      members: [
         {
-          name: "Download Now",
-          link: "/book-download",
-          primary: true,
+          name: `Paul Hopkins<br><small class="text-white font-normal text-sm">Mechanic</small>`,
+          imagePath: "/src/assets/uft-Paul-Hopkins-Mechanic.jpg",
+          imageAlt:
+            "Universal Flight Training Mechanic Paul Hopkins",
+        },
+        {
+          name: `Frank Ferney<br><small class="text-white font-normal text-sm">Mechanic</small>`,
+          imagePath: "/src/assets/uft-Frank-Ferney-Mechanic.jpg",
+          imageAlt:
+            "Universal Flight Training Mechanic Frank Ferney",
         },
       ],
-      imagePath: "/src/assets/sun-city-book-mock-up.webp",
-      imageAlt: "Right Rudder Marketing team on the runway",
     },
-
-    quizCTA: {
-      reverse: true,
-      upperHeading: "Take Our Quiz",
-      heading: "Do You Have What It Takes To Be A Pilot?",
-      descriptions: [
-        "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
-        "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
-      ],
-      imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.webp",
-      imageAlt:
-        "Universal Flight Academy student flying a plane over the city of miami",
-      quizModal: true,
-    },
-
+    
     flyWithUsCTA: {
       imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
       imageAlt: "Right Rudder Marketing team on the runway",
