@@ -11,9 +11,9 @@ const pilotTrainingGuide = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/uft-student-solo-over-clearwater-tampa.jpg",
+      imagePath: "/src/assets/kristopher-allison-KU4zYj4u0mo-unsplash.jpg",
       imageAlt:
-        "universal flight training student flying solo over clearwater tampa",
+        "Universal flight training view of pilot over the shoulder",
       headerH1: `Pilot Training <br class="hidden lg:block" ><span class="text-accent-200">GUIDE</span>`,
       paragraph: `Universal Flight Training is your flight school to<br class="hidden lg:block" >become a pilot in the Sarasota Bradenton Florida area.`,
       buttons: [
