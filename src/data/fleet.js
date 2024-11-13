@@ -1,18 +1,18 @@
 const ourFleet = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Our Fleet | Sun City Aviation Academy",
+    pageTitle: "Our Fleet | Universal Flight Training",
     pageDescription:
       "Our fleet of aircraft is designed to provide you with a diverse range of training options, from single-engine aircraft to multi-engine aircraft. Each aircraft is meticulously maintained to ensure your safety and comfort during your training.",
     pageKeywords:
-      "aircraft, fleet, training, Cessna 172, Beechcraft Duchess, Redbird Simulator, Sun City Aviation Academy fleet, flight training, pilot training, aviation training",
+      "aircraft, fleet, training, Cessna 172, Beechcraft Duchess, Redbird Simulator, Universal Flight Training fleet, flight training, pilot training, aviation training",
 
     //top header
     header: {
       stars: true,
       imagePath: "/src/assets/uft-multi-engine-plane.jpg",
       imageAlt:
-        "sun city aviation academy trains professional pilots in south florida",
+        "Universal Flight Training trains professional pilots in south florida",
       headerH1: `Our</br><span class="text-accent-300">Fleet</span>`,
       paragraph:
         "Our fleet of aircraft is designed to provide you with a diverse range of training options, from single-engine aircraft to multi-engine aircraft. Each aircraft is meticulously maintained to ensure your safety and comfort during your training.",
@@ -110,7 +110,7 @@ const ourFleet = {
       ],
       imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
       imageAlt:
-        "sun city aviation academy student flying a plane over the city of miami",
+        "Universal Flight Training student flying a plane over the city of miami",
       quizModal: true,
     },
 
