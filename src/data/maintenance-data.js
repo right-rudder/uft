@@ -64,6 +64,7 @@ const maintenancePage = {
           id: "aircraft-type",
         },
       ],
+      textArea: "Notes or Aditional Information",
       checkboxText: `I agree to <a href="/terms-of-service" target="_blank" class="font-semibold hover:underline">terms</a> & <a href="/privacy-policy" target="_blank" class="font-semibold hover:underline">conditions</a> provided by the company. By providing my phone number, I agree to receive text messages from the business.`,
     },
     whyUFT: {
