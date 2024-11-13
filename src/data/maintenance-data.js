@@ -20,7 +20,7 @@ const maintenancePage = {
     header: {
       stars: true,
       imagePath:
-        "/src/assets/152109048_3732287966865562_1261879482188929274_n.jpg",
+        "/src/assets/uft-plane-on-maintenance.jpg",
       imageAlt: `${COMPANY_NAME} Maintenance team`,
       headerH1: `<div class="bg-gradient-to-br from-accent-500 via-accent-200 to-accent-400 bg-clip-text text-transparent">service</div>and<br class="hidden lg:block" ><div class="bg-gradient-to-br from-accent-500 via-accent-200 to-accent-400 bg-clip-text text-transparent">MAINTENANCE</div>`,
       paragraph:
@@ -77,7 +77,7 @@ const maintenancePage = {
         {
           title: "EXPERT MAINTENANCE TEAM",
           descriptions: [
-            "Our skilled technicians, Michael and Cameron, bring over 50 years of experience working with Cessna, Piper, Cirrus, Beechcraft, Props, and Jets. Their expertise ensures your aircraft receives the best care possible."
+            "Our skilled technicians, Paul and Frank, bring over 30 years of experience working with Cessna, Piper, Cirrus, Beechcraft, Props, and Jets. Their expertise ensures your aircraft receives the best care possible."
           ],
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"
         },
@@ -103,9 +103,9 @@ const maintenancePage = {
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"
         }
       ],
-      imageLegend: `Michael and Cameron<br><small class="text-white font-normal text-sm">Experienced Maintenance Staff</small>`,
-      imagePath: "/src/assets/uft-maintenance-team.jpg",
-      imageAlt: "Maintenance team members Michael and Cameron from Universal Flight Training"
+      imageLegend: `Paul and Frank<br><small class="text-white font-normal text-sm">Experienced Maintenance Staff</small>`,
+      imagePath: "/src/assets/uft-maintenance-crew.jpg",
+      imageAlt: "Maintenance team members Paul and Frank from Universal Flight Training"
     }
   },
 };
