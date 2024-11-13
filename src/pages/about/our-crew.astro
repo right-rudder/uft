@@ -1,16 +1,11 @@
 ---
-import BookCTA from "../../components/BookCTA.astro";
-import ContentCTA from "../../components/ContentCTA.astro";
 import CTAColor from "../../components/CTAColor.astro";
-import GoogleMaps from "../../components/GoogleMaps.astro";
 import HeaderScreen from "../../components/HeaderScreen.astro";
-import ImageComp from "../../components/ImageComp.astro";
-import PageSummary from "../../components/PageSummary.astro";
-import Partners from "../../components/Partners.astro";
 import StaffGrid from "../../components/StaffGrid.astro";
-import TeamGrid from "../../components/TeamGrid.astro";
 import ourTeam from "../../data/our-team";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import ContentDivisor from "../../components/ContentDivisor.astro";
+
 
 const { data } = ourTeam;
 ---
@@ -21,18 +16,17 @@ const { data } = ourTeam;
   keywords={data.pageKeywords}
 >
   <HeaderScreen content={data.header} />
-
-  <PageSummary content={data.pageSummary} />
-
+  <ContentDivisor content={data.staffGrid} />
   <StaffGrid data={data.staffGrid} />
-  <!-- <ContentCTA content={data.quizCTA} /> -->
-  <!-- <TeamGrid data={data.teamGrid} /> -->
 
-  <!-- <Partners
-    heading={data.partners.heading}
-    organizations={data.partners.organizations}
-  /> -->
-
-  <!-- <BookCTA content={data.bookCTA} /> -->
+  <ContentDivisor content={data.adminTeamGrid} />
+  <StaffGrid data={data.adminTeamGrid} />
+  
+  <ContentDivisor content={data.flightTeamGrid} />
+  <StaffGrid data={data.flightTeamGrid} />
+  
+  <ContentDivisor content={data.maintenanceTeamGrid} />
+  <StaffGrid data={data.maintenanceTeamGrid} />
+  
   <CTAColor content={data.flyWithUsCTA} />
 </BaseLayout>

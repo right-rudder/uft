@@ -5,15 +5,6 @@ const programsSwiper = {
     "Whether you are pursuing a professional career, building flight hours, or seeking leisurely adventure, we have the perfect program for you, no matter what your experience level is.",
   cards: [
     {
-      title: "Professional Pilot Course",
-      imagePath: "/src/assets/uft-professional-pilot-course.webp",
-      imageAlt:
-        "UFT student and Instructor taking off",
-      description:
-        "Comprehensive program covering private, instrument, commercial, and multi-engine flight training.",
-      link: "/pilot-training-guide",
-    },
-    {
       title: "Private Pilot",
       imagePath: "/src/assets/uft-private-pilot.webp",
       imageAlt:
@@ -41,15 +32,6 @@ const programsSwiper = {
       link: "/programs/commercial-pilot-training",
     },
     {
-      title: "Airline Transport Pilot",
-      imagePath: "/src/assets/uft-airline-transport-pilot-course-picture.webp",
-      imageAlt:
-        "Universal Flight Training airline transport pilot course cover picture",
-      description:
-        "For many this is their goal. The ATP certificate is a minimum requirement to join the airlines.",
-      link: "/programs/airline-transport-pilot-atp",
-    },
-    {
       title: "Multi-Engine Rating",
       imagePath:
         "/src/assets/uft-multi-engine-rating-course-picture.webp",
@@ -69,20 +51,13 @@ const programsSwiper = {
       link: "/programs/certified-flight-instructor-cfi",
     },
     {
-      title: "Flight Review",
-      imagePath: "/src/assets/uft-flight-review-course-picture.webp",
-      imageAlt: "Universal Flight Training Flight Review course cover picture - Cessna Skyhawk",
+      title: "Sport Pilot",
+      imagePath: "/src/assets/24inSparkerClouds-1-scaled.webp",
+      imageAlt:
+        "TL Sport Aircraft - The Sparker picture sourced from https://tlsportaircraft.com/sparker/",
       description:
-        "Recurrent training requirement for pilots to ensure they maintain proficiency and safety standards.",
-      link: "/programs/flight-review-bfr",
-    },
-    {
-      title: "Instrument Proficiency Check",
-      imagePath: "/src/assets/uft-instrument-proficiency-check-cover-picture.jpg",
-      imageAlt: "Universal Flight Training Instrument Proficiency Check course cover picture - day sky and some clouds",
-      description:
-        "Stay current with our Instrument Proficiency Check (IPC) to ensure your instrument flying skills are up to date.",
-      link: "/programs/instrument-proficiency-check-ipc",
+        "Take flight, live light! Discover freedom in the sky with our Sport Pilot Course.",
+      link: "/programs/sport-pilot",
     },
   ],
 };

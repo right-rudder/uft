@@ -10,21 +10,21 @@ const privatePilotCourse = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/private-pilot-course-cover.jpg",
+      imagePath: "/src/assets/uft-student-solo-over-clearwater-tampa.jpg",
       imageAlt:
-        "Universal flight training student and Instructor posing in front of airplane",
+        "universal flight training student flying solo over clearwater tampa",
       headerH1: `Private <br class="hidden lg:block" ><span class="text-accent-200">Pilot Course</span>`,
       paragraph:
         `This course is the starting point for your aviation journey. Earning a private pilot certificate grants you the freedom to fly aircraft for personal and recreational enjoyment.`,
       buttons: [
         {
           name: "Enroll Today",
-          link: "/marketing-system",
+          link: "/enroll-now",
           primary: false,
         },
         {
           name: "How To Guide",
-          link: "/schedule-call",
+          link: "/pilot-training-guide",
           primary: false,
         },
       ],

@@ -35,7 +35,7 @@ const { content } = Astro.props;
       content.descriptions &&
         content.descriptions.map((p) => (
           <p
-            class="mx-auto mb-4 text-base tracking-loose leading-relaxed text-muted-700"
+            class="mx-auto mb-4 text-lg tracking-loose leading-relaxed text-muted-700"
             set:html={p}
           />
         ))
@@ -83,6 +83,7 @@ const { content } = Astro.props;
           {content.buttons.map((btn) => (
             <a
               href={btn.link}
+              target="_blank"
               class={`${btn.primary ? "btn-accent" : "btn-accent"} w-full md:w-auto`}
             >
               {btn.name}

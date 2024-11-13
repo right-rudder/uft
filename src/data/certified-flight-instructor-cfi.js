@@ -10,27 +10,27 @@ const flightInstructor = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/152109048_3732287966865562_1261879482188929274_n.jpg",
-      imageAlt: "placeholder",
+      imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
+      imageAlt: "universal flight training CFI cover, sourced from unsplash, picture by Avel Chuklanov",
       headerH1: `Certified Flight Instructor <br class="hidden lg:block" ><span class="text-accent-200">Course</span>`,
       paragraph:
         `The Certified Flight Instructor (CFI) course is a rewarding opportunity to share your passion for aviation while guiding new pilots through the fundamentals of flying. This certification empowers you to pass on your knowledge and skills, helping future aviators achieve their own dreams and fostering a safe, competent aviation community.`,
       buttons: [
         {
           name: "Enroll Today",
-          link: "/marketing-system",
+          link: "/enroll-now",
           primary: false,
         },
         {
           name: "How To Guide",
-          link: "/schedule-call",
+          link: "/pilot-training-guide",
           primary: false,
         },
       ],
     },
 
     pageSummary: {
-      title: `Certified Flight Instructor<br> Certification`,
+      title: `Flight Instructor<br> Certification`,
       paragraphs: [
         "Becoming a CFI allows you to teach student pilots the essential techniques, safety protocols, and knowledge they need to become licensed pilots. Not only does this certification allow you to earn income as a flight instructor, but it also builds valuable flight hours and enhances your aviation knowledge. As a CFI, you’ll be qualified to teach ground and flight lessons, preparing your students for the Private Pilot License, Instrument Rating, and even advanced certificates. In the future, you can add multi-engine and instrument ratings to your instructor qualifications, making you an even more versatile educator.",
         "Let’s walk through the steps to earn your Certified Flight Instructor Certificate with Universal Flight Training.",

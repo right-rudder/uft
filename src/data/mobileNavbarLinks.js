@@ -39,19 +39,36 @@ export const mobileNavbarLinks = [
         name: "Flight Instructor",
         link: "/programs/certified-flight-instructor-cfi",
       },
+      {
+        name: "Sport Pilot",
+        link: "/programs/sport-pilot",
+      },
+    ],
+  },
+  {
+    name: "Services",
+    submenu: [
+      {
+        name: "Maintenance",
+        link: "/services/maintenance",
+      },
+      {
+        name: "CATS Testing",
+        link: "/services/cats",
+      },
     ],
   },
 
   {
-    name: "About",
-    submenu: [
+    title: "About",
+    links: [
       {
-        name: "Our Story",
-        link: "/about/our-story",
+        name: "Contact us",
+        link: "/contact",
       },
       {
-        name: "Our Team",
-        link: "/about/our-team",
+        name: "Our Crew",
+        link: "/about/our-crew",
       },
       {
         name: "Our Fleet",
@@ -64,7 +81,7 @@ export const mobileNavbarLinks = [
     ],
   },
   {
-    name: "Apply Today",
+    name: "Enroll Today",
     link: "/enroll-now",
     submenu: [],
   },

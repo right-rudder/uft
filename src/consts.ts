@@ -24,8 +24,39 @@ export const LOCATIONS = [
     phone: "(941) 210-4410",
   },
 ];
-
+export const COURSES = [
+  {
+    1: {
+      title: "Private Pilot",
+      path: "private-pilot-course",
+    },
+    2: {
+      title: "Instrument Rating",
+      path: "instrument-rating",
+    },
+    3: {
+      title: "Commercial Pilot",
+      path: "commercial-pilot-training",
+    },
+    4: {
+      title: "Multi-Engine Rating",
+      path: "multi-engine-rating",
+    },
+    5: {
+      title: "Flight Instructor",
+      path: "certified-flight-instructor-cfi",
+    },
+    6: {
+      title: "Sport Pilot",
+      path: "sport-pilot",
+    },
+  },
+];
+    
 // CHANGE client business info
+export const COMPANY_NAME = "Universal Flight Training";
+export const COMPANY_NAME_CAPS = "UNIVERSAL FLIGHT TRAINING";
+export const COMPANY_NICKNAME = "UFT";
 export const PHONE_NUMBER = "(941) 210-4410";
 export const ADDRESS_LINE_1 = "8140 15th St E";
 export const ADDRESS_LINE_2 = "Sarasota, FL 34243";

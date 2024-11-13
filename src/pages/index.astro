@@ -1,7 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import homePage from "../data/homePage";
-import type { ImageMetadata } from "astro";
 import HeaderScreen from "../components/HeaderScreen.astro";
 import ProgramSwiper from "../components/ProgramSwiper.astro";
 import BentoGrid from "../components/BentoGrid.astro";
@@ -11,11 +10,10 @@ import Testimonials from "../components/Testimonials.astro";
 import ContentCTA from "../components/ContentCTA.astro";
 import flyWithUsCTA from "../data/flyWithUsCTA.js";
 import programsSwiper from "../data/programSwiper";
+import ContentDivisor from "../components/ContentDivisor.astro";
+import contentDivisor from "../data/content-divisor-data";
 
 const { data } = homePage;
-const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/assets/*.{jpeg,jpg,png,gif,webp}"
-);
 ---
 
 <BaseLayout
@@ -29,7 +27,8 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 
   <ProgramSwiper content={programsSwiper} />
   <ContentSplit content={data.whyUFT} />
-  <ContentCTA content={data.quizCTA} />
+  <!-- <ContentCTA content={data.quizCTA} /> -->
+  <ContentDivisor content={contentDivisor} />
   <Testimonials content={data.testimonials} />
   <CTAColor content={flyWithUsCTA} />
   <script src="../scripts/creativeSwiper.js"></script>
