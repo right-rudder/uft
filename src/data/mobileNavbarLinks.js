@@ -60,15 +60,15 @@ export const mobileNavbarLinks = [
   },
 
   {
-    name: "About",
-    submenu: [
+    title: "About",
+    links: [
       {
-        name: "Our Story",
-        link: "/about/our-story",
+        name: "Contact us",
+        link: "/contact",
       },
       {
-        name: "Our Team",
-        link: "/about/our-team",
+        name: "Our Crew",
+        link: "/about/our-crew",
       },
       {
         name: "Our Fleet",
