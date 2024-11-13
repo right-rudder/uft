@@ -60,8 +60,8 @@ export const mobileNavbarLinks = [
   },
 
   {
-    title: "About",
-    links: [
+    name: "About",
+    submenu: [
       {
         name: "Contact us",
         link: "/contact",
