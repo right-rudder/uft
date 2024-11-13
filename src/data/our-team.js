@@ -74,7 +74,7 @@ const ourTeam = {
             "Universal Flight Training Vice President Jacob Kyser",
         },
         {
-          name: `Carter Kerwin<br><small class="text-white font-normal text-sm">Intern</small>`,
+          name: `Carter Kerwin<br><small class="text-white font-normal text-sm">Admin</small>`,
           imagePath: "/src/assets/uft-Carter-Kerwin-Intern.jpg",
           imageAlt:
             "Universal Flight Training Intern Carter Kerwin",
