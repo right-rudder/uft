@@ -74,10 +74,10 @@ const ourTeam = {
             "Universal Flight Training Vice President Jacob Kyser",
         },
         {
-          name: `Joe Vasquez<br><small class="text-white font-normal text-sm">Chief Flight Instructor</small>`,
-          imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.jpg",
+          name: `Carter Kerwin<br><small class="text-white font-normal text-sm">Intern</small>`,
+          imagePath: "/src/assets/uft-Carter-Kerwin-Intern.jpg",
           imageAlt:
-            "Universal Flight Training Chief Flight Instructor Joe Vasquez",
+            "Universal Flight Training Intern Carter Kerwin",
         },
       ],
     },
@@ -89,12 +89,6 @@ const ourTeam = {
       description:
         "Our team of experienced flight instructors is dedicated to providing top-quality training and mentorship at every step of your aviation journey. With a deep passion for flying and years of expertise, our instructors are here to ensure you receive exceptional guidance and support, helping you stay focused and confident as you work toward achieving your aviation dreams with Universal Flight Training.",
       members: [
-        {
-          name: `Gary Nickasch<br><small class="text-white font-normal text-sm">Director of Flight Training and Standards</small>`,
-          imagePath: "/src/assets/uft-gary-nickasch-director-of-flight-training-and-standards.jpg",
-          imageAlt:
-            "Universal Flight Training Director of Flight Training and Standards Gary Nickasch",
-        },
         {
           name: `Joe Vasquez<br><small class="text-white font-normal text-sm">Chief Flight Instructor</small>`,
           imagePath: "/src/assets/uft-joe-vazquez-chief-instructor.jpg",
