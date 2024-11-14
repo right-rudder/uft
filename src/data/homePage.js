@@ -104,7 +104,7 @@ const homePage = {
       ],
       buttonText: "Leave Us a Review",
       buttonLink:
-        "https://www.google.com/search?client=firefox-b-d&q=universal+flight+training+flight+school#",
+        "https://search.google.com/local/writereview?placeid=ChIJc3mhi8w_w4gRnHFQZSqoiJA",
       reviews: [
         {
           body: "Our son Christian took his very first discovery flight at the age of 13 and it was an absolutely incredible experience!  That smile on his face says it all!  His instructor was so good with him and gave him some great information.  I would recommend this place to any future aviators, we will definitely be back!",
