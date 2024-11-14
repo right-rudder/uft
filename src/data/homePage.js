@@ -1,12 +1,17 @@
+import {
+  COMPANY_NAME,
+  SITE_DESCRIPTION,
+  KEYWORDS,
+} from "../consts";
+
 const homePage = {
   data: {
     //SEO Header Stuff
-    pageTitle:
-      "Universal Flight Training | Sarasota Flight School for Pilot Training",
+    pageTitle: `Sarasota Flight School for Pilot Training | ${COMPANY_NAME}`,
     pageDescription:
-      "Grow and scale your aviation business. Right Rudder Marketing specializes in aviation marketing services, helping flight schools and aviation companies increase visibility and grow enrollment. We offer tailored digital marketing solutions, including SEO, web design, and lead generation to help you reach more aspiring pilots. With proven aviation marketing strategies, we can help your flight school stand out in the competitive market and boost student enrollment efficiently.",
+      `${SITE_DESCRIPTION}`,
     pageKeywords:
-      "grow flight school, scale flight school, grow and scale flight school, aviation business, aviation training,Right Rudder Marketing, Aviation marketing, Flight school marketing, Aviation digital marketing, SEO for aviation, Digital marketing for flight schools, Aviation marketing agency, Lead generation for aviation companies, Increase flight school enrollment, Aviation advertising services, Content marketing for aviation businesses, Aviation marketing strategies, Aviation SEO services",
+      `${KEYWORDS}`,
 
     //top header
     header: {
