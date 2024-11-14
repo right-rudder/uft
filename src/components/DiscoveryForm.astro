@@ -52,7 +52,9 @@ const DISCOVERY_FLIGHT_WEBHOOK_URL = import.meta.env.DISCOVERY_FLIGHT_WEBHOOK_UR
                 ></path>
               </svg>
             </dt>
-            <dd>{content.address_1}<br />{content.address_2}</dd>
+            <a class="hover:text-gray-900" href={content.gmaps} target="_blank">
+              <dd>{content.address_1}<br />{content.address_2}</dd>
+            </a>
           </div>
           <div class="flex gap-x-4">
             <dt class="flex-none">

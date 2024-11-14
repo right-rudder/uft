@@ -60,6 +60,7 @@ export const COMPANY_NICKNAME = "UFT";
 export const PHONE_NUMBER = "(941) 210-4410";
 export const ADDRESS_LINE_1 = "8140 15th St E";
 export const ADDRESS_LINE_2 = "Sarasota, FL 34243";
+export const GMAPS = "https://maps.app.goo.gl/mmZCj4UVrcw1vaEXA";
 export const EMAIL_ADDRESS = "universalflight@gmail.com";
 export const FACEBOOK_URL = "https://www.facebook.com/fly.uft/";
 export const INSTAGRAM_URL = "https://www.instagram.com/flyuft/";
