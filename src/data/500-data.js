@@ -2,12 +2,13 @@ import {
   COMPANY_NAME,
   SITE_DESCRIPTION,
   KEYWORDS,
+  PHONE_NUMBER
 } from "../consts";
 
-const data404 = {
+const data500 = {
   data: {
     //SEO Header Stuff
-    pageTitle: `404 | ${COMPANY_NAME}`,
+    pageTitle: `500 | ${COMPANY_NAME}`,
     pageDescription:
       `${SITE_DESCRIPTION}`,
     pageKeywords:
@@ -16,11 +17,11 @@ const data404 = {
 
     header: {
       imagePath:
-        "/src/assets/uft-plane-taking-off-runway.jpg",
+        "/src/assets/crashed-plane-error-500.jpg",
       imageAlt: `${COMPANY_NAME} plane taking off`,
       headerH1: `well, this is <div class="bg-gradient-to-br from-accent-500 via-accent-200 to-accent-400 bg-clip-text text-transparent">AWKWARD</div>`,
       paragraph:
-        `It appears the page you're trying to access has already taken off, if you were trying to get some useful information please inform us so we can better accomodate your needs, otherwise just head on back to landing!`,
+        `It appears the form you were trying to send crashed (better here then on the runway right? you're right we shouldn't joke about that, sorry). Please call us on ${PHONE_NUMBER} for your request, also please notify our staff of this error. <br>Now back to landing with you!`,
       buttons: [
         {
           name: "Home Page",
@@ -28,8 +29,8 @@ const data404 = {
           primary: false,
         },
         {
-          name: "Contact us",
-          link: "/contact",
+          name: "Call Us",
+          link: `tel:${PHONE_NUMBER}`,
           primary: false,
         },
       ],
@@ -37,4 +38,4 @@ const data404 = {
   }
 };
 
-export default data404;
+export default data500;
