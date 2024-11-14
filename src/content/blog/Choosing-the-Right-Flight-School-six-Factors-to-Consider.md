@@ -3,7 +3,7 @@ pubDate: "August 8, 2024"
 author: Joe Vasquez
 title: "Choosing The Right Flight School - Six Factors To Consider"
 description: "Universal Flight Training "
-heroImage: "/public/blog/uft-plane-looking-out-the-door.jpg"
+heroImage: "/blog/uft-plane-looking-out-the-door.jpg"
 readingTime: 4
 category: "Announcements"
 tags: ["GIAD2024", "Provisions Shop"]
