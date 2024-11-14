@@ -5,6 +5,7 @@ import {
   PHONE_NUMBER,
   ADDRESS_LINE_1,
   ADDRESS_LINE_2,
+  GMAPS
 } from "../consts";
 
 const discoveryForm = {
@@ -23,7 +24,7 @@ const discoveryForm = {
       imageAlt: `${COMPANY_NAME} Fly Over Sunset`,
       headerH1: "Discovery Flight",
       paragraph:
-        `Sign up a discovery flight at ${COMPANY_NAME}. See what it feels to fly on one of our aircrafts!`,
+        `Sign up a discovery flight at ${COMPANY_NAME}. For only $249.99 see what it feels to fly on one of our aircrafts!`,
       buttons: [],
   
     },
@@ -31,6 +32,7 @@ const discoveryForm = {
     info:{
       address_1: ADDRESS_LINE_1,
       address_2: ADDRESS_LINE_2,
+      gmaps: GMAPS,
       phone_num: PHONE_NUMBER,
       email: EMAIL_ADDRESS,
       checkboxText: `I agree to <a href="/terms-of-service" target="_blank" class="font-semibold hover:underline">terms</a> & <a href="/privacy-policy" target="_blank" class="font-semibold hover:underline">conditions</a> provided by the company. By providing my phone number, I agree to receive text messages from the business.`,

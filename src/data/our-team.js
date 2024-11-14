@@ -1,11 +1,17 @@
+import {
+  COMPANY_NAME,
+  SITE_DESCRIPTION,
+  KEYWORDS,
+} from "../consts";
+
 const ourTeam = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Our Team | Universal Flight Training",
+    pageTitle: `About us | ${COMPANY_NAME}`,
     pageDescription:
-      "Our team of experienced pilots and instructors are dedicated to providing the highest quality flight training in Sarasota. Learn more about our team and how they can help you achieve your aviation goals.",
+      `${SITE_DESCRIPTION}`,
     pageKeywords:
-      "flight school, flight training, pilot training, aviation academy, flight instructors, aviation instructors, flight school instructors, aviation school instructors, flight school team, aviation academy team, flight instructors team, aviation instructors team",
+      `${KEYWORDS}, about us, meet the team, crew members`,
 
     //top header
     header: {
@@ -28,22 +34,23 @@ const ourTeam = {
       ],
     },
 
-    pageSummary: {
-      title: `About Us`,
-      paragraphs: [
-        "Universal Flight Training (UFT) is dedicated to providing top-tier, personalized flight instruction at Sarasota Bradenton International Airport. With a range of programs from Private Pilot to advanced certifications, we equip students with the skills and confidence needed to thrive in the skies. Our experienced instructors and diverse fleet ensure a high-quality, safe training experience tailored to each individual’s goals.",
-        "Beyond training, UFT serves the local aviation community with reliable aircraft maintenance and support services. Whether you’re beginning your aviation journey or seeking advanced skills, UFT is here to guide you every step of the way. Join us and discover a team committed to helping you reach new heights in aviation!",
-      ],
-    },
-
     staffGrid: {
       imagePath: "/src/assets/uft-entire-team-picture.jpg",
       imageAlt: "Universal Flight Training crew",    
       upperHeading: "Meet Our Team",
       heading: "About us",
       description:
-        `Universal Flight Training (UFT) was founded on a commitment to delivering exceptional, safe, and tailored flight instruction for aspiring and seasoned pilots alike. Located at Sarasota Bradenton International Airport, UFT provides a comprehensive range of flight training programs, from Private Pilot to advanced certifications, each designed to build confidence and competence in the skies. With a diverse fleet and a team of highly experienced Certified Flight Instructors, we ensure that every student receives personalized instruction that aligns with their goals and skill level. At UFT, we go beyond standard training, offering immersive experiences that prepare our students to excel in a dynamic aviation environment.<br>
-        Our mission is to inspire and equip the next generation of aviators through accessible, high-quality training in a supportive and professional atmosphere. We are proud to serve the Sarasota region and to be a trusted resource in the aviation community, not only for training but also for aircraft maintenance and support. Whether you’re just beginning your aviation journey or seeking advanced certifications, Universal Flight Training is here to guide you every step of the way, ensuring a rewarding and memorable experience that helps you achieve your dreams in aviation. Join us and take flight with a team that’s dedicated to your success!`,
+        `
+          Founded in 2010 by Jose, a retired Master Gunnery Sergeant in the U.S. Marine Corps, Universal Flight Training (UFT) is an aviation school dedicated to providing high-quality, personalized flight training at Sarasota Bradenton International Airport (SRQ). Jose’s vision of starting a flight school began in the late 80s when he earned his pilot’s license in Florida, but it was only after his final military deployment that he could bring this dream to life. Starting with just one aircraft and a small office, UFT has grown into a top choice for aspiring pilots in Sarasota and beyond, known for its student-centered approach and commitment to building lifelong connections with its graduates.<br>
+
+          At UFT, we believe in tailoring our programs to meet the unique goals and needs of each student. Whether you’re a career-changer, young adult, or college student, we offer flexible, custom training paths that allow you to excel at your own pace. Our range of courses spans Private Pilot Licenses (PPL) to advanced certifications like Certified Flight Instructor (CFI) and Multi-Engine Instructor (MEI), with accelerated and fast-track options available for those eager to advance quickly.<br>
+
+          With an impressive 98% checkride pass rate and over 500 graduates since our founding, UFT stands out for its experienced team of Certified Flight Instructors (CFIs) who collectively hold 30,000 flight hours. Our modern fleet of aircraft, including Cessna 172s, a PA-28 Archer, and a PA-44 with Garmin G1000, GNS430, and Avidyne systems, provides students with real-world experience on state-of-the-art equipment.<br>
+
+          For those interested in scenic flights, we offer discovery flights over some of Florida’s most stunning sights, including Anna Maria Island, Skyway Bridge, and Siesta Key.<br>
+
+          Join us at UFT and take the first step towards a rewarding aviation career, backed by experienced instructors, personalized training, and a supportive community.
+        `,
       members: [],
     },
 

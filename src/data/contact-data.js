@@ -1,11 +1,11 @@
 import {
   COMPANY_NAME,
-  COMPANY_NICKNAME,
   KEYWORDS,
   EMAIL_ADDRESS,
   PHONE_NUMBER,
   ADDRESS_LINE_1,
   ADDRESS_LINE_2,
+  GMAPS
 } from "../consts";
 
 const contactPage = {
@@ -39,7 +39,7 @@ const contactPage = {
         },
         {
           name: "Maintenance Form",
-          link: "/maintenance",
+          link: "/services/maintenance",
           primary: false,
         },
       ],
@@ -53,6 +53,7 @@ const contactPage = {
       form_p2: "Located at Sarasota Bradenton International Airport, we’re proud to serve both aspiring pilots and aircraft owners. Fill out the contact form, and one of our team members will be in touch soon to answer your questions or assist with your booking.",
       address_1: ADDRESS_LINE_1,
       address_2: ADDRESS_LINE_2,
+      gmaps: GMAPS,
       phone_num: PHONE_NUMBER,
       email: EMAIL_ADDRESS,
       // label: "Which maintenance service are you interested in?",

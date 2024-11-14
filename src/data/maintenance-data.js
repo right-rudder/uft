@@ -5,6 +5,7 @@ import {
   PHONE_NUMBER,
   ADDRESS_LINE_1,
   ADDRESS_LINE_2,
+  GMAPS
 } from "../consts";
 
 const maintenancePage = {
@@ -37,6 +38,7 @@ const maintenancePage = {
       form_p2: "Schedule your maintenance services with us today. Fill out the form to get started.",
       address_1: ADDRESS_LINE_1,
       address_2: ADDRESS_LINE_2,
+      gmaps: GMAPS,
       phone_num: PHONE_NUMBER,
       email: EMAIL_ADDRESS,
       label: "Which maintenance service are you interested in?",

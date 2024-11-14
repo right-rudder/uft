@@ -104,7 +104,7 @@ const homePage = {
       ],
       buttonText: "Leave Us a Review",
       buttonLink:
-        "https://www.google.com/search?client=firefox-b-d&q=universal+flight+training+flight+school#",
+        "https://search.google.com/local/writereview?placeid=ChIJc3mhi8w_w4gRnHFQZSqoiJA",
       reviews: [
         {
           body: "Our son Christian took his very first discovery flight at the age of 13 and it was an absolutely incredible experience!  That smile on his face says it all!  His instructor was so good with him and gave him some great information.  I would recommend this place to any future aviators, we will definitely be back!",
@@ -131,7 +131,7 @@ const homePage = {
           author: "Aldo M.",
         },
         {
-          body: "Great school with great instructors and well maintained planes. The owner Jose and all his staff are great people. One of the few places that offers a ground school course for both PPL and IFR. Ramp has easy access to taxiways for quick departures so it doesn’t run up the hobbs on you while also allowing you to gain valuable communications experience. KSRQ controllers are also very accommodating and know the tail numbers and work well with you for IFR training. Overall great experience and I highly recommend them.",
+          body: "Great school with great instructors and well maintained planes. The owner Jose and all his staff are great people. One of the few places that offers a ground school course for both PPL and IFR. Ramp has easy access to taxiways for quick departures so it doesn’t run up the hobbs on you while also allowing you to gain valuable communications experience. SRQ controllers are also very accommodating and know the tail numbers and work well with you for IFR training. Overall great experience and I highly recommend them.",
           author: "Eric S.",
         },
       ],
