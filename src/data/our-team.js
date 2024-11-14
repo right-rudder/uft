@@ -9,7 +9,7 @@ const ourTeam = {
     //SEO Header Stuff
     pageTitle: `About us | ${COMPANY_NAME}`,
     pageDescription:
-      `${COMPANY_NAME}`,
+      `${SITE_DESCRIPTION}`,
     pageKeywords:
       `${KEYWORDS}, about us, meet the team, crew members`,
 
