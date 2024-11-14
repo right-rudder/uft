@@ -33,15 +33,15 @@ const ourFleet = {
     pageSummary: {
       title: `Fly With Confidence`,
       paragraphs: [
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Donec id",
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Donec id",
+        "At Universal Flight Training, we take pride in offering a fleet of meticulously maintained aircraft, chosen to provide the best learning experience for students at every level. Our fleet includes two Cessna 172s equipped with advanced Garmin G1000 avionics, a traditional Cessna 172 for foundational training, a PA-28 Archer, and a PA-44 with a glass cockpit. Each aircraft in our fleet combines reliability and cutting-edge technology, allowing students to gain hands-on experience with both analog and digital systems, essential for today’s pilots. Our training planes are IFR-capable and ideal for those aiming to advance their skills in diverse flight conditions.",
+        "We understand the importance of accessible, high-quality training, which is why our fleet is available at competitive hourly rates. Whether you’re working toward your Private Pilot License, Instrument Rating, or a more advanced certification, our transparent pricing ensures you receive maximum value. Explore our fleet options and find the right aircraft to support your journey, from basic flight training to specialized certifications.",
       ],
     },
 
     fleetGrid: {
       upperHeading: "Explore",
-      heading: "Our Aircraft",
-      description: `Our fleet of aircraft is designed to provide you with a diverse range of training options, from single-engine aircraft to multi-engine aircraft. Each aircraft is meticulously maintained to ensure your safety and comfort during your training. Explore our fleet below to learn more about each aircraft and its capabilities.`,
+      heading: "Our Aircrafts",
+      description: `Our fleet of aircrafts is designed to provide you with a diverse range of training options, from single-engine aircraft to multi-engine aircraft. Each aircraft is meticulously maintained to ensure your safety and comfort during your training. Explore our fleet below to learn more about each aircraft and its capabilities.`,
       aircraft: [
         {
           title: "1975 Piper Archer II",
@@ -49,9 +49,9 @@ const ourFleet = {
           imageAlt:
             "Universal Flight Training Piper Archer II parked at the airport",
           description:
-            "The Piper Archer II is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Archer II is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.",
-          link: "#",
-          linkText: "Details",
+            `The Piper Archer II is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Archer II is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$179/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
+          link: "/contact",
+          linkText: "Fly Now",
         },
         {
           title: "2000 Cessna Skyhawk 172s",
@@ -59,27 +59,27 @@ const ourFleet = {
           imageAlt:
             "Universal Flight Training Cessna Skyhawk 172s parked at the airport",
           description:
-            "The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.",
-          link: "#",
-          linkText: "Details",
+            `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$179/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
+          link: "/contact",
+          linkText: "Fly Now",
         },
         {
           title: "2006 Cessna Skyhawk 172s",
           imagePath: "/src/assets/cessna-skyhawk-172s-aircraft-2006.webp",
           imageAlt: "Universal Flight Training Cessna Skyhawk 172s parked",
           description:
-            "The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.",
-          link: "#",
-          linkText: "Details",
+            `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$189/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
+          link: "/contact",
+          linkText: "Fly Now",
         },
         {
           title: "2008 Piper Seminole",
           imagePath: "/src/assets/piper-seminole-aircraft.webp",
           imageAlt: "Universal Flight Training Piper Seminole parked",
           description:
-            "The Piper Seminole is a multi-engine aircraft that is perfect for students who are looking to earn their multi-engine rating. The Seminole is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying multi-engine aircraft.",
-          link: "#",
-          linkText: "Details",
+            `The Piper Seminole is a multi-engine aircraft that is perfect for students who are looking to earn their multi-engine rating. The Seminole is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying multi-engine aircraft.<br>Rates:<br>$410/hr wet + $75/hr instructor`,
+          link: "/contact",
+          linkText: "Fly Now",
         },
       ],
     },
