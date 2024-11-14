@@ -20,7 +20,7 @@ export const LOCATIONS = [
     city: "Sarasota",
     state: "FL",
     zip: "34243",
-    gMaps: "https://g.co/kgs/y37xxhc",
+    gMaps: "https://maps.app.goo.gl/mmZCj4UVrcw1vaEXA",
     phone: "(941) 210-4410",
   },
 ];
