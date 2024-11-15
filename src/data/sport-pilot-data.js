@@ -90,12 +90,17 @@ const sportPilot = {
       ],
       finalParagraph:
         "Achieving your Sport Pilot Certificate with Universal Flight Training is an exciting accomplishment that lets you explore the world of aviation more affordably and efficiently. With the skills and experience gained here, you’ll be ready to embrace the freedom and fun of piloting Light Sport Aircraft in Tampa Bay and beyond.",
-      finalButton: {
-        name: "Enroll Now",
-        link: "/enroll-now",
-        primary: true,
+        rates: {
+          estCost: `$5,000 - $10,000*`,
+          estimate: `*The above estimated is based on FAA part 61 minimum requirements. Hourly rates and prices are subject to change. (Total cost can vary as the total time needed to complete the rating varies based on each student)`
+        },
+  
+        finalButton: {
+          name: "Enroll Now",
+          link: "/enroll-now",
+          primary: true,
+        },
       },
-    },
   },
 };
 export default sportPilot;
