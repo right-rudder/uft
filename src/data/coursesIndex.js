@@ -2,11 +2,11 @@ const coursesIndex = {
   data: {
     //SEO Header Stuff
     pageTitle:
-      "Training Courses | Sarasota Flight School for Pilot Training",
+      "Training Courses | Universal Flight Training",
     pageDescription:
-      "Grow and scale your aviation business. Right Rudder Marketing specializes in aviation marketing services, helping flight schools and aviation companies increase visibility and grow enrollment. We offer tailored digital marketing solutions, including SEO, web design, and lead generation to help you reach more aspiring pilots. With proven aviation marketing strategies, we can help your flight school stand out in the competitive market and boost student enrollment efficiently.",
+      "Explore Universal Flight Training’s full range of aviation courses, from Private Pilot License to advanced certifications like Instrument Rating, Multi-Engine, and Certified Flight Instructor. Flexible programs tailored to fit your schedule and career goals.",
     pageKeywords:
-      "pilot training sarasota, flight training near me, pilot license florida, flying license",
+      "flight training courses Sarasota, aviation certifications, private to commercial pilot, multi-engine rating training, CFI courses Florida, aviation school programs",
   
         //top header
         header: {
