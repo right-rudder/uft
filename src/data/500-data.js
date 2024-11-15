@@ -10,9 +10,9 @@ const data500 = {
     //SEO Header Stuff
     pageTitle: `500 | ${COMPANY_NAME}`,
     pageDescription:
-      `${SITE_DESCRIPTION}`,
+      `This page shows error 500`,
     pageKeywords:
-      `${KEYWORDS}`,
+      `error 500`,
 
 
     header: {
