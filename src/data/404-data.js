@@ -9,9 +9,9 @@ const data404 = {
     //SEO Header Stuff
     pageTitle: `404 | ${COMPANY_NAME}`,
     pageDescription:
-      `${SITE_DESCRIPTION}`,
+      `This page shows a 404 error`,
     pageKeywords:
-      `${KEYWORDS}`,
+      `404 error`,
 
 
     header: {
