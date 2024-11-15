@@ -92,6 +92,12 @@ const commercialPilot = {
       ],
       finalParagraph:
         "Achieving your Commercial Pilot Certificate with Universal Flight Training is a significant accomplishment that positions you for a rewarding career in aviation. With the skills, experience, and professionalism you’ll develop here, you’ll be ready to launch your journey as a commercial pilot and pursue exciting opportunities in the aviation industry.",
+      
+      rates: {
+        estCost: `$34,000 - $40,000*`,
+        estimate: `*The above estimated is based on FAA part 61 minimum requirements. Hourly rates and prices are subject to change. (Total cost can vary as the total time needed to complete the rating varies based on each student)`
+      },
+
       finalButton: {
         name: "Enroll Now",
         link: "/enroll-now",
