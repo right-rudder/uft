@@ -92,12 +92,17 @@ const instrumentRating = {
       ],
       finalParagraph:
         "With your Instrument Rating, you’ll be equipped to fly through clouds and challenging weather, expanding your capabilities as a pilot and enhancing your cross-country and safety skills. Here at Universal Flight Training, our goal is to make this journey smooth, informative, and rewarding, so you’re ready to take on the skies confidently under IFR.",
-      finalButton: {
-        name: "Enroll Now",
-        link: "/enroll-now",
-        primary: true,
-      },
-    },
+      
+        rates: {
+          estCost: `$11,100 - $14,000*`,
+          estimate: `*The above estimated is based on FAA part 61 minimum requirements. Hourly rates and prices are subject to change. (Total cost can vary as the total time needed to complete the rating varies based on each student)`
+        },
+  
+        finalButton: {
+          name: "Enroll Now",
+          link: "/enroll-now",
+          primary: true,
+        },    },
   },
 };
 export default instrumentRating;
