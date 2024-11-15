@@ -83,6 +83,10 @@ const flightInstructor = {
       ],
       finalParagraph:
         "Becoming a Certified Flight Instructor with Universal Flight Training is not only a step forward in your own aviation career but also a chance to inspire the next generation of pilots. Join us and begin this rewarding path, knowing that each student you teach will benefit from your dedication and expertise.",
+      rates: {
+        estCost: `$5200*`,
+        estimate: `*Total cost can vary as the total time needed to complete the rating varies based on each student`
+      },
       finalButton: {
         name: "Enroll Now",
         link: "/enroll-now",
