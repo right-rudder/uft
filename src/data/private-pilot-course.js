@@ -111,12 +111,17 @@ const privatePilotCourse = {
       ],
       finalParagraph:
         "Completing your Private Pilot License with Universal Flight Training gives you the skills and certification to fly confidently and independently.",
-      finalButton: {
-        name: "Enroll Now",
-        link: "/enroll-now",
-        primary: true,
+        rates: {
+          estCost: `$10,000-$13,000*`,
+          estimate: `*The above estimated is based on FAA part 61 minimum requirements. Hourly rates and prices are subject to change. (Total cost can vary as the total time needed to complete the rating varies based on each student)`
+        },
+  
+        finalButton: {
+          name: "Enroll Now",
+          link: "/enroll-now",
+          primary: true,
+        },
       },
-    },
   },
 };
 export default privatePilotCourse;
