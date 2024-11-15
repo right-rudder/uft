@@ -3,9 +3,9 @@ const privatePilotCourse = {
     //SEO Header Stuff
     pageTitle: "PRIVATE PILOT COURSE | Universal Flight Training",
     pageDescription:
-      "Grow and scale your aviation business. Right Rudder Marketing specializes in aviation marketing services, helping flight schools and aviation companies increase visibility and grow enrollment. We offer tailored digital marketing solutions, including SEO, web design, and lead generation to help you reach more aspiring pilots. With proven aviation marketing strategies, we can help your flight school stand out in the competitive market and boost student enrollment efficiently.",
+      "Start your aviation journey with UFT’s Private Pilot Course. Learn the fundamentals of flying with expert instructors and modern aircraft, earning your PPL to explore the skies with confidence.",
     pageKeywords:
-      "PRIVATE PILOT COURSE, PRIVATE PILOT training, Private Pilot Certificate, pilot training, aviation training, sarasota flight school, sarasota pilot training",
+      "Private Pilot Course, PPL training Sarasota, learn to fly Florida, aviation school for beginners, private pilot license, introductory flight training",
 
     //top header
     header: {

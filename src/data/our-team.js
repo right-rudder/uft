@@ -8,11 +8,8 @@ const ourTeam = {
   data: {
     //SEO Header Stuff
     pageTitle: `About us | ${COMPANY_NAME}`,
-    pageDescription:
-      `${SITE_DESCRIPTION}`,
-    pageKeywords:
-      `${KEYWORDS}, about us, meet the team, crew members`,
-
+    pageDescription: "Learn about Universal Flight Training, Sarasota’s premier aviation school offering flexible and personalized flight training. With a 98% checkride pass rate and over 500 graduates, we provide top-notch instruction, modern aircraft, and tailored programs to help you achieve your aviation goals.",
+    pageKeywords: "Universal Flight Training, Sarasota aviation school, personalized flight training, 98% checkride pass rate, modern aircraft fleet, pilot training Sarasota, aviation school in Florida",
     //top header
     header: {
       imagePath: "/src/assets/cessna-in-uft-hangar.jpg",
