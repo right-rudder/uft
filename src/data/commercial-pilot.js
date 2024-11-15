@@ -3,9 +3,9 @@ const commercialPilot = {
     //SEO Header Stuff
     pageTitle: "COMMERCIAL PILOT TRAINING | Universal Flight Training",
     pageDescription:
-      "Grow and scale your aviation business. Right Rudder Marketing specializes in aviation marketing services, helping flight schools and aviation companies increase visibility and grow enrollment. We offer tailored digital marketing solutions, including SEO, web design, and lead generation to help you reach more aspiring pilots. With proven aviation marketing strategies, we can help your flight school stand out in the competitive market and boost student enrollment efficiently.",
+      "Advance your aviation career with UFT's Commercial Pilot Course. Master advanced flight maneuvers, build flight hours, and gain the skills required to work as a professional pilot with our experienced instructors and modern fleet.",
     pageKeywords:
-      "PRIVATE PILOT COURSE, PRIVATE PILOT training, Private Pilot Certificate, pilot training, aviation training, sarasota flight school, sarasota pilot training",
+      "Commercial Pilot Course, professional pilot training, CPL training Sarasota, commercial aviation career, flight hours building, aviation school Florida",
 
     //top header
     header: {
