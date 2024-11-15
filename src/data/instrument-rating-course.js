@@ -3,9 +3,9 @@ const instrumentRating = {
     //SEO Header Stuff
     pageTitle: "INSTRUMENT RATING COURSE | Universal Flight Training",
     pageDescription:
-      "Grow and scale your aviation business. Right Rudder Marketing specializes in aviation marketing services, helping flight schools and aviation companies increase visibility and grow enrollment. We offer tailored digital marketing solutions, including SEO, web design, and lead generation to help you reach more aspiring pilots. With proven aviation marketing strategies, we can help your flight school stand out in the competitive market and boost student enrollment efficiently.",
+      "Elevate your flying skills with UFT’s Instrument Rating Course. Learn to navigate and operate safely in low-visibility conditions using advanced avionics and expert guidance from our experienced instructors.",
     pageKeywords:
-      "PRIVATE PILOT COURSE, PRIVATE PILOT training, Private Pilot Certificate, pilot training, aviation training, sarasota flight school, sarasota pilot training",
+      "Instrument Rating Course, IFR training Sarasota, flight training in low visibility, instrument pilot certification, advanced aviation training, Garmin G1000 training",
 
     //top header
     header: {
