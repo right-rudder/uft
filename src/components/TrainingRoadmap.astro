@@ -89,6 +89,16 @@ const { content } = Astro.props;
         set:html={content.finalParagraph}
       />
       {
+        content.rates && (
+        <p
+          class="text-center mx-auto font-medium text-xl max-w-5xl"
+        >
+          <br>Estimated Cost: {content.rates.estCost}<br>
+          <small>{content.rates.estimate}</small>
+        </p>
+        )
+      }
+      {
         content.finalButton && (
           <div class="mt-6 flex flex-wrap justify-center w-full align-middle items-center gap-6 z-10">
             <a
