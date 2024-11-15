@@ -74,12 +74,17 @@ const multiEngineRating = {
       ],
       finalParagraph:
         "With a Multi-Engine Rating from Universal Flight Training, you’ll unlock new possibilities in aviation, including the chance to fly more complex aircraft and pursue advanced commercial opportunities. Our team is here to support your journey, providing high-quality training and resources to help you excel in multi-engine flying.",
-      finalButton: {
-        name: "Enroll Now",
-        link: "/enroll-now",
-        primary: true,
+        rates: {
+          estCost: `$5,085*`,
+          estimate: `*The above estimated is based on FAA part 61 minimum requirements. Hourly rates and prices are subject to change. (Total cost can vary as the total time needed to complete the rating varies based on each student)`
+        },
+  
+        finalButton: {
+          name: "Enroll Now",
+          link: "/enroll-now",
+          primary: true,
+        },
       },
-    },
   },
 };
 export default multiEngineRating;
