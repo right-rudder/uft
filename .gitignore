@@ -7,4 +7,6 @@ dist
 src/.DS_Store
 .env
 .astro
+.astro/
+.astro/*
 /astro
