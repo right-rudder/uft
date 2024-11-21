@@ -51,7 +51,7 @@ Pilot training is a significant investment, so it's important to understand the 
 
 Transparent pricing and available financial aid options can make flight training more accessible. Knowing the full cost upfront helps in financial planning and avoids unexpected expenses.
 
-Universal Flight Training provides transparent pricing and several financing options to help manage the cost of training. The academy’s efficient use of simulators and flexible payment plans ensure that students can achieve their training goals without financial strain. Additionally, Alto offers competitive rates for aircraft rental and training services.
+Universal Flight Training provides transparent pricing and several financing options to help manage the cost of training. The academy’s efficient use of simulators and flexible payment plans ensure that students can achieve their training goals without financial strain. Additionally, UFT offers competitive rates for aircraft rental and training services.
 
 #### 6. **Additional Services and Support**
 
@@ -67,4 +67,4 @@ Part 61 flight schools offer a personalized training experience. Unlike Part 141
 
 ### Conclusion
 
-Choosing the right flight school is a critical decision that affects your entire aviation career. Universal Flight Training stands out by meeting and exceeding key criteria, offering flexible and comprehensive training under Part 61 regulations. For more information on how Alto can help you achieve your aviation goals, visit their [website](https://flyuft.com) and take the first step towards your pilot career today.
+Choosing the right flight school is a critical decision that affects your entire aviation career. Universal Flight Training stands out by meeting and exceeding key criteria, offering flexible and comprehensive training under Part 61 regulations. For more information on how UFT can help you achieve your aviation goals, visit their [website](https://flyuft.com) and take the first step towards your pilot career today.
