@@ -10,7 +10,7 @@ const flightInstructor = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
+      imagePath: "/src/assets/uft-avel-chuklanov-copilot-over-shoulder.jpg",
       imageAlt: "universal flight training CFI cover, sourced from unsplash, picture by Avel Chuklanov",
       headerH1: `Certified Flight Instructor <br class="hidden lg:block" ><span class="text-accent-200">Course</span>`,
       paragraph:
@@ -77,7 +77,7 @@ const flightInstructor = {
             "The final step to obtaining your CFI certification is passing the FAA knowledge and practical exams. These exams test your understanding of instructional principles and aeronautical knowledge, as well as your ability to perform and teach flight maneuvers. Universal Flight Training offers personalized checkride preparation sessions to help you approach this final stage with confidence.",
             "Once you pass the exams, you’ll officially earn your CFI certificate, enabling you to begin teaching students and building valuable flight hours toward even higher-level aviation opportunities.",
           ],
-          imagePath: "/src/assets/avery-evans-7rRH23jkIwo-unsplash.jpg",
+          imagePath: "/src/assets/uft-avery-evans-studying.jpg",
           imageAlt: "Picture of a person studying for a test, sourced from unsplash, piture by Avery Evans",
         },
       ],

@@ -51,7 +51,7 @@ const privatePilotCourse = {
             "To start your journey toward a Private Pilot License, you’ll need to meet a few basic eligibility requirements set by the FAA. Here at Universal Flight Training, we help guide you through this process, which includes obtaining a third-class medical certificate (or higher) from an FAA-authorized aviation medical examiner. This medical clearance ensures you’re ready to begin training and handle the responsibilities of flying.",
             "In addition to the medical exam, you’ll need to be at least 17 years old and able to read, speak, write, and understand English. Once cleared, you’re ready to start flight training!",
           ],
-          imagePath: "/src/assets/cdc-XdErxxR6Xog-unsplash.jpg",
+          imagePath: "/src/assets/uft-cdc-medical-exam.jpg",
           imageAlt: "Picture of a medical exam, sourced from unsplash, piture by CDC",
         },
         {
@@ -96,7 +96,7 @@ const privatePilotCourse = {
             "Before moving to your checkride, you’ll need to pass the FAA Knowledge Test, a written exam covering key topics from ground school. At Universal Flight Training, our ground school sessions are designed to thoroughly prepare you for this exam. We provide test preparation materials and practice exams to ensure you’re ready to succeed.",
             "Our instructors will support you every step of the way, helping you master the material and pass with confidence.",
           ],
-          imagePath: "/src/assets/jason-coudriet-dc80wb2nRHk-unsplash.jpg",
+          imagePath: "/src/assets/uft-jason-coudriet-studying.jpg",
           imageAlt: "Picture of a person taking a test, sourced from unsplash, piture by Jason Coudriet",
         },
         {
@@ -105,7 +105,7 @@ const privatePilotCourse = {
             "The final step is the checkride, an FAA-administered test that includes both an oral and practical exam. During the oral portion, you’ll demonstrate your knowledge of aviation principles, regulations, and safety procedures. In the practical portion, you’ll perform a series of flight maneuvers with an FAA examiner to showcase your flying skills.",
             "At Universal Flight Training, our instructors prepare you thoroughly for this assessment, providing mock checkrides and personalized feedback to help you succeed. Once you pass, you’ll receive your Private Pilot Certificate and can act as PIC in a single-engine airplane under Visual Flight Rules (VFR).",
           ],
-          imagePath: "/src/assets/avel-chuklanov-ZEiqbaQhmvE-unsplash.jpg",
+          imagePath: "/src/assets/uft-avel-chuklanov-pilots-sunset.jpg",
           imageAlt: "Picture of two people flying an airplane, sourced from unsplash, piture by Avel Chuklanov",
         },
       ],

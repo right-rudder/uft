@@ -20,7 +20,7 @@ const discoveryForm = {
 
     header: {
       imagePath:
-        "/src/assets/nicolas-jossi-ERUiIwjIf3Q-unsplash.jpg",
+        "/src/assets/uft-nicolas-jossi-pilot-flying-plane-sunset.jpg",
       imageAlt: `${COMPANY_NAME} Fly Over Sunset`,
       headerH1: "Discovery Flight",
       paragraph:

@@ -75,9 +75,9 @@ const DISCOVERY_FLIGHT_WEBHOOK_URL = import.meta.env.DISCOVERY_FLIGHT_WEBHOOK_UR
               </svg>
             </dt>
             <dd>
-              <a class="hover:text-gray-900" href={`tel:${content.phone_num}`}
-                >{content.phone_num}</a
-              >
+              <a aria-labelledby="Call Us Now" title="Call Us Now" class="hover:text-gray-900" href={`tel:${content.phone_num}`}>
+                {content.phone_num}
+              </a>
             </dd>
           </div>
           <div class="flex gap-x-4">

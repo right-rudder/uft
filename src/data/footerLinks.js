@@ -38,27 +38,27 @@ export const footerLinks = [
         link: "/pilot-training-guide",
       },
       {
-        name: "PPC",
+        name: "Private Pilot",
         link: "/programs/private-pilot-course",
       },
       {
-        name: "IR",
+        name: "Instrument",
         link: "/programs/instrument-rating",
       },
       {
-        name: "CPL",
+        name: "Commercial Pilot",
         link: "/programs/commercial-pilot-training",
       },
       {
-        name: "ME Rating",
+        name: "Multi-Engine",
         link: "/programs/multi-engine-rating",
       },
       {
-        name: "CFI",
+        name: "Flight Instructor",
         link: "/programs/certified-flight-instructor-cfi",
       },
       {
-        name: "SP",
+        name: "Sport Pilot",
         link: "/programs/sport-pilot",
       },
     ],

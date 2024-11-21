@@ -15,7 +15,7 @@ const catsPage = {
     header: {
       stars: true,
       imagePath:
-        "/src/assets/headway-5QgIuuBxKwM-unsplash.jpg",
+        "/src/assets/uft-headway-person-studying.jpg",
       imageAlt: `${COMPANY_NAME} sourced from unsplash, image by headway`,
       headerH1: `<div class="bg-gradient-to-br from-accent-500 via-accent-200 to-accent-400 bg-clip-text text-transparent">Certified</div>CATS TESTING<br class="hidden lg:block" >`,
       paragraph:
@@ -34,7 +34,7 @@ const catsPage = {
         "Ready to take the next step? Scheduling your exam is easy—simply visit the FAA’s official testing portal, enter our site number (LAS34204), and choose your preferred time slot. For additional assistance or more information, feel free to reach out to our team. We’re here to support you in every step toward achieving your aviation goals.",
       ],
       imageLegend: `CATS Testing Facility`,
-      imagePath: "/src/assets/thisisengineering-f4pUuCc3M0g-unsplash.jpg",
+      imagePath: "/src/assets/uft-thisisengineering-graphs-on-laptop.jpg",
       imageAlt: "UFT sourced from unsplash, image by thisisengineering",
       buttons: [
         {

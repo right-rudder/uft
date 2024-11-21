@@ -75,7 +75,7 @@ const sportPilot = {
             "To certify your understanding of sport pilot regulations and operations, you’ll need to pass the FAA Sport Pilot written exam. Universal Flight Training supports you with comprehensive exam preparation resources, including practice tests and one-on-one review sessions to clarify any questions.",
             "With our support, you’ll approach the exam with confidence, fully prepared to demonstrate your knowledge in areas like regulations, basic aerodynamics, and flight safety.",
           ],
-          imagePath: "/src/assets/avery-evans-7rRH23jkIwo-unsplash.jpg",
+          imagePath: "/src/assets/uft-avery-evans-studying.jpg",
           imageAlt: "Picture of a person studying for a test, sourced from unsplash, piture by Avery Evans",
         },
         {

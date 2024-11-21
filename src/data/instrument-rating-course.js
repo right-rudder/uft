@@ -10,7 +10,7 @@ const instrumentRating = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/kristopher-allison-KU4zYj4u0mo-unsplash.jpg",
+      imagePath: "/src/assets/uft-kristopher-allison-pilot-flying-plane.jpg",
       imageAlt: "Picture of a pilot flying aircraft under cloudy sky, sourced from unsplash, piture by Kristopher Allison",
       headerH1: `Instrument Rating <br class="hidden lg:block" ><span class="text-accent-200">Course</span>`,
       paragraph:
@@ -68,7 +68,7 @@ const instrumentRating = {
             "With simulator hours complete, you’ll transition to flying Universal Flight Training’s modern Cessna aircraft, which are equipped with advanced avionics designed to make your instrument training smooth and enjoyable. During this stage, you’ll conduct 40 hours of hooded and cross-country flying under instrument conditions, supervised by a certified flight instructor (CFI) to ensure safe and effective training.",
             "This phase focuses on safely navigating through clouds, managing IFR clearances, and precisely following instrument approaches. You’ll also gain valuable experience flying longer cross-country routes, which is ideal for developing your skills in navigation and adherence to IFR flight plans.",
           ],
-          imagePath: "/src/assets/kristopher-allison-KU4zYj4u0mo-unsplash.jpg",
+          imagePath: "/src/assets/uft-kristopher-allison-pilot-flying-plane.jpg",
           imageAlt: "Picture of a pilot flying aircraft under cloudy sky, sourced from unsplash, piture by Kristopher Allison",
         },
         {
@@ -77,7 +77,7 @@ const instrumentRating = {
             "After completing your flight hours, the next step is to pass the FAA Instrument Knowledge Test. At Universal Flight Training, we provide personalized support, including review sessions and exam preparation materials, to help you confidently approach this written exam. Our instructors will guide you through practice tests and key concepts to ensure you’re ready for the questions on IFR regulations, navigation, and weather analysis.",
             "A passing score on this exam is essential for eligibility for the instrument checkride, bringing you one step closer to earning your Instrument Rating.",
           ],
-          imagePath: "/src/assets/jason-coudriet-dc80wb2nRHk-unsplash.jpg",
+          imagePath: "/src/assets/uft-jason-coudriet-studying.jpg",
           imageAlt: "Picture of a person taking a test, sourced from unsplash, piture by Jason Coudriet",
         },
         {

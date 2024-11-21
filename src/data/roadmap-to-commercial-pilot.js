@@ -33,7 +33,7 @@ const Roadmap = {
           "Commercial pilot training focuses on advanced maneuvers, including emergency procedures, precision landings, and complex aircraft operations. This certification not only increases your proficiency but also opens doors to many professional opportunities in aviation. With a Commercial Pilot Certificate, you take a significant step toward fulfilling the dream of flying commercially and preparing for airline employment.",
         ],
         imagePath: "/src/assets/uft-commercial-pilot-training.jpg",
-        imageAlt: "placeholder",
+        imageAlt: "UFT pilots looking back inside plane",
       },
       {
         title: "Earn Flight Instructor Certificate",
@@ -61,7 +61,7 @@ const Roadmap = {
           "With the foundational certificates and ratings complete, the next phase is building experience. Most airlines require applicants to hold an Airline Transport Pilot (ATP) Certificate, which includes a minimum of 1,500 hours of flight time. Flight instructing, banner towing, or other commercial pilot roles are common ways to accumulate these hours while gaining experience in diverse flight conditions and honing your skills.",
           "Once you reach between 500 and 1,500 hours, you can begin interviewing with airlines for a First Officer position. The interview process typically includes both technical questions, where you demonstrate your piloting knowledge, and an HR interview to assess your fit within the airline’s culture. Successful candidates receive a conditional offer of employment, setting them on the final path to becoming a commercial airline pilot.",
         ],
-        imagePath: "/src/assets/tim-gouw-bwki71ap-y8-unsplash.jpg",
+        imagePath: "/src/assets/uft-tim-gouw-women-meeting-interview.jpg",
         imageAlt: "Picture of a job interview, sourced from unsplash, piture by Tim Gouw",
       },
       {
