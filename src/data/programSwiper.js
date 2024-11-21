@@ -36,7 +36,7 @@ const programsSwiper = {
       imagePath:
         "/src/assets/uft-multi-engine-rating-course-picture.webp",
       imageAlt:
-        "Universal Flight Training Multi-Engine Rating course cover picture",
+        "UFT's multi-engine aircraft, blue skies",
       description:
         "Master the art of multi engine flying and unlock new horizons in your aviation career.",
       link: "/programs/multi-engine-rating",
@@ -45,7 +45,7 @@ const programsSwiper = {
       title: "Certified Flight Instructor",
       imagePath: "/src/assets/uft-certified-flight-instructor-course-picture.webp",
       imageAlt:
-        "Universal Flight Training Certified Flight Instructor course cover picture",
+        "UFT's CFI flying aircraft, cockpit view",
       description:
         "Become a trusted guide in the world of aviation. Become a CFI and teach others to fly.",
       link: "/programs/certified-flight-instructor-cfi",
@@ -54,7 +54,7 @@ const programsSwiper = {
       title: "Sport Pilot",
       imagePath: "/src/assets/tl-sparker.webp",
       imageAlt:
-        "TL Sport Aircraft - The Sparker picture sourced from tlsportaircraft.com",
+        "TL Sport Aircraft flying over clouds",
       description:
         "Take flight, live light! Discover freedom in the sky with our Sport Pilot Course.",
       link: "/programs/sport-pilot",
