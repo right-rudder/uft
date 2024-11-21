@@ -10,7 +10,7 @@ const commercialPilot = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/nicolas-jossi-ERUiIwjIf3Q-unsplash.jpg",
+      imagePath: "/src/assets/uft-nicolas-jossi-pilot-flying-plane-sunset.jpg",
       imageAlt: "Picture of pilot and co pilot inside plane, sourced from unsplash, piture by Nicolas Jossi",
       headerH1: `Commercial Pilot <br class="hidden lg:block" ><span class="text-accent-200">Course</span>`,
       paragraph:
@@ -59,7 +59,7 @@ const commercialPilot = {
             "After ground instruction, you’ll move into the flight training phase. With a total of 170 flight hours, Universal Flight Training offers extensive hands-on practice that reinforces advanced flight techniques. Of these, 55 hours are dedicated to one-on-one instruction from our certified flight instructors, who will guide you through complex maneuvers, night flying, and cross-country flights under professional standards.",
             "This phase hones your flying precision, smoothness, and command, developing your ability to operate as a pilot in command with the responsibility required in commercial aviation. You’ll also gain experience in various types of airspace, building the situational awareness and skillset necessary for commercial flying.",
           ],
-          imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
+          imagePath: "/src/assets/uft-avel-chuklanov-copilot-over-shoulder.jpg",
           imageAlt: "Picture of co pilot inside plane, sourced from unsplash, piture by Avel Chuklanov",
         },
         {
@@ -68,7 +68,7 @@ const commercialPilot = {
             "As a future commercial pilot, you’ll need a second-class medical certificate, which certifies that you meet the physical and mental requirements set by the FAA for commercial pilots. Universal Flight Training can provide guidance on finding an FAA-authorized Aviation Medical Examiner to complete this step smoothly.",
             "This medical certificate not only ensures your readiness for commercial flying but also verifies that you’re in excellent health to handle the demands of a professional aviation career.",
           ],
-          imagePath: "/src/assets/chang-duong-nDi4YTMKP-g-unsplash.jpg",
+          imagePath: "/src/assets/uft-chang-duong-medical-exam.jpg",
           imageAlt: "Picture of a medical examinations, sourced from unsplash, piture by Chang Duong",
         },
         {
@@ -77,7 +77,7 @@ const commercialPilot = {
             "To demonstrate your knowledge of commercial flight operations, you’ll need to pass the FAA Commercial Pilot written exam. Universal Flight Training offers exam preparation resources, including access to practice tests, review sessions, and instructor support to help you feel confident and prepared.",
             "Our team will work closely with you to ensure you understand key topics such as complex flight operations, federal regulations, and performance calculations, enabling you to approach the exam with clarity and confidence.",
           ],
-          imagePath: "/src/assets/avery-evans-7rRH23jkIwo-unsplash.jpg",
+          imagePath: "/src/assets/uft-avery-evans-studying.jpg",
           imageAlt: "Picture of a person studying for a test, sourced from unsplash, piture by Avery Evans",
         },
         {
@@ -86,7 +86,7 @@ const commercialPilot = {
             "The final step to earning your Commercial Pilot Certificate is the checkride, a comprehensive assessment that includes both an oral and a practical exam. At Universal Flight Training, we prepare you for this stage with detailed mock checkrides, one-on-one review sessions, and focused feedback to help you succeed.",
             "This checkride evaluates your knowledge and ability to perform commercial-level maneuvers, as well as your understanding of regulations and procedures. Passing this checkride grants you the Commercial Pilot Certificate, officially qualifying you to work as a commercial pilot.",
           ],
-          imagePath: "/src/assets/avel-chuklanov-ZEiqbaQhmvE-unsplash.jpg",
+          imagePath: "/src/assets/uft-avel-chuklanov-pilots-sunset.jpg",
           imageAlt: "Picture of two people flying an airplane, sourced from unsplash, piture by Avel Chuklanov",
         },
       ],

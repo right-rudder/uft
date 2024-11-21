@@ -115,7 +115,7 @@ const ourFleet = {
     },
 
     flyWithUsCTA: {
-      imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
+      imagePath: "/src/assets/uft-avel-chuklanov-copilot-over-shoulder.jpg",
       imageAlt: "Right Rudder Marketing team on the runway",
       headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
       paragraph:

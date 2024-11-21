@@ -59,7 +59,7 @@ const multiEngineRating = {
             "Once you’re familiar with the principles of multi-engine flight, you’ll begin hands-on training in our dedicated multi-engine aircraft. This 10-hour flight training block includes dual instruction, allowing you to gain practical experience in managing two engines simultaneously and handling emergencies, such as an engine failure during flight.",
             "At Universal Flight Training, our experienced instructors will guide you through advanced maneuvers, single-engine operation, and the unique flight dynamics that come with a twin-engine plane. This focused flight time builds the skill and confidence needed for safe, proficient multi-engine operations.",
           ],
-          imagePath: "/src/assets/kristopher-allison-KU4zYj4u0mo-unsplash.jpg",
+          imagePath: "/src/assets/uft-kristopher-allison-pilot-flying-plane.jpg",
           imageAlt: "Picture of a pilot flying a plane, sourced from unsplash, piture by Kristopher Allison",
         },
         {
@@ -68,7 +68,7 @@ const multiEngineRating = {
             "The final step in earning your Multi-Engine Rating is the checkride, which includes both an oral and practical exam to assess your knowledge and flying ability in a multi-engine environment. Here at Universal Flight Training, we offer mock checkrides, detailed feedback, and one-on-one prep sessions to ensure you’re fully ready for this final evaluation.",
             "During the checkride, you’ll demonstrate essential skills such as handling engine-out scenarios, executing precise multi-engine maneuvers, and applying proper procedures in a range of flight conditions. Passing the checkride officially qualifies you to operate multi-engine aircraft, expanding your opportunities and enhancing your skillset as a pilot.",
           ],
-          imagePath: "/src/assets/B07I6838_Small_Web-e1559673395429-1650x926.jpg",
+          imagePath: "/src/assets/uft-piper-multi-engine-aircraft.jpg",
           imageAlt: "Picture of a multi-engine plane flying, sourced from piper.com",
         },
       ],

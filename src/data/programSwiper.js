@@ -8,7 +8,7 @@ const programsSwiper = {
       title: "Private Pilot",
       imagePath: "/src/assets/uft-private-pilot.webp",
       imageAlt:
-        "Photograph of a plane", //Change later - more info
+        "Photograph of a UFT plane on runway",
       description:
         "Your passport to the skies! Learn to pilot your dreams with our Private Pilot Course.",
       link: "/programs/private-pilot-course",
@@ -17,7 +17,7 @@ const programsSwiper = {
       title: "Instrument Rating",
       imagePath: "/src/assets/uft-intrument-rating.webp",
       imageAlt:
-        "Photograph of assistive equipment", //Change later
+        "Photograph of a UFT plane's assistive equipment",
       description:
         "Navigate through clouds and the skies with precision through our Instrument Rating course.",
       link: "/programs/instrument-rating",
@@ -26,7 +26,7 @@ const programsSwiper = {
       title: "Commercial Pilot",
       imagePath: "/src/assets/uft-commercial-pilot-course-picture.webp",
       imageAlt:
-        "Photograph of plane's propellers",
+        "Photograph of a UFT plane's propellers",
       description:
         "Start your pilot career with our Commercial Pilot Course. Your path to the captain's seat is here.",
       link: "/programs/commercial-pilot-training",
@@ -52,9 +52,9 @@ const programsSwiper = {
     },
     {
       title: "Sport Pilot",
-      imagePath: "/src/assets/24inSparkerClouds-1-scaled.webp",
+      imagePath: "/src/assets/tl-sparker.webp",
       imageAlt:
-        "TL Sport Aircraft - The Sparker picture sourced from https://tlsportaircraft.com/sparker/",
+        "TL Sport Aircraft - The Sparker picture sourced from tlsportaircraft.com",
       description:
         "Take flight, live light! Discover freedom in the sky with our Sport Pilot Course.",
       link: "/programs/sport-pilot",

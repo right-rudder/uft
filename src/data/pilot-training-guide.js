@@ -11,7 +11,7 @@ const pilotTrainingGuide = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/kristopher-allison-KU4zYj4u0mo-unsplash.jpg",
+      imagePath: "/src/assets/uft-kristopher-allison-pilot-flying-plane.jpg",
       imageAlt:
         "Universal flight training view of pilot over the shoulder",
       headerH1: `Pilot Training <br class="hidden lg:block" ><span class="text-accent-200">GUIDE</span>`,
@@ -108,7 +108,7 @@ const pilotTrainingGuide = {
         },
         {
           title: "Instrument Proficiency Check",
-          imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
+          imagePath: "/src/assets/uft-blue-skies-cloud.jpg",
           imageAlt:
             "Universal Flight Training Instrument Proficiency Check course cover picture - day sky and some clouds",
           description:
