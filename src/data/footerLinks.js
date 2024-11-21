@@ -34,11 +34,11 @@ export const footerLinks = [
     title: "Programs",
     links: [
       {
-        name: "Professional Plt",
+        name: "Professional Pilot",
         link: "/pilot-training-guide",
       },
       {
-        name: "Private Plt",
+        name: "Private Pilot",
         link: "/programs/private-pilot-course",
       },
       {
@@ -46,7 +46,7 @@ export const footerLinks = [
         link: "/programs/instrument-rating",
       },
       {
-        name: "Commercial Plt",
+        name: "Commercial Pilot",
         link: "/programs/commercial-pilot-training",
       },
       {
@@ -58,7 +58,7 @@ export const footerLinks = [
         link: "/programs/certified-flight-instructor-cfi",
       },
       {
-        name: "Sport Plt",
+        name: "Sport Pilot",
         link: "/programs/sport-pilot",
       },
     ],
