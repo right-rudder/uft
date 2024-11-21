@@ -364,13 +364,13 @@ const Navbar = ({ pathname }) => {
 
         <div className="p-5 px-10 font-normal flexfont-thinustify-center align-middle items-center gap-5 overflow-hidden">
           <div className="flex gap-3 items-center">
-            <a
+            <a aria-labelledby="Call Us Now" title="Call Us Now"
               href={`tel:${PHONE_NUMBER}`}
               className="border p-2 w-fit border-accent-200 rounded-full bg-black"
             >
               <FaPhone className="size-4 text-white" />
             </a>
-            <a href={`tel:${PHONE_NUMBER}`}>{PHONE_NUMBER}</a>
+            <a aria-labelledby="Call Us Now" title="Call Us Now" href={`tel:${PHONE_NUMBER}`}>{PHONE_NUMBER}</a>
           </div>
 
           <div className="flex gap-3 mt-2 mb-16">
