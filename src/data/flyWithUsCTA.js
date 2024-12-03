@@ -3,7 +3,7 @@ const flyWithUsCTA = {
   imageAlt: "Right Rudder Marketing team on the runway",
   headerH1: `<span class="text-accent-500">Start Your Aviation Journey</br></span>With a Discovery Flight`,
   paragraph:
-    "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
+    "Experience the thrill of flying with a discovery flight at Universal Flight Training. Whether you're exploring a new hobby or dreaming of a professional pilot career, this is your chance to take the controls and see Sarasota and the surrounding Gulf Coast like never before. Schedule your discovery flight today and take the first step toward your aviation journey!",
   buttons: [
     {
       name: "Schedule Today",
