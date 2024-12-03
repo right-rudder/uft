@@ -1,5 +1,5 @@
 ---
-pubDate: "August 8, 2024"
+pubDate: "November 14, 2024"
 author: Joe Vasquez
 title: "Choosing The Right Flight School - Six Factors To Consider"
 description: "earn how to choose the right flight school with these six essential factors. From accreditation to cost, discover what makes Universal Flight Training the ideal choice for your aviation journey."

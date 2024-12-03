@@ -1,5 +1,5 @@
 ---
-pubDate: "November 14, 2024"
+pubDate: "December 3, 2024"
 author: Jacob Kyser 
 title: "Why a Discovery Flight Is the Perfect First Step in Your Aviation Journey"
 description: "Discover why a discovery flight is the best way to explore the skies, whether for fun or to pursue a professional aviation career. Learn how Universal Flight Training makes your first flight unforgettable."
