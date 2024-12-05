@@ -12,6 +12,8 @@ import flyWithUsCTA from "../data/flyWithUsCTA.js";
 import programsSwiper from "../data/programSwiper";
 import ContentDivisor from "../components/ContentDivisor.astro";
 import contentDivisor from "../data/content-divisor-data";
+import Partners from "../components/Partners.astro";
+import partnersData from "../data/partners-data";
 
 const { data } = homePage;
 ---
@@ -23,6 +25,7 @@ const { data } = homePage;
 >
   <!-- HEADER -->
   <HeaderScreen content={data.header} />
+  <Partners data={partnersData.data.partners} />
   <BentoGrid />
 
   <ProgramSwiper content={programsSwiper} />
