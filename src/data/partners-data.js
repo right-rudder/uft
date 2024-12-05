@@ -3,7 +3,7 @@ const partnersData = {
     partners: [
       {
         link: "/university-program",
-        img: "/src/assets/purdue-university-global-seeklogo.svg", // Ensure this matches the file path in your project
+        img: "/src/assets/purdue-university-global-seeklogo.svg",
         alt: "Purdue University Logo",
       },
     ],
