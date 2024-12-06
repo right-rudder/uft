@@ -86,7 +86,7 @@ const Navbar = ({ pathname }) => {
             className={`${navBar || openMobile ? "lg:h-20" : "lg:h-28"} relative flex h-20 align-middle justify-between transition-all`}
             id="navbar"
           >
-            <div className="flex w-full items-center justify-between">
+            <div className="flex w-full items-center justify-between flex-auto">
               <a
                 href="/"
                 className="relative hover:brightness-110 duration-200 ease-in-out w-1/3"
@@ -100,7 +100,7 @@ const Navbar = ({ pathname }) => {
                   className={`${navBar || openMobile ? "h-20 lg:h-24" : "h-20 lg:h-28"} object-contain duration-500`}
                 />
               </a>
-              <div className="hidden lg:flex justify-end w-full text-2xl">
+              <div className="hidden lg:flex xl:justify-end w-full text-2xl">
                 <ul className="flex justify-between align-middle w-11/12 gap-5 items-center">
                   {navbarLinks.map((item, index) => (
                     <li
@@ -113,7 +113,7 @@ const Navbar = ({ pathname }) => {
                         <a
                           href={item.link}
                           target={`${item.link.includes("http") ? "_blank" : "_self"}`}
-                          className="group-last:block font-medium text-2xl duration-300 hover:underline decoration-accent-300 decoration-4 underline-offset-[10px] group-last:italic border-accent whitespace-nowrap group-last:font-normal group-last:bg-white group-last:px-0 group-last:rounded-sm group-last:-skew-x-12 group-last:hover:bg-accent-500 group-last:hover:no-underline group-last:border group-last:hover:border-accent-500"
+                          className="group-last:block font-medium text-xl xl:2xl duration-300 hover:underline decoration-accent-300 decoration-4 underline-offset-[10px] group-last:italic border-accent whitespace-nowrap group-last:font-normal group-last:bg-white group-last:px-0 group-last:rounded-sm group-last:-skew-x-12 group-last:hover:bg-accent-500 group-last:hover:no-underline group-last:border group-last:hover:border-accent-500"
                         >
                           <span className="relative font-medium block italic group-last:skew-x-12 text-white group-last:text-muted-950 group-last:py-3 group-last:px-5 group-last:hover:text-white">
                             {item.name}

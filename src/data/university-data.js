@@ -15,7 +15,7 @@ const universityData = {
       imagePath: "/src/assets/bg-clouds-from-above.webp",
       imageAlt:
         "Picture of clouds from above",
-      headerH1: `Are you ready for <br class="hidden lg:block" ><div class="bg-gradient-to-br from-accent-300 via-accent-200 to-accent-400 bg-clip-text text-transparent">for the next step?&nbsp</div>`,
+      headerH1: `<p class="text-2xl md:text-4xl lg:text-6xl font-semibold">Are you ready for <br class="hidden lg:block" ><div class="bg-gradient-to-br from-accent-300 via-accent-200 to-accent-400 bg-clip-text text-transparent">the next step?&nbsp</div></p>`,
       paragraph: `Universal Flight Training is partnering with Purdue Global to offer online bachelor’s degrees in professional flight and aviation management`,
       buttons: [
         {
@@ -76,7 +76,7 @@ also accept eligible transfer credits for those who hold FAA certificates and ra
         `Nationally Ranked and Respected: Purdue Global is part of the respected Purdue University
         system, one of the most prestigious research universities in the world.`,
       ],
-      reasonsCTA: `Enroll now or visit <a class="hover:text-accent-300 underline" href="/" target="_blank" rel="noopener noreferrer">the website[ENTER VANITY URL PROVIDED BY PURDUE GLOBAL] </a> to learn more about this
+      reasonsCTA: `Enroll now or visit <a class="hover:text-accent-300 underline" href="https://www.purdueglobal.edu/degree-programs/aviation/online-bachelor-professional-flight/" target="_blank" rel="noopener noreferrer">the website</a> to learn more about this
       opportunity.`,
 
       additionalInfo: [
