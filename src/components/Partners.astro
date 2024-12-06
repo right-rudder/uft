@@ -39,7 +39,7 @@ const resolvedImages = await Promise.all(
     Proudly partnered with 
   </p>
     {resolvedImages.map((partner) => (
-      <a href={partner.link} class="inline-block mx-2" target="_blank" rel="noopener noreferrer">
+      <a href={partner.link} class="inline-block mx-2">
         {partner.imgSrc ? (
           <Image
             src={partner.imgSrc}
