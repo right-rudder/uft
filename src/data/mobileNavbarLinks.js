@@ -46,6 +46,15 @@ export const mobileNavbarLinks = [
     ],
   },
   {
+    name: "University Programs",
+    submenu: [
+      {
+        name: "Purdue University",
+        link: "/university-program",
+      },
+    ],
+  },
+  {
     name: "Services",
     submenu: [
       {
