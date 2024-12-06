@@ -89,7 +89,7 @@ const Navbar = ({ pathname }) => {
             <div className="flex w-full items-center justify-between">
               <a
                 href="/"
-                className="relative hover:brightness-110 duration-200 ease-in-out w-4/6 md:w-1/3 lg:w-8/12"
+                className="relative hover:brightness-110 duration-200 ease-in-out w-1/3"
               >
                 <img
                   src="/uft-logo-new-bg-blue-removebg-preview.webp"
@@ -101,7 +101,7 @@ const Navbar = ({ pathname }) => {
                 />
               </a>
               <div className="hidden lg:flex justify-end w-full text-2xl">
-                <ul className="flex justify-between align-middle w-11/12 items-center">
+                <ul className="flex justify-between align-middle w-11/12 gap-5 items-center">
                   {navbarLinks.map((item, index) => (
                     <li
                       key={index}
