@@ -76,7 +76,7 @@ also accept eligible transfer credits for those who hold FAA certificates and ra
         `Nationally Ranked and Respected: Purdue Global is part of the respected Purdue University
         system, one of the most prestigious research universities in the world.`,
       ],
-      reasonsCTA: `Enroll now or visit <a class="hover:text-accent-300 underline" href="/" >the website[ENTER VANITY URL PROVIDED BY PURDUE GLOBAL] </a> to learn more about this
+      reasonsCTA: `Enroll now or visit <a class="hover:text-accent-300 underline" href="/" target="_blank" rel="noopener noreferrer">the website[ENTER VANITY URL PROVIDED BY PURDUE GLOBAL] </a> to learn more about this
       opportunity.`,
 
       additionalInfo: [
