@@ -63,7 +63,7 @@ if (!images[content.bannerSrc]) {
           id="toggle-info-btn"
           class="bg-accent-500 text-white px-4 py-2 rounded shadow hover:bg-gray-100 hover:text-accent-500 transition"
         >
-          Show More Information
+          Show Extra Information
         </button>
 
         <div id="additional-info" class="hidden mt-6">
@@ -90,10 +90,10 @@ if (!images[content.bannerSrc]) {
 
         if (isHidden) {
           additionalInfo.classList.remove("hidden");
-          toggleBtn.textContent = "Show Less Information";
+          toggleBtn.textContent = "Hide Extra Information";
         } else {
           additionalInfo.classList.add("hidden");
-          toggleBtn.textContent = "Show More Information";
+          toggleBtn.textContent = "Show Extra Information";
         }
       });
     }
