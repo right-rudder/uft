@@ -1,0 +1,56 @@
+---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+interface Partner {
+  link: string;
+  img: string;
+  alt: string;
+}
+
+interface Props {
+  data: Partner[];
+}
+
+const { data }: Props = Astro.props;
+
+// Dynamically import all images
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/*.{jpeg,jpg,png,gif,webp,svg}"
+);
+
+const resolvedImages = await Promise.all(
+  data.map(async (partner) => {
+    if (images[partner.img]) {
+      const importedImage = await images[partner.img]();
+      return { ...partner, imgSrc: importedImage.default };
+    } else {
+      console.error(`Image not found: ${partner.img}`);
+      return { ...partner, imgSrc: null };
+    }
+  })
+);
+---
+
+<section
+  class="relative lg:mt-0 h-24 -z-0 bg-accent-300/90 text-white flex flex-row items-center justify-center overflow-hidden"
+>
+  <p class="text-center text-xl py-3 pr-3 border-r">
+    Proudly partnered with 
+  </p>
+    {resolvedImages.map((partner) => (
+      <a href={partner.link} class="inline-block mx-2">
+        {partner.imgSrc ? (
+          <Image
+            src={partner.imgSrc}
+            alt={partner.alt}
+            width={200}
+            loading="eager"
+          />
+        ) : (
+          <span>Error: Image not found</span>
+        )}
+      </a>
+    ))}
+ 
+</section>

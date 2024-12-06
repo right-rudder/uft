@@ -86,10 +86,10 @@ const Navbar = ({ pathname }) => {
             className={`${navBar || openMobile ? "lg:h-20" : "lg:h-28"} relative flex h-20 align-middle justify-between transition-all`}
             id="navbar"
           >
-            <div className="flex w-full items-center justify-between">
+            <div className="flex w-full items-center justify-between flex-auto">
               <a
                 href="/"
-                className="relative hover:brightness-110 duration-200 ease-in-out w-4/6 md:w-1/3 lg:w-8/12"
+                className="relative hover:brightness-110 duration-200 ease-in-out w-1/3"
               >
                 <img
                   src="/uft-logo-new-bg-blue-removebg-preview.webp"
@@ -100,8 +100,8 @@ const Navbar = ({ pathname }) => {
                   className={`${navBar || openMobile ? "h-20 lg:h-24" : "h-20 lg:h-28"} object-contain duration-500`}
                 />
               </a>
-              <div className="hidden lg:flex justify-end w-full text-2xl">
-                <ul className="flex justify-between align-middle w-11/12 items-center">
+              <div className="hidden lg:flex xl:justify-end w-full text-2xl">
+                <ul className="flex justify-between align-middle w-11/12 gap-5 items-center">
                   {navbarLinks.map((item, index) => (
                     <li
                       key={index}

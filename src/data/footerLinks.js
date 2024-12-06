@@ -11,6 +11,10 @@ export const footerLinks = [
         link: "/discovery-flight",
       },
       {
+        name: "University",
+        link: "/university-program",
+      },
+      {
         name: "Flight Training",
         link: "/programs",
       },

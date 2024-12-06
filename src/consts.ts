@@ -21,7 +21,8 @@ export const LOCATIONS = [
     state: "FL",
     zip: "34243",
     gMaps: "https://maps.app.goo.gl/mmZCj4UVrcw1vaEXA",
-    phone: "(941) 210-4410",
+    phone: "(941) 300-0309",
+    forwardPhone: "(941) 210-4410"
   },
 ];
 export const COURSES = [
@@ -57,7 +58,7 @@ export const COURSES = [
 export const COMPANY_NAME = "Universal Flight Training";
 export const COMPANY_NAME_CAPS = "UNIVERSAL FLIGHT TRAINING";
 export const COMPANY_NICKNAME = "UFT";
-export const PHONE_NUMBER = "(941) 210-4410";
+export const PHONE_NUMBER = "(941) 300-0309";
 export const ADDRESS_LINE_1 = "8140 15th St E";
 export const ADDRESS_LINE_2 = "Sarasota, FL 34243";
 export const GMAPS = "https://maps.app.goo.gl/mmZCj4UVrcw1vaEXA";

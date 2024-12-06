@@ -45,4 +45,4 @@ If you decide that aviation is for you, UFT offers flexible training programs fo
 
 ## Ready to Take the First Step?
 
-A discovery flight with Universal Flight Training is your chance to explore aviation and see Sarasota from a new perspective. Enroll as a new student today and take the first step toward your pilot career. Call us at **(941) 210-4410** or visit our [website](https://flyuft.com/discovery-flight/) to schedule your discovery flight.
+A discovery flight with Universal Flight Training is your chance to explore aviation and see Sarasota from a new perspective. Enroll as a new student today and take the first step toward your pilot career. Call us at **(941) 300-0309** or visit our [website](https://flyuft.com/discovery-flight/) to schedule your discovery flight.

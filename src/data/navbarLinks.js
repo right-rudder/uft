@@ -34,7 +34,11 @@ export const navbarLinks = [
       },
     ],
   },
-
+  {
+    name: "University Program",
+    link: "/university-program",
+    submenu: [],
+  },
   {
     name: "Services",
     link: "/services/maintenance",

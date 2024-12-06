@@ -156,14 +156,14 @@ declare module 'astro:content' {
   slug: "choosing-the-right-flight-school-six-factors-to-consider";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "Why-a-Discovery-Flight-Is-the-Perfect-First-Step-in-Your-Aviation-Journey.md": {
 	id: "Why-a-Discovery-Flight-Is-the-Perfect-First-Step-in-Your-Aviation-Journey.md";
   slug: "why-a-discovery-flight-is-the-perfect-first-step-in-your-aviation-journey";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 };
 
@@ -175,5 +175,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("./../../src/content/config.js");
 }
