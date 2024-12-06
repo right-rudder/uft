@@ -12,10 +12,10 @@ const universityData = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/university-page-banner.jpg",
+      imagePath: "/src/assets/bg-clouds-from-above.webp",
       imageAlt:
-        "Universal Flight Training (logo) & Purdue Global (logo)",
-      headerH1: `Are you ready for <br class="hidden lg:block" ><div class="bg-gradient-to-br from-accent-500 via-accent-300 to-accent-400 bg-clip-text text-transparent">for the next step?&nbsp</div>`,
+        "Picture of clouds from above",
+      headerH1: `Are you ready for <br class="hidden lg:block" ><div class="bg-gradient-to-br from-accent-300 via-accent-200 to-accent-400 bg-clip-text text-transparent">for the next step?&nbsp</div>`,
       paragraph: `Universal Flight Training is partnering with Purdue Global to offer online bachelor’s degrees in professional flight and aviation management`,
       buttons: [
         {
@@ -34,6 +34,9 @@ const universityData = {
       intro: `Our partnership with Purdue Global offers benefits to our flight school students who are interested in
               advancing their aviation career. The School of Aviation includes online bachelor’s degrees in professional
               flight or aviation management.`,
+      
+      bannerSrc: "/src/assets/university-page-banner.jpg",
+      bannerAlt: "Universal Flight Training (logo) & Purdue Global (logo)",
       
       courses: [
         {
@@ -73,7 +76,7 @@ also accept eligible transfer credits for those who hold FAA certificates and ra
         `Nationally Ranked and Respected: Purdue Global is part of the respected Purdue University
         system, one of the most prestigious research universities in the world.`,
       ],
-      reasonsCTA: `Enroll now or visit <a class="hover:text-accent-300 text-" href="[ENTER VANITY URL PROVIDED BY PURDUE GLOBAL]">the website<a/> to learn more about this
+      reasonsCTA: `Enroll now or visit <a class="hover:text-accent-300 underline" href="/" >the website[ENTER VANITY URL PROVIDED BY PURDUE GLOBAL] </a> to learn more about this
       opportunity.`,
 
       additionalInfo: [
