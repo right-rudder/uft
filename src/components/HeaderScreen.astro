@@ -46,6 +46,7 @@ if (!images[content.imagePath]) {
         content.buttons.map((btn) => (
           <a
             href={btn.link}
+            target={`${btn.link.includes("http") ? "_blank" : "_self"}`}
             class={`${btn.primary ? "btn-primary" : "btn-accent"} w-full md:w-auto`}
           >
             {btn.name}
