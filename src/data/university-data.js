@@ -1,6 +1,7 @@
 import {
   COMPANY_NAME,
 } from "../consts";
+const VANITY_URL = "https://www.purdueglobal.edu/degree-programs/aviation/online-bachelor-professional-flight/";
 
 const universityData = {
   data: {
@@ -19,8 +20,8 @@ const universityData = {
       paragraph: `Universal Flight Training is partnering with Purdue Global to offer online bachelor’s degrees in professional flight and aviation management`,
       buttons: [
         {
-          name: "Enroll Today",
-          link: "/enroll-now",
+          name: "Enroll",
+          link: `${VANITY_URL}`,
           primary: false,
         },
         {
@@ -76,8 +77,15 @@ also accept eligible transfer credits for those who hold FAA certificates and ra
         `Nationally Ranked and Respected: Purdue Global is part of the respected Purdue University
         system, one of the most prestigious research universities in the world.`,
       ],
-      reasonsCTA: `Enroll now or visit <a class="hover:text-accent-300 underline" href="https://www.purdueglobal.edu/degree-programs/aviation/online-bachelor-professional-flight/" target="_blank" rel="noopener noreferrer">the website</a> to learn more about this
+      reasonsCTA: `Enroll now or visit <a class="hover:text-accent-300 underline" href=${VANITY_URL} target="_blank" rel="noopener noreferrer">the website</a> to learn more about this
       opportunity.`,
+
+      ctaButtons: [
+        {
+          name: "Enroll at Purdue University",
+          link: `${VANITY_URL}`,
+        }
+      ],
 
       additionalInfo: [
         {
