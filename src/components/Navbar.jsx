@@ -100,7 +100,7 @@ const Navbar = ({ pathname }) => {
                   className={`${navBar || openMobile ? "h-20 lg:h-24" : "h-20 lg:h-28"} object-contain duration-500`}
                 />
               </a>
-              <div className="hidden lg:flex xl:justify-end w-full text-2xl">
+              <div className="hidden lg:flex 2xl:justify-end w-full text-2xl">
                 <ul className="flex justify-between align-middle w-11/12 gap-5 items-center">
                   {navbarLinks.map((item, index) => (
                     <li
