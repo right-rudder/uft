@@ -1,17 +1,31 @@
 import {
   COMPANY_NAME,
   SITE_DESCRIPTION,
-  KEYWORDS,
+  COMPANY_NAME_CAPS,
+  COMPANY_NICKNAME,
+  PHONE_NUMBER,
+  ADDRESS_LINE_1,
+  ADDRESS_LINE_2,
+  EMAIL_ADDRESS,
+  KEYWORDS
 } from "../consts";
+
+const locationCity = "Sarasota";
+const locationStateShort = "FL";
+const locationStateLong = "Florida";
+const locationDescription = "A beautiful city with rich cultural heritage and access to coastal attractions.";
+const locationCounty = "Sarasota County";
+const locationKeyPlace1 = "Siesta Key Beach";
+const locationKeyPlace2 = "Marie Selby Botanical Gardens";
 
 const homePage = {
   data: {
     //SEO Header Stuff
-    pageTitle: `Sarasota Flight School for Pilot Training | ${COMPANY_NAME}`,
+    pageTitle: `${locationCity}, ${locationStateShort} Flight School for Pilot Training | ${COMPANY_NAME}`,
     pageDescription:
       `${SITE_DESCRIPTION}`,
     pageKeywords:
-      `${KEYWORDS}`,
+      `${KEYWORDS}, flight school ${locationCity} ${locationStateLong}, flight school ${locationCity} ${locationStateShort}, Private Pilot ${locationCity} ${locationStateLong}, Instrument Rating  ${locationCity} ${locationStateLong}, Commercial Pilot ${locationCity} ${locationStateLong}, Multi-Engine rating ${locationCity} ${locationStateLong}, Certified Flight Instructor ${locationCity} ${locationStateLong}, Sport Pilot ${locationCity} ${locationStateLong}, bachelor's in professional flight ${locationCity} ${locationStateLong}, bachelor's in aviation management ${locationCity} ${locationStateLong}, aircraft maintenance ${locationCity} ${locationStateLong}, discovery flight ${locationCity} ${locationStateLong}, intro flight ${locationCity} ${locationStateLong}, accelerated pilot training  ${locationCity} ${locationStateLong}, part time pilot training ${locationCity} ${locationStateLong}, ${COMPANY_NAME}, located at ${ADDRESS_LINE_1} ${ADDRESS_LINE_2}, ${PHONE_NUMBER}, ${COMPANY_NAME_CAPS}, ${COMPANY_NICKNAME}, ${EMAIL_ADDRESS}, how to become a pilot, flight school near, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot, flight school, pilot training, ${locationCity} flight school, personalized flight training, flexible flight programs, Private Pilot License training, Certified Flight Instructor (CFI) ${locationCity}, multi-engine training ${locationCity}, aviation school in ${locationStateLong}, Cessna 172 training, discovery flights ${locationCity}, pilot school near me, flight training with high pass rate, ${locationKeyPlace1}, ${locationKeyPlace2}, ${locationCounty}`,
 
     //top header
     header: {
@@ -39,35 +53,35 @@ const homePage = {
       upperHeading: "You Can Become a Pilot",
       heading: "The UFT EXPERIENCE",
       descriptions: [
-        "We are committed to your pilot training success.  We offer a diverse range of programs designed to elevate you to new heights in the world of aviation. Our experienced instructors and state-of-the-art fleet ensure you receive the best training possible.",
-        "When you choose to fly at Universal Flight Training, you are choosing to fly with the best of the best.  Come see why everyone in the Sarasota region is checking out UFT.",
+        "We are committed to your pilot training success.  We offer a diverse range of programs designed to skyrocket you in the world of aviation. Our experienced instructors and state-of-the-art fleet ensure you receive the best training possible.",
+        `When you choose to fly at ${COMPANY_NAME}, you are choosing to fly with the best of the best.  Come see why everyone in the ${locationCounty} region is checking out ${COMPANY_NICKNAME}.`,
       ],
       bullets: [
         {
           title: "LOCAL AVIATION EXPERTISE",
           descriptions: [
-            "Our experienced instructors bring years of expertise to flight training in the Sarasota and Bradenton area, ensuring top quality instruction.",
+          `Our experienced instructors bring years of expertise to flight training in the Sarasota and Bradenton area, ensuring top quality instruction.`,
           ],
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
         {
           title: "PERSONALIZED FLIGHT TRAINING",
           descriptions: [
-            "We offer customized, one-on-one training to help aviation students in Venice, Lakewood Ranch, and surrounding areas achieve their goals.",
+            `We offer customized, one-on-one training to help aviation students in Venice, Lakewood Ranch, ${locationCounty}, and surrounding areas achieve their goals.`,
           ],
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
         {
           title: "DEDICATED CUSTOMER SERVICE",
           descriptions: [
-            "Our team is committed to providing outstanding service to aviation enthusiasts throughout the Sarasota and North Port region.",
+            `Our team is committed to providing outstanding service to aviation enthusiasts throughout the Sarasota and the whole Central West ${locationStateLong} region.`,
           ],
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
         {
           title: "COMPREHENSIVE FLIGHT LESSONS",
           descriptions: [
-            "Our structured training programs offer a well organized learning experience, tailored for aspiring pilots in Palmetto, Osprey, and nearby communities.",
+            `Our structured training programs offer a well organized learning experience, tailored for aspiring pilots in Palmetto, Osprey, ${locationCity} and nearby communities.`,
           ],
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
@@ -104,8 +118,8 @@ const homePage = {
       upperHeading: "The UFT Family",
       heading: "Our Students Love Us",
       headingText: [
-        "At Universal Flight Training, our top priority is to train future pilots safely and effectively, but we also strive to create a fun and comfortable learning environment.",
-        "See what our students and visitors have to say about their experiences at UFT!",
+        `At ${COMPANY_NAME}, our top priority is to train future pilots safely and effectively, but we also strive to create a fun and comfortable learning environment.`,
+        `See what our students and visitors have to say about their experiences at ${COMPANY_NICKNAME}!`,
       ],
       buttonText: "Leave Us a Review",
       buttonLink:
