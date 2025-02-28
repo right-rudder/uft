@@ -19,7 +19,7 @@ const resultC = {
         {
           name: "Explore Training Programs",
           link: "/programs",
-          primary: true,
+          primary: false,
         },
         {
           name: "Request More Info",
