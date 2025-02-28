@@ -19,11 +19,11 @@ const resultB = {
         {
           name: "Book a Discovery Flight",
           link: "/discovery-flight",
-          primary: true,
+          primary: false,
         },
         {
           name: "Learn More",
-          link: "/about",
+          link: "/blog/why-a-discovery-flight-is-the-perfect-first-step-in-your-aviation-journey/",
           primary: false,
         },
       ],
