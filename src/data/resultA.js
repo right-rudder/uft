@@ -10,7 +10,7 @@ const resultA = {
     pageKeywords:
       `quiz, pilot quiz, flight training, aviation career, enroll now, ${COMPANY_NAME}`,
     header: {
-      imagePath: "/src/assets/flight-training-student-takeoff.jpg",
+      imagePath: "/src/assets/airplane-sunset-stock-image.jpg",
       imageAlt: `Flight training student preparing for takeoff`,
       headerH1: "You're Ready to Start Your Flight Training Journey!",
       paragraph:
