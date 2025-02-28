@@ -10,7 +10,7 @@ const resultB = {
     pageKeywords:
       `quiz, pilot quiz, discovery flight, intro flight, aviation experience, ${COMPANY_NAME}`,
     header: {
-      imagePath: "/src/assets/discovery-flight-student.jpg",
+      imagePath: "/src/assets/uft-plane-over-islands.jpg",
       imageAlt: `Student enjoying a discovery flight`,
       headerH1: "You’d Love a Discovery Flight!",
       paragraph:
