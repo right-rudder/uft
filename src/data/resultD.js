@@ -17,13 +17,13 @@ const resultD = {
         `Not sure where to start? Our flight advisors can help you figure out the best next step for your aviation journey.`,
       buttons: [
         {
-          name: "Request a Call",
+          name: "Contact Form",
           link: "/contact",
-          primary: true,
+          primary: false,
         },
         {
-          name: "View Our FAQs",
-          link: "/faq",
+          name: "Call Us",
+          link: "tel:(941) 300-0309",
           primary: false,
         },
       ],
