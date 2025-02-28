@@ -10,7 +10,7 @@ const resultD = {
     pageKeywords:
       `quiz, flight training advice, aviation consultation, pilot career guidance, ${COMPANY_NAME}`,
     header: {
-      imagePath: "/src/assets/aviation-consultation.jpg",
+      imagePath: "/src/assets/fleet-aircraft-inside-hangar.jpg",
       imageAlt: `Flight advisor speaking with a student`,
       headerH1: "You’re Interested but Need More Info!",
       paragraph:
