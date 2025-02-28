@@ -12,14 +12,14 @@ const resultA = {
     header: {
       imagePath: "/src/assets/airplane-sunset-stock-image.jpg",
       imageAlt: `Flight training student preparing for takeoff`,
-      headerH1: "You're Ready to Start Your Flight Training Journey!",
+      headerH1: "You're Ready to Start!",
       paragraph:
         `You have what it takes to begin your flight training journey. Take the next step toward becoming a pilot by enrolling in our program today!`,
       buttons: [
         {
           name: "Enroll Now",
           link: "/enroll-now",
-          primary: true,
+          primary: false,
         },
         {
           name: "Contact Us",
