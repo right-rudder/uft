@@ -193,7 +193,7 @@ const REDIRECT_URL = content.redirect_url;
                 {
                   question.options.map((answer, i) => (
                     <label>
-                      <input type="radio" name={`q${index + 1}`} value={i+1} /> {answer}
+                      <input type="radio" name={`q${index + 1}`} value={i + 1} /> {answer}
                     </label>
                   ))
                 }
@@ -246,7 +246,7 @@ const REDIRECT_URL = content.redirect_url;
   </div>
 </section>
 
-<script define:vars={{ FORM_WEBHOOK_URL }}>
+<script define:vars={{ FORM_WEBHOOK_URL, quiz }}>
   const checkbox = document.getElementById("agree-data-collection");
   const submitButton = document.getElementById("submit-button");
   const loadingSpinner = document.getElementById("loading-spinner");
@@ -355,11 +355,20 @@ const REDIRECT_URL = content.redirect_url;
           urlSearchParams.append(pair[0], pair[1]);
         }
 
+        // Add quiz answers and result to URLSearchParams
+        quiz.questions.forEach((question, index) => {
+          const answer = formData.get(`q${index + 1}`);
+          if (answer) {
+            urlSearchParams.append(`q${index + 1}`, question.options[answer - 1]);
+          }
+        });
+        urlSearchParams.append("quizResult", document.getElementById("quizResult").value);
+
         // Send an AJAX request to submit the form
         const xhr = new XMLHttpRequest();
         xhr.open("POST", contactForm.action);
         xhr.setRequestHeader(
-          "data-Type",
+          "Content-Type",
           "application/x-www-form-urlencoded"
         );
         xhr.onload = function () {
