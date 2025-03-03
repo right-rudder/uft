@@ -28,10 +28,6 @@ export const footerLinks = [
         link: "https://app.flightschedulepro.com/Account/Login/",
         target: "_blank"
       },
-      {
-        name: "Contact Us",
-        link: "/contact",
-      },
     ],
   },
   {
@@ -81,6 +77,14 @@ export const footerLinks = [
       {
         name: "Blog",
         link: "/blog",
+      },
+      {
+        name: "Contact Us",
+        link: "/contact",
+      },
+      {
+        name: "Quiz",
+        link: "/quiz",
       },
     ],
   },
