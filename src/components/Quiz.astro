@@ -232,6 +232,16 @@ const REDIRECT_URL = content.redirect_url;
           Get Results
         </button>
       </form>
+      <!-- Loading spinner -->
+      <div id="loading-spinner" class="hidden fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50">
+        <div class="text-center">
+          <svg class="animate-spin h-10 w-10 text-white mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+          </svg>
+          <p class="mt-4 text-white text-lg">Calculating Results...</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -239,6 +249,7 @@ const REDIRECT_URL = content.redirect_url;
 <script define:vars={{ FORM_WEBHOOK_URL }}>
   const checkbox = document.getElementById("agree-data-collection");
   const submitButton = document.getElementById("submit-button");
+  const loadingSpinner = document.getElementById("loading-spinner");
 
   checkbox.addEventListener("change", function () {
     if (checkbox.checked) {
@@ -270,6 +281,9 @@ const REDIRECT_URL = content.redirect_url;
         // Prevent the default form submission
         event.preventDefault();
 
+        // Show the loading spinner
+        loadingSpinner.classList.remove("hidden");
+
         // Serialize the form data
         const formData = new FormData(contactForm);
 
@@ -296,7 +310,6 @@ const REDIRECT_URL = content.redirect_url;
             answerValues.D.push(value);
           }
         }
-
 
         // Log counts for debugging
         console.log("Counts:", counts);
@@ -350,16 +363,22 @@ const REDIRECT_URL = content.redirect_url;
           "application/x-www-form-urlencoded"
         );
         xhr.onload = function () {
-          // Check if the request was successful (status 200)
-          if (xhr.status === 200) {
-            // Redirect the user after a successful form submission
-            window.location.href = redirectPage;
-          } else {
-            // Handle errors if any
-            console.error("Form submission failed:", xhr.statusText);
-          }
+          // Hide the loading spinner after a second
+          setTimeout(() => {
+            loadingSpinner.classList.add("hidden");
+            // Check if the request was successful (status 200)
+            if (xhr.status === 200) {
+              // Redirect the user after a successful form submission
+              window.location.href = redirectPage;
+            } else {
+              // Handle errors if any
+              console.error("Form submission failed:", xhr.statusText);
+            }
+          }, 1000);
         };
         xhr.onerror = function () {
+          // Hide the loading spinner
+          loadingSpinner.classList.add("hidden");
           // Handle network errors
           console.error("Network error occurred while submitting the form.");
         };
