@@ -44,6 +44,4 @@ Earning your Instrument Rating is a smart move for any pilot. If you’re ready 
 
 Don’t let weather or limited job opportunities hold you back. Enroll in our Instrument Rating program today and take control of your future as a pilot.
 
-## Call to Action
-
 Ready to advance your career? [Contact **Universal Flight Training**](/contact) at **Sarasota Bradenton International Airport (SRQ)** to enroll in our Instrument Rating program. Visit us at **8140 15th St E, Sarasota, FL 34243**, or call us to learn more. Don’t wait—your future in aviation starts here!
