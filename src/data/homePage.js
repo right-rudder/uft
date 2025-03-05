@@ -94,13 +94,13 @@ const homePage = {
 
     quizCTA: {
       upperHeading: "Take Our Quiz",
-      heading: "Is Flight School Right For Me?",
+      heading: "What's Your Ideal Path to Becoming a Pilot?",
       descriptions: [
-        "Many people think that becoming a pilot is out of reach due to concerns about cost, time commitment, and safety. These doubts often come from online research or general uncertainty. We understand these concerns and invite you to connect with a team member at Universal Flight Training to discuss any questions that may have come up during your research.",
+        "Many aspiring pilots hesitate due to concerns about cost, time commitment, and career opportunities. It’s normal to feel uncertain when starting something new. At Universal Flight Training, we’re here to help you navigate your options and find the best path for your aviation journey.",
 
-        "At Universal Flight Training, you dont need to make a big financial commitment upfront. Your journey can start with an affordable discovery flight, which costs just a few hundred dollars. While pursuing your pilots license does require a significant time investment, its a life-changing achievement with long lasting rewards. Our top priority at UFT is safety, ensuring that your path to becoming a pilot is both safe and fun.",
+        "You don’t need to make a big commitment upfront. Your journey can start with an affordable Discovery Flight, giving you a firsthand experience before deciding on full training. Whether you're looking to fly for fun, start a career, or explore aviation at your own pace, we provide flexible programs to fit your needs.",
 
-        `Wondering if a pilot's life is the right fit for you? Take our "Is Flying Right for Me?" quiz to find out. Designed to help you explore your interests, this quiz will guide you in deciding if the skies over Sarasota, Bradenton, or Lakewood Ranch are where you belong. Click below to start your aviation journey and see if flight training in the Sarasota area is your next adventure.`,
+        `Not sure where to start? Take our "What's Your Ideal Path to Becoming a Pilot?" quiz! In just a few questions, you’ll gain insight into which training route suits your goals. Whether you dream of flying commercially, for personal adventure, or as an instructor, this quiz will guide you toward the right next step.`,
       ],
       imageLegend: ``,
       imagePath: "/src/assets/uft-flight-school-right-for-me.jpg",
