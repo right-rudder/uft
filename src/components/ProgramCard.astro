@@ -39,7 +39,9 @@ if (!images[imagePath])
       src={images[imagePath]()}
       alt={imageAlt}
       class="absolute -z-0 h-full w-full object-cover object-top group-hover:blur-sm group-hover:-translate-y-3 group-hover:scale-105 duration-100 ease-out"
-      quality={60}
+      quality={100}
+      widths={[240, 540, 720, 1080, 1440, 1980]}
+      sizes={`(max-width: 240px) 240px, (max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, 1920px`}
     />
     <div
       class="absolute z-0 w-full h-full bg-black/70 lg:bg-muted-900/50 group-hover:bg-black/80 duration-500"
