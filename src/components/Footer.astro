@@ -44,6 +44,8 @@ const { pathname } = Astro.url;
             src={logo}
             alt="Universal Flight Training Logo"
             class="object-contain h-36 w-auto px-5 lg:px-0 drop-shadow-lg"
+            widths={[240, 540, 720, 1080, 1440, 1980]}
+            sizes={`(max-width: 240px) 240px, (max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, 1920px`}
           />
         </a>
         <div class="mt-2 lg:max-w-sm font-sans2">
