@@ -10,7 +10,7 @@ const bookCTA = {
       primary: true,
     },
   ],
-  imagePath: "/src/assets/uft-logo-new-fotor-bg-remover-2024110513857.png",
+  imagePath: "/src/assets/uft-sarasota-florida-flight-training-booklet-mockup.webp",
   imageAlt: "Right Rudder Marketing team on the runway",
 };
 
