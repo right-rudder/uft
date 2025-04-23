@@ -32,12 +32,12 @@ const { content } = Astro.props;
   </div>
 
   <div
-    class={`order-first lg:order-none w-full lg:w-2/5 relative overflow-hidden lg:rounded-lg py-6`}
+    class={`order-first lg:order-none w-full lg:w-1/5 relative py-6`}
   >
     <ImageComp
       imagePath={content.imagePath}
       imageAlt={content.imageAlt}
-      styles="object-contain mx-auto hover:scale-105 drop-shadow-sm duration-300"
+      styles="object-contain mx-auto hover:scale-105 drop-shadow-sm duration-300 h-1/2 w-auto"
       quality={100}
     />
   </div>
