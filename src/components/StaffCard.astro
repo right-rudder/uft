@@ -20,7 +20,9 @@ if (!images[imagePath])
       src={images[imagePath]()}
       alt={imageAlt}
       class="h-full object-cover group-hover:scale-110 group-hover:shadow-lg group-hover:brightness-110 duration-300 ease-in-out"
-      quality={80}
+      quality={100}
+      widths={[240, 540, 720, 1080, 1440, 1980]}
+      sizes={`(max-width: 240px) 240px, (max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, 1920px`}
     />
     {
       imagePath && (
