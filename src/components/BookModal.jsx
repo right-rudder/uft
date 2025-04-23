@@ -1,23 +1,42 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { IoMdClose } from "react-icons/io";
 
 const OpenModalButton = ({ webhookUrl }) => {
   const [showModal, setShowModal] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [userName, setUserName] = useState("");
+  const modalRef = useRef(null);
 
   const toggleModal = () => {
     setShowModal(!showModal);
     setFormSubmitted(false);
   };
 
+  // 🔒 Disable scroll on <body> when modal is open
+  useEffect(() => {
+    if (showModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [showModal]);
+
+  // 🖱 Close modal when clicking outside of the modal box
+  const handleOverlayClick = (e) => {
+    if (modalRef.current && !modalRef.current.contains(e.target)) {
+      toggleModal();
+    }
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
-  
-    if (formData.get("confirm-email")) {
-      return;
-    }
+
+    if (formData.get("confirm-email")) return;
 
     const name = formData.get("name");
     setUserName(name);
@@ -37,10 +56,7 @@ const OpenModalButton = ({ webhookUrl }) => {
         }
       })
       .catch((error) => {
-        console.error(
-          "Network error occurred while submitting the form:",
-          error,
-        );
+        console.error("Network error:", error);
       });
   };
 
@@ -51,9 +67,16 @@ const OpenModalButton = ({ webhookUrl }) => {
       </button>
 
       {showModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-8 max-w-sm m-4 text-black relative rounded-md">
-            {!formSubmitted && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+          onClick={handleOverlayClick}
+        >
+          <div
+            ref={modalRef}
+            className="bg-white p-8 max-w-sm m-4 text-black relative rounded-md"
+            onClick={(e) => e.stopPropagation()} // prevent inside clicks from closing
+          >
+            {!formSubmitted ? (
               <>
                 <h2 className="text-2xl font-bold mb-4">Get the free guide</h2>
                 <p className="mb-4">
@@ -96,22 +119,18 @@ const OpenModalButton = ({ webhookUrl }) => {
                       required
                     />
                   </div>
-
                   <p className="hidden">
                     <label>
-                      Don't fill this out if you're human:
+                      Don’t fill this out if you’re human:
                       <input name="confirm-email" />
                     </label>
                   </p>
-
-                  <button type="submit" className="btn-red w-full">
+                  <button type="submit" className="btn-accent w-full">
                     Get the guide
                   </button>
                 </form>
               </>
-            )}
-
-            {formSubmitted && (
+            ) : (
               <>
                 <h2 className="text-2xl font-bold mb-4">
                   Thank you, {userName}, for downloading our Quick Start Guide!
@@ -125,10 +144,10 @@ const OpenModalButton = ({ webhookUrl }) => {
             )}
 
             <button
-              className="bg-main-red p-1 rounded-full absolute top-2 right-2"
+              className="bg-accent-500 p-[2px] rounded-full absolute top-2 right-2"
               onClick={toggleModal}
             >
-              <IoMdClose className="text-2xl text-white" />
+              <IoMdClose className="text-xl text-white" />
             </button>
           </div>
         </div>
