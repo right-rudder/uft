@@ -35,5 +35,5 @@ const locationCollection = defineCollection({
 
 export const collections = {
   blog: blogCollection,
-  location: locationCollection,
+  "pilot-training": locationCollection,
 };
