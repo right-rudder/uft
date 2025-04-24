@@ -44,6 +44,18 @@ const locationCounty = location.data.baseLocation || "A well-known county with r
 const locationKeyPlace1 = location.data.keyPlace1 || "A popular landmark worth visiting.";
 const locationKeyPlace2 = location.data.keyPlace2 || "Another must-see location in the area.";
 
+function randomItem(arr: string[]) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+const headerImage = randomItem(location.data.headerImages || []);
+const rawHeadline = randomItem(location.data.headlines || []);
+const headerH1 = rawHeadline
+  .replace("{{city}}", locationCity)
+  .replace("{{stateShort}}", locationStateShort)
+  .replace("{{baseLocation}}", locationCounty);
+
+
 const data = {
     //SEO Header Stuff
     pageTitle: `${locationCity}, ${locationStateLong} Flight School for Pilot Training | ${COMPANY_NAME}`,
@@ -55,11 +67,10 @@ const data = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/uft-2006-Cessna-Skyhawk-172s.jpg",
-      imageAlt:
-        "UFT's plane, a Cessna Skyhawk 172s 2006 on the runway viewed from the front with the co-pilot's side, under clear blue skies",
-      headerH1: `Become a pilot near<br class="hidden lg:block" ><div class="bg-gradient-to-br from-accent-500 via-accent-300 to-accent-400 bg-clip-text text-transparent">${locationCity}, ${locationStateShort}</div>`,
-      paragraph: `Universal Flight Training is your flight school to become a pilot near ${locationCity}, ${locationStateShort}. ${locationDescription}`,
+      imagePath: headerImage || "/src/assets/uft-2006-Cessna-Skyhawk-172s.jpg",
+      imageAlt: `Flight school aircraft at ${locationCity}, ${locationStateShort}`,
+      headerH1: headerH1 || `Train to become a pilot near ${locationCity}, ${locationStateShort}`,
+      paragraph: `Universal Flight Training offers personalized pilot training in ${locationCity}, located in scenic ${locationStateLong}. ${locationDescription}`,
       buttons: [
         {
           name: "Enroll Today",
