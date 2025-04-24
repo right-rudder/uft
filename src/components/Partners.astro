@@ -46,6 +46,8 @@ const resolvedImages = await Promise.all(
             alt={partner.alt}
             width={200}
             loading="eager"
+            widths={[240, 540, 720, 1080, 1440, 1980]}
+            sizes={`(max-width: 240px) 240px, (max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, 1920px`}
           />
         ) : (
           <span>Error: Image not found</span>

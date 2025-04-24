@@ -35,7 +35,9 @@ import Banner from "../components/Banner.astro";
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <Banner />
-    <Navbar pathname={pathname} client:load />
+    <header class="w-full h-0 sticky inset-0 z-20 font-bebas">
+      <Navbar pathname={pathname} client:load />
+    </header>
     <main>
       <slot />
     </main>

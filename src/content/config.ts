@@ -28,10 +28,12 @@ const locationCollection = defineCollection({
     baseLocation: z.string(),
     keyPlace1: z.string(),
     keyPlace2: z.string(),
+    headerImages: z.array(z.string()),
+    headlines: z.array(z.string()),
   }),
 });
 
 export const collections = {
   blog: blogCollection,
-  location: locationCollection,
+  "pilot-training": locationCollection,
 };
