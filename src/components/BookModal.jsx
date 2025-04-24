@@ -12,7 +12,7 @@ const OpenModalButton = ({ webhookUrl }) => {
     setFormSubmitted(false);
   };
 
-  // 🔒 Disable scroll on <body> when modal is open
+  // Disable scroll on <body> when modal is open
   useEffect(() => {
     if (showModal) {
       document.body.style.overflow = "hidden";
@@ -25,7 +25,7 @@ const OpenModalButton = ({ webhookUrl }) => {
     };
   }, [showModal]);
 
-  // 🖱 Close modal when clicking outside of the modal box
+  // Close modal when clicking outside of the modal box
   const handleOverlayClick = (e) => {
     if (modalRef.current && !modalRef.current.contains(e.target)) {
       toggleModal();
