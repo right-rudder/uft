@@ -57,10 +57,10 @@ export const footerLinks = [
         name: "Flight Instructor",
         link: "/programs/certified-flight-instructor-cfi",
       },
-      {
-        name: "Sport Pilot",
-        link: "/programs/sport-pilot",
-      },
+      // {
+      //   name: "Sport Pilot",
+      //   link: "/programs/sport-pilot",
+      // },
     ],
   },
   {
