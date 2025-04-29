@@ -84,6 +84,22 @@ const ourFleet = {
       ],
     },
 
+    simulatorGrid: {
+      upperHeading: "Explore",
+      heading: "Our Simulator",
+      description: `Our simulator offers an affordable and highly effective training environment for new and experienced pilots. FAA-approved and meticulously maintained, our flight simulator is designed to help you build skills safely and efficiently. Learn more about our available equipment below.`,
+      aircraft: [
+        {
+          title: "Virtual Fly Solo Pro G1",
+          imagePath: "/src/assets/virtual-fly-solo-pro-g1-simulator.webp",
+          imageAlt: "Universal Flight Training Virtual Fly Solo Pro G1 flight simulator setup",
+          description: `The Virtual Fly Solo Pro G1 is a FAA-approved Advanced Aviation Training Device (AATD) that offers a highly realistic flight training experience. It features a full cockpit layout with precise controls and realistic instrumentation, making it perfect for practicing instrument approaches, procedures, and maneuvers.<br>Rates:<br>$115/hr + $65/hr instructor`,
+          link: "/contact",
+          linkText: "Schedule a Session",
+        },
+      ],
+    },
+    
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
       headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
