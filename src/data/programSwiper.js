@@ -50,15 +50,15 @@ const programsSwiper = {
         "Become a trusted guide in the world of aviation. Become a CFI and teach others to fly.",
       link: "/programs/certified-flight-instructor-cfi",
     },
-    {
-      title: "Sport Pilot",
-      imagePath: "/src/assets/tl-sparker.webp",
-      imageAlt:
-        "TL Sport Aircraft flying over clouds",
-      description:
-        "Take flight, live light! Discover freedom in the sky with our Sport Pilot Course.",
-      link: "/programs/sport-pilot",
-    },
+    // {
+    //   title: "Sport Pilot",
+    //   imagePath: "/src/assets/tl-sparker.webp",
+    //   imageAlt:
+    //     "TL Sport Aircraft flying over clouds",
+    //   description:
+    //     "Take flight, live light! Discover freedom in the sky with our Sport Pilot Course.",
+    //   link: "/programs/sport-pilot",
+    // },
   ],
 };
 
