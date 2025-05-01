@@ -66,12 +66,6 @@ const ourTeam = {
             "Universal Flight Training CEO Jose Santos",
         },
         {
-          name: `Gary Nickasch<br><small class="text-white font-normal text-sm">Director of Flight Training and Standards</small>`,
-          imagePath: "/src/assets/uft-gary-nickasch-director-of-flight-training-and-standards.jpg",
-          imageAlt:
-            "Universal Flight Training Director of Flight Training and Standards Gary Nickasch",
-        },
-        {
           name: `Jacob Kyser<br><small class="text-white font-normal text-sm">Vice President</small>`,
           imagePath: "/src/assets/uft-jacob-kyser-vice-president.jpg",
           imageAlt:
