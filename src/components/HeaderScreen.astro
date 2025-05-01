@@ -21,7 +21,8 @@ if (!images[content.imagePath]) {
     alt={content.imageAlt}
     width={1920}
     loading={"eager"}
-    class="absolute inset-0 -z-0 object-cover object-center w-full h-full animate-slow-zoom max-h-[1600px]"
+    fetchpriority="high"
+    class="absolute inset-0 -z-0 object-cover object-center w-full h-full animate-slow-zoom max-h-[1315px]"
     widths={[240, 540, 720, 1080, 1440, 1980]}
     sizes={`(max-width: 240px) 240px, (max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, 1920px`}
   />

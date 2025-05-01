@@ -30,7 +30,7 @@ const homePage = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/uft-2006-Cessna-Skyhawk-172s.jpg",
+      imagePath: "/src/assets/uft-2006-Cessna-Skyhawk-172s.webp",
       imageAlt:
         "UFT's plane, a Cessna Skyhawk 172s 2006 on the runway viewed from the front with the co-pilot's side, under clear blue skies",
       headerH1: `Are you ready to <br class="hidden lg:block" ><div class="bg-gradient-to-br from-accent-500 via-accent-300 to-accent-400 bg-clip-text text-transparent">Become A Pilot?</div>`,

@@ -32,7 +32,7 @@ const ourTeam = {
     },
 
     staffGrid: {
-      imagePath: "/src/assets/uft-entire-team-picture.jpg",
+      imagePath: "/src/assets/uft-entire-team-picture.png",
       imageAlt: "Universal Flight Training crew",    
       upperHeading: "Meet Our Team",
       heading: "About us",
@@ -52,7 +52,7 @@ const ourTeam = {
     },
 
     adminTeamGrid: {
-      imagePath: "/src/assets/uft-admin-team-picture.jpg",
+      imagePath: "/src/assets/uft-admin-team-picture.png",
       imageAlt: "Universal Flight Training crew",    
       upperHeading: "Admin Team",
       heading: "The Backbone of Universal Flight Training",
@@ -80,7 +80,7 @@ const ourTeam = {
       ],
     },
     flightTeamGrid: {
-      imagePath: "/src/assets/uft-flight-team-picture.jpg",
+      imagePath: "/src/assets/uft-flight-team-picture.png",
       imageAlt: "Universal Flight Training crew",    
       upperHeading: "Flight Instructors Team",
       heading: "Guiding You to New Heights",
