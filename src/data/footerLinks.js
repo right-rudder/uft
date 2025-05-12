@@ -86,6 +86,10 @@ export const footerLinks = [
         name: "Quiz",
         link: "/quiz",
       },
+      {
+        name: "Financing",
+        link: "/financing",
+      },
     ],
   },
 ];
