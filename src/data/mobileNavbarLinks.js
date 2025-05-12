@@ -80,6 +80,10 @@ export const mobileNavbarLinks = [
         link: "/about/our-fleet",
       },
       {
+        name: "Financing",
+        link: "/financing",
+      },
+      {
         name: "Blog",
         link: "/blog",
       },
