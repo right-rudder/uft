@@ -1,17 +1,17 @@
 // CHANGE Default title
 export const SITE_TITLE =
-  "Universal Flight Training | Sarasota Flight School for Pilot Training";
+  "Sarasota Flight School | Flight Training & Pilot Certification | Universal Flight Training";
 
 // CHANGE default meta description -> should only be used in homepage technically, but is there for a fallback in case a page is missed
 export const SITE_DESCRIPTION =
-  "Universal Flight Training, located at Sarasota Bradenton International Airport, offers personalized flight training with a 98% checkride pass rate and over 500 graduates since 2010. Led by experienced instructors, UFT provides flexible programs tailored to each student, from Private Pilot to Certified Flight Instructor courses. Discover more about our mission, values, and modern aircraft fleet today.";
+  "Universal Flight Training offers premier flight instruction at Sarasota Bradenton International Airport with a 98% checkride pass rate. From Private Pilot to CFI courses, our experienced instructors provide personalized training with modern aircraft. Begin your aviation journey with Florida's trusted flight school.";
 
-//SEO tip -> keyword + city 1
-//Should have between 5-10 different localities to mix and match keywords
-//typical keywords = how to become a pilot, flight school near, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot
+//SEO tip -> focus on high-intent, specific keywords with location modifiers
+//Use a strategic mix of short-tail and long-tail keywords
+//Focus on user search intent and conversion-focused terms
 // CHANGE default keywords -> should only be used in homepage technically, but is there for a fallback in case a page is missed
 export const KEYWORDS =
-  "Universal Flight Training, located at SRQ - Sarasota Bradenton International Airport in Sarasota, how to become a pilot, flight school near, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot, flight school, pilot training, Universal Flight Training, Sarasota flight school, personalized flight training, flexible flight programs, Private Pilot License training, Certified Flight Instructor (CFI) Sarasota, multi-engine training Sarasota, aviation school in Florida, Cessna 172 training, discovery flights Sarasota, pilot school near me, flight training with high pass rate, Bradenton, Sarasota, Desoto County, Venice, St. Pete";
+  "flight school Sarasota, pilot training Florida, discovery flight Sarasota, how to become a pilot, Private Pilot License Sarasota FL, flight instructor certification, instrument rating training, commercial pilot courses Florida, flight lessons near me, Cessna 172 flight training, Sarasota Bradenton airport flight school, best aviation school Florida, pilot license cost, discovery flights SRQ, affordable flight training Sarasota";
 
 export const LOCATIONS = [
   {
@@ -22,7 +22,7 @@ export const LOCATIONS = [
     zip: "34243",
     gMaps: "https://maps.app.goo.gl/mmZCj4UVrcw1vaEXA",
     phone: "(941) 300-0309",
-    forwardPhone: "(941) 210-4410"
+    forwardPhone: "(941) 210-4410",
   },
 ];
 export const COURSES = [
@@ -53,7 +53,7 @@ export const COURSES = [
     },
   },
 ];
-    
+
 // CHANGE client business info
 export const COMPANY_NAME = "Universal Flight Training";
 export const COMPANY_NAME_CAPS = "UNIVERSAL FLIGHT TRAINING";
