@@ -2,7 +2,7 @@
 import ImageComp from "./ImageComp.astro";
 import BookModal from "./BookModal.jsx";
 const BOOK_WEBHOOK_URL = import.meta.env.VITE_BOOK_WEBHOOK_URL;
-
+const PORTAL_API_KEY = import.meta.env.PORTAL_API_KEY;
 const { content } = Astro.props;
 ---
 
@@ -27,13 +27,15 @@ const { content } = Astro.props;
     <div
       class="mt-6 flex flex-wrap justify-center lg:justify-start w-full align-middle items-center gap-6 z-10"
     >
-      <BookModal client:visible webhookUrl={BOOK_WEBHOOK_URL} />
+      <BookModal
+        client:visible
+        webhookUrl={BOOK_WEBHOOK_URL}
+        apiKey={PORTAL_API_KEY}
+      />
     </div>
   </div>
 
-  <div
-    class={`order-first lg:order-none w-full lg:w-1/5 relative py-6`}
-  >
+  <div class={`order-first lg:order-none w-full lg:w-1/5 relative py-6`}>
     <ImageComp
       imagePath={content.imagePath}
       imageAlt={content.imageAlt}

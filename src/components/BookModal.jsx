@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { IoMdClose } from "react-icons/io";
 
-const OpenModalButton = ({ webhookUrl }) => {
+const OpenModalButton = ({ webhookUrl, apiKey }) => {
   const [showModal, setShowModal] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [userName, setUserName] = useState("");
@@ -32,32 +32,58 @@ const OpenModalButton = ({ webhookUrl }) => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
 
-    if (formData.get("confirm-email")) return;
+    const confirmEmail = formData.get("confirm-email")?.trim();
+    if (confirmEmail) return;
 
     const name = formData.get("name");
     setUserName(name);
 
-    fetch(webhookUrl, {
-      method: "POST",
-      body: new URLSearchParams(formData),
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-    })
-      .then((response) => {
-        if (response.ok) {
-          setFormSubmitted(true);
-        } else {
-          console.error("Form submission failed:", response.statusText);
-        }
-      })
-      .catch((error) => {
-        console.error("Network error:", error);
-      });
+    const urlEncodedBody = new URLSearchParams(formData).toString();
+
+    const jsonBody = {
+      first_name: formData.get("name")?.split(" ")[0]?.trim() || "",
+      last_name: formData.get("name")?.split(" ")[1]?.trim() || "",
+      email: formData.get("email")?.trim() || "",
+      phone: formData.get("phone")?.trim() || "",
+      campaign: "book",
+      account_random_id: "ac_fabson4e",
+    };
+
+    try {
+      const [ghlRes, portalRes] = await Promise.all([
+        fetch(webhookUrl, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: urlEncodedBody,
+        }),
+        fetch("https://portal.rightruddermarketing.com/api/leads", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+            "x-api-key": apiKey,
+          },
+          body: JSON.stringify(jsonBody),
+        }),
+      ]);
+
+      if (ghlRes.ok && portalRes.ok) {
+        setFormSubmitted(true);
+      } else {
+        console.error("Submission failed", {
+          ghlStatus: ghlRes.status,
+          portalStatus: portalRes.status,
+        });
+      }
+    } catch (err) {
+      console.error("Submission error:", err);
+    }
   };
 
   return (
