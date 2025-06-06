@@ -4,18 +4,10 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 
-import partytown from "@astrojs/partytown";
-
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.flyuft.com/",
-  integrations: [
-    mdx(),
-    sitemap(),
-    tailwind(),
-    react(),
-    partytown(),
-  ],
+  integrations: [mdx(), sitemap(), tailwind(), react()],
   redirects: {
     "/flighttrainingcourse": "/programs",
     "/airworthiness": "/services/maintenance", // revisit
