@@ -1,5 +1,5 @@
 ---
-pubDate: "June 18, 2025"
+pubDate: "June 15, 2025"
 author: Jacob Kyser
 title: "The Best Aircraft for Pilot Training: Exploring UFT's Modern Fleet"
 description: "Explore Universal Flight Training's modern aircraft fleet—Cessna 172s, Piper Archers, and Beechcraft Duchess—designed for every level of pilot training. Learn why UFT at SRQ is the top choice for aspiring aviators."
