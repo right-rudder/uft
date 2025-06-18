@@ -62,18 +62,20 @@ const {
           <p class="-mt-5 text-base font-medium">{author}</p>
           <div class="md:flex gap-2 hidden">
             <span
-              class="bg-primary-600 text-white inline-block px-3 py-1 rounded-md"
+              class="bg-primary-600 text-white inline-block text-xs px-3 py-1 rounded-sm capitalize"
             >
               {category}
             </span>
             {
-              tags.slice(0, 3).map((tag) => (
-                <span
-                  class={`bg-teal-500 text-white inline-block px-3 py-1 rounded-md`}
-                >
-                  {tag}
-                </span>
-              ))
+              tags
+                .slice(0, 3)
+                .map((tag) => (
+                  <span
+                    class={`bg-teal-500 text-white text-xs inline-block px-3 py-1 capitalize rounded-sm`}
+                  >
+                    {tag}
+                  </span>
+                ))
             }
           </div>
           <hr />
