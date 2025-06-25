@@ -49,7 +49,7 @@ const ourFleet = {
           imageAlt:
             "Universal Flight Training Piper Archer II parked at the airport",
           description:
-            `The Piper Archer II is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Archer II is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$179/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
+            `The Piper Archer II is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Archer II is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
           link: "/contact",
           linkText: "Fly Now",
         },
@@ -59,7 +59,7 @@ const ourFleet = {
           imageAlt:
             "Universal Flight Training Cessna Skyhawk 172s parked at the airport",
           description:
-            `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$179/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
+            `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
           link: "/contact",
           linkText: "Fly Now",
         },
@@ -68,16 +68,25 @@ const ourFleet = {
           imagePath: "/src/assets/cessna-skyhawk-172s-aircraft-2006.webp",
           imageAlt: "Universal Flight Training Cessna Skyhawk 172s parked",
           description:
-            `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$189/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
+            `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$199/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
           link: "/contact",
           linkText: "Fly Now",
         },
+        // {
+        //   title: "2008 Piper Seminole",
+        //   imagePath: "/src/assets/piper-seminole-aircraft.webp",
+        //   imageAlt: "Universal Flight Training Piper Seminole parked",
+        //   description:
+        //     `The Piper Seminole is a multi-engine aircraft that is perfect for students who are looking to earn their multi-engine rating. The Seminole is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying multi-engine aircraft.<br>Rates:<br>$410/hr wet + $75/hr instructor`,
+        //   link: "/contact",
+        //   linkText: "Fly Now",
+        // },
         {
-          title: "2008 Piper Seminole",
-          imagePath: "/src/assets/piper-seminole-aircraft.webp",
-          imageAlt: "Universal Flight Training Piper Seminole parked",
+          title: "1975 Piper Cherokee (N3912X)",
+          imagePath: "/src/assets/piper-cherokee-140-n3912x-sarasota-florida-flight-school-universal-flight-training-8367.jpeg",
+          imageAlt: "Universal Flight Training Piper Cherokee N3912X parked",
           description:
-            `The Piper Seminole is a multi-engine aircraft that is perfect for students who are looking to earn their multi-engine rating. The Seminole is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying multi-engine aircraft.<br>Rates:<br>$410/hr wet + $75/hr instructor`,
+            `The Piper Cherokee is a dependable single-engine trainer ideal for students pursuing their private pilot license or time building. N3912X is powered by a 180 hp Lycoming engine and offers stable, predictable handling for primary training and cross-country flights.<br>Rates:<br>$169/hr wet + $65/hr instructor`,
           link: "/contact",
           linkText: "Fly Now",
         },
