@@ -11,6 +11,20 @@ import TrainingRoadmap from "../../components/TrainingRoadmap.astro";
 
 
 const { data } = privatePilotCourse;
+
+const simulatorCTA = {
+  imagePath: "/src/assets/virtual-fly-solo-pro-g1-simulator.webp",
+  imageAlt: "",
+  headerH1: `Save Time. Save Money. Train Smarter.`,
+  paragraph: "Train smarter with our FAA-approved Virtual Fly Solo Pro G1 AATD simulator. Perfect for instrument rating practice, emergency procedures, and cost-effective flight training in Sarasota, Florida.",
+  buttons: [
+    {
+      name: "Book Simulator Time",
+      link: "/contact",
+      primary: true,
+    },
+  ],
+};
 ---
 
 <BaseLayout
@@ -22,6 +36,7 @@ const { data } = privatePilotCourse;
   <HeaderScreen content={data.header} />
   <PageSummary content={data.pageSummary} />
   <TrainingRoadmap content={data.roadmap}/>
+  <CTAColor content={simulatorCTA} />
   <ProgramSwiper content={programsSwiper} />
   <CTAColor content={flyWithUsCTA} />
   <script src="../../scripts/creativeSwiper.js"></script>

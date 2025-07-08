@@ -26,15 +26,15 @@ const { data } = Astro.props;
       <ul role="list" class="grid grid-cols-1 gap-9 max-w-4xl">
         {
           data.aircraft.map((plane) => (
-            <li class="flex flex-col bg-white group relative overflow-hidden rounded-sm">
-              <div class="w-full h-[27rem] overflow-hidden flex flex-col justify-center items-center align-middle">
+            <li class="flex flex-col bg-white group relative overflow-hidden rounded-sm h-full">
+              <div class="w-full h-[36rem] sm:h-[32rem] overflow-hidden flex flex-col justify-center items-center align-middle">
                 <p
-                  class="z-10 w-full px-6 text-5xl font-bold lg:translate-y-12 drop-shadow-md text-center leading-7 text-accent-200 lg:text-accent-100 group-hover:text-accent-200 group-hover:-translate-y-3 duration-300 ease-in-out"
+                  class="z-10 w-full h-h-full px-6 text-3xl sm:text-5xl font-bold lg:translate-y-12 drop-shadow-md text-center leading-7 text-accent-200 lg:text-accent-100 group-hover:text-accent-200 group-hover:-translate-y-3 duration-300 ease-in-out"
                   set:html={plane.title}
                 />
                 {plane.description && (
                   <p
-                    class="z-10 mt-6 lg:mt-0 px-8 w-full lg:leading-3 lg:translate-y-16 font-sans2 font-normal text-lg lg:opacity-0 text-center leading-tight text-muted-100 group-hover:opacity-95 group-hover:-translate-y-0 group-hover:leading-tight duration-500 ease-out"
+                    class="text-base sm:text-lg z-10 mt-6 lg:mt-0 px-8 w-full lg:leading-3 lg:translate-y-16 font-sans2 font-normal lg:opacity-0 text-center leading-tight text-muted-100 group-hover:opacity-95 group-hover:-translate-y-0 group-hover:leading-tight duration-500 ease-out"
                     set:html={plane.description}
                   />
                 )}
