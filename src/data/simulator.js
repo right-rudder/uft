@@ -49,6 +49,50 @@ const ourSimulator = {
       ],
     },
     
+    benefits: {
+      upperHeading: "Advantages",
+      heading: "Simulator Training Benefits",
+      description: "The Virtual Fly Solo Pro G1 AATD at Universal Flight Training provides an unparalleled training environment that enhances safety, reduces costs, and accelerates your learning curve. Here's how our FAA-approved simulator gives you the edge:",
+      advantages: [
+        {
+          
+          title: "Loggable Hours",
+          description: "FAA allows 20 hours toward instrument rating (FAR 61.65).",
+        },
+        {
+          
+          title: "Save Money",
+          description: "Practice procedures for less than half the cost of flying.",
+        },
+        {
+          title: "Train in Any Weather",
+          description: "Fly IFR approaches in storms, icing, or low visibility—safely.",
+        },
+        {
+          
+          title: "Instant Replay",
+          description: "Review mistakes with your instructor in real time.",
+        },
+        {
+          title: "G1000 Glass Cockpit",
+          description: "Identical avionics to our Cessna 172 fleet for seamless transition.",
+        },
+        {
+          title: "Risk-Free Emergencies",
+          description: "Master engine failures, system malfunctions, and other critical scenarios with zero risk.",
+        },
+        {
+          title: "Flexible Scheduling",
+          description: "Available day/night with no weather cancellations or maintenance delays.",
+        },
+        {
+          title: "Instructor Insights",
+          description: "Pause and analyze your performance with CFIIs to accelerate progress.",
+        },
+      ],
+
+    },
+
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
       headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
