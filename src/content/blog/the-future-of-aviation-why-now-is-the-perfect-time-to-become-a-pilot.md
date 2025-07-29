@@ -3,7 +3,7 @@ pubDate: "May 15, 2025"
 author: Jacob Kyser
 title: "The Future Of Aviation: Why Now Is The Perfect Time To Become A Pilot"
 description: "Discover why now is the perfect time to become a pilot. Learn how Universal Flight Training (UFT) in sunny Florida provides unmatched opportunities with year-round flying, cutting-edge technology, and a proven path to aviation success."
-heroImage: "/blog/Universal-Flight-Training-blog-future-aviation.webp"
+heroImage: "/blog/Universal-Flight-Training-blog-future-aviation.jpg"
 readingTime: 5
 category: "Article"
 tags:
