@@ -37,7 +37,7 @@ if (!images[content.imagePath]) {
       set:html={content.headerH1}
     />
     <p
-      class="text-sm sm:text-base lg:text-xl mt-3 font-sans font-semibold tracking-wide text-primary-600 text-left max-w-5xl"
+      class="text-sm sm:text-base lg:text-xl mt-3 font-semibold tracking-wide text-primary-800 text-left max-w-5xl"
       set:html={content.paragraph}
     />
     <div
@@ -47,7 +47,7 @@ if (!images[content.imagePath]) {
         content.buttons.map((btn) => (
           <a
             href={btn.link}
-            class={`${btn.primary ? "btn-accent" : "btn-accent"} w-full md:w-auto`}
+            class={`${btn.primary ? "btn-accent " : "btn-accent "} w-full md:w-auto`}
           >
             {btn.name}
           </a>

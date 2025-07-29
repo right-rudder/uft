@@ -44,6 +44,22 @@ const ourFleet = {
       description: `Our fleet of aircrafts is designed to provide you with a diverse range of training options, from single-engine aircraft to multi-engine aircraft. Each aircraft is meticulously maintained to ensure your safety and comfort during your training. Explore our fleet below to learn more about each aircraft and its capabilities.`,
       aircraft: [
         {
+          title: "2025 Cirrus SR22-G6",
+          imagePath: "/src/assets/fleet-uft-cirrus-sr22-g6-sarasota-flight-trainingIMG_8960.jpg",
+          imageAlt: "Universal Flight Training Cirrus SR22-G6 N96AT on the tarmac",
+          description: `N96AT is a brand-new 2025 Cirrus SR22-G6 featuring the Garmin “Perspective+” avionics system and a premium interior designed for both comfort and efficiency. Capable of cruising at 213 knots, this aircraft offers advanced safety features like CAPS and exceptional cross-country capability. It’s a perfect option for pilots looking to train in or rent a technically advanced aircraft.<br><strong>Rates:</strong><br>Please contact us for current rates and availability.`,
+          link: "/contact",
+          linkText: "Contact Us",
+        },
+        {
+          title: "2024 Cirrus SR22-G6",
+          imagePath: "/src/assets/fleet-uft-cirrus-sr22-g6-sarasota-flight-trainingIMG_8962.jpg",
+          imageAlt: "Universal Flight Training Cirrus SR22-G6 N3183P parked on the ramp",
+          description: `N3183P is a 2024 Cirrus SR22-G6 equipped with the Garmin “Perspective+” avionics suite. Known for its blend of luxury, safety, and speed, this aircraft is ideal for advanced students and renters looking for high-performance flight experience. With a cruise speed of 213 knots, it’s nearly twice as fast as our other aircraft and features the Cirrus Airframe Parachute System (CAPS), making it one of the safest aircraft in its class.<br><strong>Rates:</strong><br>Please contact us for current rates and availability.`,
+          link: "/contact",
+          linkText: "Contact Us",
+        },
+        {
           title: "1975 Piper Archer II",
           imagePath: "/src/assets/piper-archer-aircraft.webp",
           imageAlt:
@@ -51,7 +67,7 @@ const ourFleet = {
           description:
             `The Piper Archer II is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Archer II is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
           link: "/contact",
-          linkText: "Fly Now",
+          linkText: "Contact Us",
         },
         {
           title: "2000 Cessna Skyhawk 172s",
@@ -61,7 +77,7 @@ const ourFleet = {
           description:
             `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
           link: "/contact",
-          linkText: "Fly Now",
+          linkText: "Contact Us",
         },
         {
           title: "2006 Cessna Skyhawk 172s",
@@ -70,7 +86,7 @@ const ourFleet = {
           description:
             `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$199/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
           link: "/contact",
-          linkText: "Fly Now",
+          linkText: "Contact Us",
         },
         // {
         //   title: "2008 Piper Seminole",
@@ -79,16 +95,16 @@ const ourFleet = {
         //   description:
         //     `The Piper Seminole is a multi-engine aircraft that is perfect for students who are looking to earn their multi-engine rating. The Seminole is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying multi-engine aircraft.<br>Rates:<br>$410/hr wet + $75/hr instructor`,
         //   link: "/contact",
-        //   linkText: "Fly Now",
+        //   linkText: "Contact Us",",
         // },
         {
-          title: "1975 Piper Cherokee (N3912X)",
+          title: "1975 Piper Cherokee",
           imagePath: "/src/assets/piper-cherokee-140-n3912x-sarasota-florida-flight-school-universal-flight-training-8367.jpeg",
           imageAlt: "Universal Flight Training Piper Cherokee N3912X parked",
           description:
             `The Piper Cherokee is a dependable single-engine trainer ideal for students pursuing their private pilot license or time building. N3912X is powered by a 180 hp Lycoming engine and offers stable, predictable handling for primary training and cross-country flights.<br>Rates:<br>$169/hr wet + $65/hr instructor`,
           link: "/contact",
-          linkText: "Fly Now",
+          linkText: "Contact Us",
         },
       ],
     },

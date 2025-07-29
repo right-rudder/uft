@@ -117,6 +117,18 @@ const ourTeam = {
           imageAlt:
             "Universal Flight Training Flight Instructor Thomas Donetz",
         },
+        {
+          name: `Sydney Jilek<br><small class="text-white font-normal text-sm">Flight Instructor (CFII)</small>`,
+          imagePath: "/src/assets/profile-silhouette-uft.webp",
+          imageAlt:
+            "Universal Flight Training Flight Instructor Sydney Jilek",
+        },
+        {
+          name: `Mark Ladwig<br><small class="text-white font-normal text-sm">Flight Instructor (CFII)</small>`,
+          imagePath: "/src/assets/profile-silhouette-uft.webp",
+          imageAlt:
+            "Universal Flight Training Flight Instructor Mark Ladwig",
+        },
       ],
     },
     maintenanceTeamGrid: {
