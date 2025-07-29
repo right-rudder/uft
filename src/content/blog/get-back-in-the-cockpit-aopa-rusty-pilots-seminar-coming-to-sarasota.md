@@ -3,7 +3,7 @@ pubDate: "June 27, 2025"
 author: Jacob Kyser
 title: "Get Back in the Cockpit: AOPA Rusty Pilots Seminar Coming to Sarasota"
 description: "Ready to reignite your passion for flight? The AOPA Rusty Pilots program is making a stop at Sarasota/Bradenton International Airport (SRQ) this September, offering lapsed pilots the perfect opportunity to return to the skies"
-heroImage: "/blog/uft-aopa-rusty-pilots-seminar.webp"
+heroImage: "/blog/old-pilot-teaching-granddaughter-to-fly.webp"
 readingTime: 4
 category: "Events"
 tags:
