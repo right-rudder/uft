@@ -31,7 +31,7 @@ const {
   <section
     class="flex justify-center pt-2 bg-gradient-to-b from-primary-50 to-primary-100"
   >
-    <article class="mx-auto max-w-4xl mb-16">
+    <article class="w-full mx-auto max-w-4xl mb-16">
       <div
         class="mb-12 lg:mb-0 aspect-square lg:aspect-video lg:rounded-t-md shadow-md overflow-hidden"
       >
@@ -57,7 +57,7 @@ const {
               )
             }
           </div>
-          <h1 class="text-5xl m-0 font-sans">{title}</h1>
+          <h1 class=" lg:text-5xl m-0 font-sans break-keep">{title}</h1>
           <p class="text-sm font-light">Published by:</p>
           <p class="-mt-5 text-base font-medium">{author}</p>
           <div class="md:flex gap-2 hidden">
@@ -80,7 +80,7 @@ const {
           </div>
           <hr />
         </div>
-        <div class="flex relative justify-center pb-4">
+        <div class="flex relative justify-center pb-4 blog-post">
           <slot />
         </div>
       </div>
