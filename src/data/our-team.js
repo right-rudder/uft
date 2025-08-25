@@ -118,6 +118,12 @@ const ourTeam = {
             "Universal Flight Training Flight Instructor Thomas Donetz",
         },
         {
+          name: `Gabriel Perez<br><small class="text-white font-normal text-sm">Flight Instructor (CFII)</small>`,
+          imagePath: "/src/assets/profile-silhouette-uft.webp",
+          imageAlt:
+            "Universal Flight Training Flight Instructor Gabriel Perez",
+        },
+        {
           name: `Sydney Jilek<br><small class="text-white font-normal text-sm">Flight Instructor (CFII)</small>`,
           imagePath: "/src/assets/profile-silhouette-uft.webp",
           imageAlt:
