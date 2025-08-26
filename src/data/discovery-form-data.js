@@ -24,7 +24,7 @@ const discoveryForm = {
       imageAlt: `${COMPANY_NAME} Fly Over Sunset`,
       headerH1: "Discovery Flight",
       paragraph:
-        `Sign up a discovery flight at ${COMPANY_NAME}. For only $249.99 see what it feels to fly on one of our aircrafts!`,
+        `Sign up a discovery flight at ${COMPANY_NAME}. For only $299 see what it feels to fly on one of our aircrafts!`,
       buttons: [],
   
     },
