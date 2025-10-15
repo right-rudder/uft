@@ -94,12 +94,6 @@ const ourTeam = {
             "Universal Flight Training Chief Flight Instructor Joe Vasquez",
         },
         {
-          name: `Daniel Gormley<br><small class="text-white font-normal text-sm">Flight Instructor</small>`,
-          imagePath: "/src/assets/uft-Daniel-Gormley-instructor.jpg",
-          imageAlt:
-            "Universal Flight Training Flight Instructor Daniel Gormley",
-        },
-        {
           name: `Justin Gorrell<br><small class="text-white font-normal text-sm">Flight Instructor</small>`,
           imagePath: "/src/assets/uft-Justin-Gorrell-instructor.jpg",
           imageAlt:
@@ -134,6 +128,12 @@ const ourTeam = {
           imagePath: "/src/assets/profile-silhouette-uft.webp",
           imageAlt:
             "Universal Flight Training Flight Instructor Mark Ladwig",
+        },
+        {
+          name: `Alyssa Lucore<br><small class="text-white font-normal text-sm">Flight Instructor</small>`,
+          imagePath: "/src/assets/profile-silhouette-uft.webp",
+          imageAlt:
+            "Universal Flight Training Flight Instructor Alyssa Lucore",
         },
       ],
     },
