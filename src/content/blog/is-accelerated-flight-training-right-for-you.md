@@ -1,5 +1,5 @@
 ---
-pubDate: "November 15, 2025"
+pubDate: "November 19, 2025"
 author: Jacob Kyser
 title: "Is Accelerated Flight Training Right for You?"
 description: "Accelerated flight training can get you licensed faster, but it’s not for everyone. Learn what to expect from intensive flight programs, who they’re best suited for, and how Universal Flight Training helps students succeed at any pace."
