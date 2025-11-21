@@ -8,12 +8,12 @@ const newCTA = {
   buttons: [
     {
       name: "Visit Our Maintenance Site",
-      link: "https://uft-maintenance.netlify.app/",
+      link: "https://aircraftmaintenancesarasota.com/",
       primary: true,
     },
     {
       name: "Request a Service Slot",
-      link: "https://uft-maintenance.netlify.app/#service-form",
+      link: "https://aircraftmaintenancesarasota.com/#service-form",
       primary: false,
     },
   ],
