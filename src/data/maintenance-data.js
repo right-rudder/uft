@@ -22,7 +22,12 @@ const maintenancePage = {
       headerH1: `<div class="bg-gradient-to-br from-accent-500 via-accent-200 to-accent-400 bg-clip-text text-transparent">service</div>and<br class="hidden lg:block" ><div class="bg-gradient-to-br from-accent-500 via-accent-200 to-accent-400 bg-clip-text text-transparent">MAINTENANCE</div>`,
       paragraph: `${COMPANY_NAME} is pleased to offer full service and maintenance for your personal aircraft.
 `,
-      buttons: [],
+      buttons: [
+        {
+          text: "Maintenance Website",
+          link: "https://aircraftmaintenancesarasota.com/",
+        },
+      ],
     },
 
     info: {
