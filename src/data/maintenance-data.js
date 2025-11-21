@@ -24,8 +24,9 @@ const maintenancePage = {
 `,
       buttons: [
         {
-          text: "Maintenance Website",
+          name: "Maintenance Website",
           link: "https://aircraftmaintenancesarasota.com/",
+          primary: false,
         },
       ],
     },
