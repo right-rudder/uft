@@ -35,11 +35,6 @@ export const navbarLinks = [
     ],
   },
   {
-    name: "University Program",
-    link: "/university-program",
-    submenu: [],
-  },
-  {
     name: "Services",
     link: "/services/maintenance",
     submenu: [
@@ -50,6 +45,10 @@ export const navbarLinks = [
       {
         name: "CATS Testing",
         link: "/services/cats",
+      },
+      {
+        name: "University Program",
+        link: "/university-program",
       },
     ],
   },
@@ -78,6 +77,11 @@ export const navbarLinks = [
         link: "/blog",
       },
     ],
+  },
+  {
+    name: "Maintenance",
+    link: "https://aircraftmaintenancesarasota.com/",
+    submenu: [],
   },
   {
     name: "Enroll Today",
