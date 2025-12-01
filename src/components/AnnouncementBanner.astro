@@ -1,0 +1,86 @@
+---
+const data = {
+  btnId: "promotion-dismiss-button",
+  title: "Our Black Friday Sale Has Landed",
+  description: `Treat yourself or someone special to a <strong>$99 Discovery Flight</strong> or save <strong>30% on Premier Access</strong>. Incredible savings available until December 5th!`,
+  cta: {
+    url: "/promotions",
+    text: "Book Your Flight Now",
+  },
+};
+---
+
+<astro-banner btnId={data.btnId} section-key="homepage">
+  <div
+    class="fixed bottom-0 start-1/2 z-50 mx-auto w-full -translate-x-1/2 transform sm:max-w-4xl max-h-[40rem] overflow-y-auto translate-y-full flex flex-col gap-2 px-4 opacity-0 transition-all duration-500 ease-out"
+    role="region"
+    aria-label="Promotional Banner"
+  >
+    <button
+      type="button"
+      class="ml-auto inline-flex items-center gap-x-2 rounded-full border border-transparent bg-neutral-200/90 p-1 text-sm font-semibold text-dark-blue hover:bg-medium-blue duration-200 disabled:pointer-events-none disabled:opacity-50"
+      id={data.btnId}
+    >
+      <span class="sr-only">Dismiss</span>
+      <svg
+        class="size-5 flex-shrink-0"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg
+      >
+    </button>
+
+    <div class="rounded-lg bg-neutral-200/90 backdrop-blur-sm p-4 text-center">
+      <div class="flex items-center justify-center flex-col gap-2 max-w-3xl mx-auto">
+        <span class="font-bold uppercase text-orange-500 text-xl sm:text-3xl" set:html={data.title} />
+        <p class="font-medium text-sm sm:text-lg" set:html={data.description} />
+        <div class="flex justify-center align-middle items-center mt-4">
+          <a
+            href={data.cta.url}
+            class="text-center font-bebas uppercase py-3 px-6 rounded-sm duration-300 bg-orange-500 text-gray-900 font-medium -skew-x-12 mx-auto text-xl sm:text-3xl hover:bg-orange-400"
+          >
+            {data.cta.text}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</astro-banner>
+
+<script type="module">
+  class AstroBanner extends HTMLElement {
+    connectedCallback() {
+      const btnId = this.getAttribute("btnId");
+      const sectionKey = this.getAttribute("section-key") || "global";
+      const storageKey = `ht-banner:${sectionKey}:shown`;
+
+      // If already shown this session for this section, do nothing.
+      if (sessionStorage.getItem(storageKey) === "1") return;
+
+      const wrapper = this.querySelector('[role="region"]');
+      const button = this.querySelector(`#${CSS.escape(btnId)}`);
+
+      // Show after ~5 seconds
+      setTimeout(() => {
+        // Double-check: maybe another instance already showed
+        if (sessionStorage.getItem(storageKey) === "1") return;
+        if (wrapper) {
+          wrapper.classList.replace("opacity-0", "opacity-1");
+          wrapper.classList.replace("translate-y-full", "-translate-y-10");
+        }
+        sessionStorage.setItem(storageKey, "1");
+      }, 500);
+
+      if (button != null) {
+        button.addEventListener("click", () => this.remove());
+      }
+    }
+  }
+
+  customElements.define("astro-banner", AstroBanner);
+</script>
