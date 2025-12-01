@@ -23,7 +23,7 @@ export const promotions = {
     },
 
     countDownTimer: {
-      title: "Offer ends in",
+      title: "Offer lasts until December 5th",
       endDate: new Date("2025-12-05T23:59:59"),
       note: "Prices return to normal after the timer expires.",
       cta: {
