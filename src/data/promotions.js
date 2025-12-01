@@ -3,9 +3,9 @@ export const promotions = {
     //SEO Header Stuff
     pageTitle: "Black Friday Deals | Universal Flight Training",
     pageDescription:
-      "Navigate your aviation journey with UFT's Pilot Training Guide. Learn about the steps, certifications, and requirements to become a pilot, from beginner to advanced levels, with our expert instructors by your side.",
+      "Book your Discovery Flight at Universal Flight Training today for just $99. Black Friday offers are up until December 5th with $99 Discovery Flights and 30% discount on your Premier Access Discovery Flight. Make your dream of flying come true at Universal Flight Training in Sarasota, FL.",
     pageKeywords:
-      "black friday deals, discovery flight promotion, discovery flight, become a pilot Sarasota, flight school, flight training",
+      "black friday deals, discovery flight promotion, discovery flight, become a pilot Sarasota, flight school, flight training, flight training Florida",
 
     //top header
     header: {
