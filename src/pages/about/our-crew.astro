@@ -5,6 +5,7 @@ import StaffGrid from "../../components/StaffGrid.astro";
 import ourTeam from "../../data/our-team";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ContentDivisor from "../../components/ContentDivisor.astro";
+import StaffInfo from "../../components/StaffInfo.astro";
 
 
 const { data } = ourTeam;
@@ -24,9 +25,8 @@ const { data } = ourTeam;
   
   <ContentDivisor content={data.flightTeamGrid} />
   <StaffGrid data={data.flightTeamGrid} />
-  
-  <ContentDivisor content={data.maintenanceTeamGrid} />
-  <StaffGrid data={data.maintenanceTeamGrid} />
+
+  <StaffInfo data={data.maintenanceTeamGrid} />
   
   <CTAColor content={data.flyWithUsCTA} />
 </BaseLayout>

@@ -84,7 +84,7 @@ const maintenancePage = {
         {
           title: "EXPERT MAINTENANCE TEAM",
           descriptions: [
-            "Our skilled technicians, Paul and Frank, bring over 30 years of experience working with Cessna, Piper, Cirrus, Beechcraft, Props, and Jets. Their expertise ensures your aircraft receives the best care possible.",
+            "Our skilled technicians, bring over 30 years of experience working with Cessna, Piper, Cirrus, Beechcraft, Props, and Jets. Their expertise ensures your aircraft receives the best care possible.",
           ],
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
@@ -110,10 +110,10 @@ const maintenancePage = {
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
       ],
-      imageLegend: `Paul and Frank<br><small class="text-white font-normal text-sm">Experienced Maintenance Staff</small>`,
-      imagePath: "/src/assets/uft-maintenance-crew.jpg",
+      imageLegend: `Expert Maintenance Staff<br><small class="text-white font-normal text-sm">Professional Aircraft Technicians</small>`,
+      imagePath: "/src/assets/uft-plane-on-maintenance.webp",
       imageAlt:
-        "Maintenance team members Paul and Frank from Universal Flight Training",
+        "Expert Maintenance Staff from Universal Flight Training",
     },
   },
 };
