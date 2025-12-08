@@ -93,14 +93,14 @@ export const mobileNavbarLinks = [
       },
     ],
   },
-  /* {
+  {
     name: "Enroll Today",
     link: "/enroll-now",
     submenu: [],
-  }, */
-  {
+  },
+  /* {
     name: "Black Friday!",
     link: "/promotions",
     submenu: [],
-  },
+  }, */
 ];
