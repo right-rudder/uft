@@ -18,7 +18,7 @@ import BookCTA from "../components/BookCTA.astro";
 import bookCTA from "../data/bookCTA.js";
 import GenericCTA from "../components/GenericCTA.astro";
 import newCTA from "../data/newCTA.js";
-import AnnouncementBanner from "../components/AnnouncementBanner.astro";
+// import AnnouncementBanner from "../components/AnnouncementBanner.astro";
 
 const { data } = homePage;
 ---
@@ -31,10 +31,10 @@ const { data } = homePage;
   <!-- HEADER -->
   <HomeHeader content={data.header} />
 
-  <AnnouncementBanner
+  <!-- <AnnouncementBanner
     btnId="promotion-dismiss-button"
     btnTitle=""
-    />
+    /> -->
 
   <Partners data={partnersData.data.partners} />
   <BentoGrid />

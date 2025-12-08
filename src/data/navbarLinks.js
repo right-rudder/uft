@@ -83,14 +83,14 @@ export const navbarLinks = [
     link: "https://aircraftmaintenancesarasota.com/",
     submenu: [],
   },
-  /* {
-    name: "Enroll Today",
-    link: "/enroll-now",
-    submenu: [],
-  }, */
   {
+    name: "Contact Us",
+    link: "/contact",
+    submenu: [],
+  },
+  /* {
     name: "Black Friday!",
     link: "/promotions",
     submenu: [],
-  },
+  }, */
 ];
