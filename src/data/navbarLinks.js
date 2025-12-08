@@ -84,8 +84,8 @@ export const navbarLinks = [
     submenu: [],
   },
   {
-    name: "Enroll Today",
-    link: "/enroll-now",
+    name: "Contact Us",
+    link: "/contact",
     submenu: [],
   },
   /* {
