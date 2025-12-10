@@ -1,0 +1,86 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { promotions } from "../data/promotions";
+import HeaderScreen from "../components/HeaderScreen.astro";
+import PromotionForm from "../components/PromotionForm.astro";
+import discoveryForm from "../data/discovery-form-data.js";
+import CountDownTimer from "../components/CountDownTimer.astro";
+import { FaCheckCircle } from "react-icons/fa";
+
+const { data } = promotions;
+---
+
+<BaseLayout siteTitle={data.pageTitle} siteDescription={data.pageDescription} keywords={data.pageKeywords}>
+  <HeaderScreen content={data.header} />
+
+  {data.countDownTimer && <CountDownTimer data={data.countDownTimer} />}
+
+  {
+    data.offerMenu && (
+      <section class="bg-white px-6 py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto">
+          <h2
+            class="mx-auto font-bebas text-center font-bold text-primary-800 whitespace-pre-line text-4xl mb-12 lg:text-6xl lg:max-w-5xl"
+            set:html={data.offerMenu.title}
+          />
+
+          <div class="flex flex-wrap justify-center gap-8">
+            {data.offerMenu.offers.map((offer, index) => (
+              <a
+                href={`#${data.offers[index].id}`}
+                class="bg-white flex-1 rounded-lg py-12 px-6 text-center flex flex-col justify-between shadow-lg gap-4 duration-300 transition-all ease-in-out min-w-80 lg:flex-none lg:w-[512px] hover:scale-105 hover:shadow-2xl"
+              >
+                <h3 class="font-bold text-3xl" set:html={offer.title} />
+                <span class="text-accent-300 font-medium text-4xl">{offer.value}</span>
+                <p>{offer.description}</p>
+                <button class="btn-accent mx-auto flex gap-2 items-center">
+                  <span set:html={offer.icon} /> Learn More
+                </button>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  {
+    data.offers.map((offer) => (
+      <section class="px-6 py-16 lg:py-24 odd:bg-gray-100 even:bg-white">
+        <div class={`max-w-5xl mx-auto`} id={offer.id}>
+          <h2
+            class="mx-auto font-bebas text-center font-bold text-primary-800 whitespace-pre-line text-4xl lg:text-6xl lg:max-w-3xl"
+            set:html={offer.title}
+          />
+          <p
+            class="mx-auto my-6 uppercase text-center font-semibold text-accent-300 text-4xl lg:max-w-3xl"
+            set:html={offer.subTitle}
+          />
+          <div class="flex flex-col gap-6">
+            {offer.content.map((item) => (
+              <div>
+                {item.paragraph && <p class="text-center" set:html={item.paragraph} />}
+                {item.bulletPoints && (
+                  <ul>
+                    <li class="font-sans2 mb-2 font-semibold text-xl" set:html={item.bulletPoints.title} />
+                    {item.bulletPoints.items.map((bullet) => (
+                      <li class="flex gap-3 items-center font-sans2 py-1">
+                        <FaCheckCircle className="size-4 shrink-0 text-accent-300" />
+                        <span set:html={bullet} />
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
+            <a href="#promotion-form" class="btn-accent mx-auto">
+              Get In On The Offer
+            </a>
+          </div>
+        </div>
+      </section>
+    ))
+  }
+
+  <PromotionForm content={discoveryForm.data.info} />
+</BaseLayout>

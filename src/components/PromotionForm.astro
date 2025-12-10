@@ -1,4 +1,6 @@
 ---
+import { EMAIL_ADDRESS, PHONE_NUMBER, ADDRESS_LINE_1, ADDRESS_LINE_2, GMAPS } from "../consts";
+
 const { content } = Astro.props;
 const PORTAL_API_KEY = import.meta.env.PORTAL_API_KEY;
 const DISCOVERY_FLIGHT_WEBHOOK_URL = import.meta.env.DISCOVERY_FLIGHT_WEBHOOK_URL;
@@ -8,25 +10,24 @@ const DISCOVERY_FLIGHT_WEBHOOK_URL = import.meta.env.DISCOVERY_FLIGHT_WEBHOOK_UR
   <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
     <div class="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
       <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-        <h2 class="font-bold tracking-tight text-gray-900 text-4xl sm:text-5xl">Experience a Discovery Flight</h2>
+        <h2 class="font-bold tracking-tight text-gray-900 text-4xl sm:text-5xl">Ready to Give the Gift of Flight?</h2>
         <p class="mt-12 text-lg leading-8 text-gray-600">
-          If you've been waiting for the perfect moment to take your very first flying lesson—this is it. Our Black
-          Friday sale makes stepping into the cockpit more accessible than ever. Taking the controls of an aircraft is
-          an unforgettable rush, and now you can experience it at the lowest price of the year.
+          Whether you're surprising a future pilot or treating a seasoned aviator to something extraordinary, our
+          holiday-exclusive flight packages are designed to deliver excitement, learning, and unforgettable memories.
+          Each offer provides real hands-on experience under the guidance of certified instructors, ensuring safety,
+          quality, and unmatched value.
         </p>
         <p class="mt-2 text-lg leading-8 text-gray-600">
-          For new flyers, our Discovery Flight is the best way to see what it's really like to be a pilot. This hands-on
-          “mini lesson” is just $99 for a limited time, giving you real flight experience that even counts toward your
-          future pilot license.
+          If you're not sure which package is the best fit, our team is here to help. We'll match your recipient's
+          experience level, interests, and goals with the perfect holiday gift.
         </p>
         <p class="mt-2 text-lg leading-8 text-gray-600">
-          You'll spend 30-40 minutes with one of our FAA-certified instructors, starting with an actual pre-flight
-          check. Then you'll take the controls yourself and feel the incredible freedom of flight from the pilot's seat.
+          Use the form below to reach out—ask questions, reserve a package, or start planning the holiday aviation
+          experience they'll never forget.
         </p>
         <p class="mt-2 text-lg leading-8 text-gray-600">
-          We created our Discovery Flight Program as a low-pressure, high-excitement introduction to aviation—perfect
-          for anyone curious about flying or looking for an unforgettable gift. If you've ever dreamed of taking off,
-          now is the time to start.
+          Our team responds quickly, and spots are limited during the holiday season. Let's get your holiday gift of
+          flight off the ground.
         </p>
         <dl class="mt-10 space-y-4 text-base leading-7 text-gray-600 font-sans2">
           <div class="flex gap-x-4">
@@ -47,8 +48,8 @@ const DISCOVERY_FLIGHT_WEBHOOK_URL = import.meta.env.DISCOVERY_FLIGHT_WEBHOOK_UR
                 ></path>
               </svg>
             </dt>
-            <a class="hover:text-gray-900" href={content.gmaps} target="_blank">
-              <dd>{content.address_1}<br />{content.address_2}</dd>
+            <a class="hover:text-gray-900" href={GMAPS} target="_blank">
+              <dd>{ADDRESS_LINE_1}<br />{ADDRESS_LINE_2}</dd>
             </a>
           </div>
           <div class="flex gap-x-4">
@@ -74,9 +75,9 @@ const DISCOVERY_FLIGHT_WEBHOOK_URL = import.meta.env.DISCOVERY_FLIGHT_WEBHOOK_UR
                 aria-labelledby="Call Us Now"
                 title="Call Us Now"
                 class="hover:text-gray-900"
-                href={`tel:${content.phone_num}`}
+                href={`tel:${PHONE_NUMBER}`}
               >
-                {content.phone_num}
+                {PHONE_NUMBER}
               </a>
             </dd>
           </div>
@@ -99,7 +100,7 @@ const DISCOVERY_FLIGHT_WEBHOOK_URL = import.meta.env.DISCOVERY_FLIGHT_WEBHOOK_UR
               </svg>
             </dt>
             <dd>
-              <a class="hover:text-gray-900" href={`mailto:${content.email}`}>{content.email}</a>
+              <a class="hover:text-gray-900" href={`mailto:${EMAIL_ADDRESS}`}>{EMAIL_ADDRESS}</a>
             </dd>
           </div>
         </dl>
@@ -202,38 +203,26 @@ const DISCOVERY_FLIGHT_WEBHOOK_URL = import.meta.env.DISCOVERY_FLIGHT_WEBHOOK_UR
             class="text-gray-800 text-sm lg:text-base font-sans2"
             set:html={content.checkboxText}
           />
+          I agree to <a href="/terms-of-service" target="_blank" class="font-semibold hover:underline">terms</a> & <a
+            href="/privacy-policy"
+            target="_blank"
+            class="font-semibold hover:underline">conditions</a
+          > provided by the company. By providing my phone number, I agree to receive text messages from the business.
         </div>
-        <button
-          id="submit-button"
-          form="promotion-form"
-          disabled
-          type="submit"
-          class="mx-auto mt-8 btn-accent cursor-not-allowed bg-gray-400 hover:bg-gray-400 hover:text-white"
-        >
-          Send Message
-        </button>
       </form>
-
-      <div class="rounded-lg bg-neutral-100 p-6 mt-6 shadow-md">
-        <h2 class="text-lg font-semibold text-neutral-800 mb-2">Prefer to Book Online?</h2>
-        <p class="text-neutral-700 pb-8">
-          Alternatively, if you'd like to schedule your discovery flight online and pay directly, you can do so through
-          our Flight Schedule Pro portal.
-          <br />
-          <strong>Note:</strong> Extra charges apply.
-        </p>
-        <a
-          href="https://app.flightschedulepro.com/DiscoveryFlights/a8827360-dc45-47d7-bea2-78fb4b01796c"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn-accent text-2xl"
-        >
-          Book Now
-        </a>
-      </div>
+      <button
+        id="submit-button"
+        form="promotion-form"
+        disabled
+        type="submit"
+        class="mx-auto mt-8 btn-accent cursor-not-allowed bg-gray-400 hover:bg-gray-400 hover:text-white"
+      >
+        Send Message
+      </button>
     </div>
   </div>
 </section>
+
 <script define:vars={{ DISCOVERY_FLIGHT_WEBHOOK_URL, PORTAL_API_KEY }}>
   const checkbox = document.getElementById("agree-data-collection");
   const submitButton = document.getElementById("submit-button");
