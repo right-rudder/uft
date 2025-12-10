@@ -23,7 +23,7 @@ const { data } = promotions;
             class="mx-auto font-bebas text-center font-bold text-primary-800 whitespace-pre-line text-4xl mb-12 lg:text-6xl lg:max-w-5xl"
             set:html={data.offerMenu.title}
           />
-
+          <p class="mx-auto my-6 text-center text-xl font-light lg:max-w-3xl" set:html={data.offerMenu.description} />
           <div class="flex flex-wrap justify-center gap-8">
             {data.offerMenu.offers.map((offer, index) => (
               <a
