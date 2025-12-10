@@ -1,0 +1,81 @@
+---
+const { data } = Astro.props;
+
+const endDate = data.endDate;
+---
+
+<div class="bg-white py-16 lg:py-24">
+  <div class="mx-auto max-w-2xl px-6 text-center lg:max-w-7xl lg:px-8">
+    <div
+      class="max-w-5xl mx-auto tracking-tight font-semibold text-gray-900 text-lg sm:text-2xl md:text-3xl lg:text-4xl"
+    >
+      <span class="font-bebas font-bold text-gray-900 text-4xl lg:text-6xl">{data.title}</span>
+
+      <div class="my-8 flex gap-4 justify-center sm:gap-6 lg:gap-8">
+        <div class="flex flex-col gap-2 justify-center">
+          <p id="countdown-days" class="text-accent-300">00</p>
+          <p class="text-gray-900 font-medium">Days</p>
+        </div>
+
+        <div class="flex flex-col gap-2 justify-center">
+          <p id="countdown-hours" class="text-accent-300">00</p>
+          <p class="text-gray-900 font-medium">Hours</p>
+        </div>
+
+        <div class="flex flex-col gap-2 justify-center">
+          <p id="countdown-minutes" class="text-accent-300">00</p>
+          <p class="text-gray-900 font-medium">Minutes</p>
+        </div>
+
+        <div class="hidden flex-col gap-2 justify-center sm:flex">
+          <p id="countdown-seconds" class="text-accent-300">00</p>
+          <p class="text-gray-900 font-medium">Seconds</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-sm font-semibold text-gray-500 mt-2 sm:text-base lg:text-lg">{data.note}</p>
+
+    <div class="mt-12 mb-6 flex">
+      <a href={data.cta.link} class="btn-accent mx-auto">
+        {data.cta.name}
+      </a>
+    </div>
+  </div>
+</div>
+
+<script define:vars={{ endDate }}>
+  const countDownDays = document.getElementById("countdown-days");
+  const countDownHours = document.getElementById("countdown-hours");
+  const countDownMinutes = document.getElementById("countdown-minutes");
+  const countDownSeconds = document.getElementById("countdown-seconds");
+  const end = new Date(endDate).getTime();
+
+  function updateCountDown() {
+    const now = new Date().getTime();
+    const diff = end - now;
+
+    const countDown = {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+    };
+
+    if (diff > 0) {
+      countDown.days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      countDown.hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      countDown.minutes = Math.floor((diff / (1000 * 60)) % 60);
+      countDown.seconds = Math.floor((diff / 1000) % 60);
+    }
+
+    countDownDays.textContent = countDown.days.toString().padStart(2, "0");
+    countDownHours.textContent = countDown.hours.toString().padStart(2, "0");
+    countDownMinutes.textContent = countDown.minutes.toString().padStart(2, "0");
+    countDownSeconds.textContent = countDown.seconds.toString().padStart(2, "0");
+  }
+
+  updateCountDown();
+
+  setInterval(updateCountDown, 1000);
+</script>
