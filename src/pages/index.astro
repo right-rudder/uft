@@ -18,23 +18,16 @@ import BookCTA from "../components/BookCTA.astro";
 import bookCTA from "../data/bookCTA.js";
 import GenericCTA from "../components/GenericCTA.astro";
 import newCTA from "../data/newCTA.js";
-// import AnnouncementBanner from "../components/AnnouncementBanner.astro";
+import AnnouncementPopup from "../components/AnnouncementPopup.astro";
 
 const { data } = homePage;
 ---
 
-<BaseLayout
-  siteTitle={data.pageTitle}
-  siteDescription={data.pageDescription}
-  keywords={data.pageKeywords}
->
+<BaseLayout siteTitle={data.pageTitle} siteDescription={data.pageDescription} keywords={data.pageKeywords}>
   <!-- HEADER -->
   <HomeHeader content={data.header} />
 
-  <!-- <AnnouncementBanner
-    btnId="promotion-dismiss-button"
-    btnTitle=""
-    /> -->
+  <AnnouncementPopup btnId="promotion-dismiss-button" />
 
   <Partners data={partnersData.data.partners} />
   <BentoGrid />

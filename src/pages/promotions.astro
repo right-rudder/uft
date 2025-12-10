@@ -1,0 +1,113 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { promotions } from "../data/promotions";
+import HeaderScreen from "../components/HeaderScreen.astro";
+import PromotionForm from "../components/PromotionForm.astro";
+import discoveryForm from "../data/discovery-form-data.js";
+import CountDownTimer from "../components/CountDownTimer.astro";
+import { FaCheckCircle } from "react-icons/fa";
+
+const { data } = promotions;
+---
+
+<BaseLayout siteTitle={data.pageTitle} siteDescription={data.pageDescription} keywords={data.pageKeywords}>
+  <HeaderScreen content={data.header} />
+
+  {data.countDownTimer && <CountDownTimer data={data.countDownTimer} />}
+
+  {
+    data.offerMenu && (
+      <section class="bg-white py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto">
+          <div class="px-6 sm:px-0">
+            <h2
+              class="mx-auto font-bebas text-center font-bold text-primary-800 whitespace-pre-line text-4xl mb-12 lg:text-6xl lg:max-w-5xl"
+              set:html={data.offerMenu.title}
+            />
+            <p class="mx-auto my-6 text-center text-xl font-light lg:max-w-3xl" set:html={data.offerMenu.description} />
+          </div>
+
+          <div class="mx-auto max-w-[640px] flex flex-col justify-center gap-8 lg:max-w-none lg:gap-4 lg:flex-row xl:gap-8">
+            {data.offerMenu.offers.map((offer, index) => (
+              <a
+                href={`#${data.offers[index].id}`}
+                class="bg-gray-200 flex-1 py-12 px-4 text-center flex flex-col justify-between shadow-lg gap-4 duration-300 transition-all ease-in-out min-w-80 sm:rounded-lg sm:px-6 hover:scale-105 hover:shadow-2xl"
+              >
+                <h3 class="font-bold text-3xl" set:html={offer.title} />
+                <span class="text-accent-300 font-medium text-4xl">{offer.value}</span>
+                <p>{offer.description}</p>
+                <button class="btn-accent mx-auto flex gap-2 items-center">
+                  <span set:html={offer.icon} /> Learn More
+                </button>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  {
+    data.offers.map((offer) => (
+      <section class="px-6 py-16 lg:py-24 odd:bg-gray-100 even:bg-white">
+        <div class={`max-w-5xl mx-auto scroll-mt-28`} id={offer.id}>
+          <h2
+            class="mx-auto font-bebas text-center font-bold text-primary-800 whitespace-pre-line text-4xl lg:text-6xl lg:max-w-3xl"
+            set:html={offer.title}
+          />
+          <p
+            class="mx-auto my-6 uppercase text-center font-semibold text-accent-300 text-4xl lg:max-w-3xl"
+            set:html={offer.subTitle}
+          />
+          <div class="flex flex-col gap-6">
+            {offer.content.map((item) => (
+              <div>
+                {item.paragraph && <p class="text-center" set:html={item.paragraph} />}
+                {item.bulletPoints && (
+                  <ul>
+                    <li class="font-sans2 mb-2 font-semibold text-xl" set:html={item.bulletPoints.title} />
+                    {item.bulletPoints.items.map((bullet) => (
+                      <li class="flex gap-3 items-center font-sans2 py-1">
+                        <FaCheckCircle className="size-4 shrink-0 text-accent-300" />
+                        <span set:html={bullet} />
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {item.callout && (
+                  <div class="rounded-md bg-blue-100 p-4 font-sans2">
+                    <div class="flex">
+                      <div class="shrink-0">
+                        <svg
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          data-slot="icon"
+                          aria-hidden="true"
+                          class="size-5 text-blue-400"
+                        >
+                          <path
+                            d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z"
+                            clip-rule="evenodd"
+                            fill-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <div class="ml-3 flex-1 md:flex md:justify-between">
+                        <span set:html={item.callout} />
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            ))}
+            <a href="#promotion-form" class="btn-accent mx-auto">
+              Get In On The Offer
+            </a>
+          </div>
+        </div>
+      </section>
+    ))
+  }
+
+  <PromotionForm content={discoveryForm.data.info} />
+</BaseLayout>
