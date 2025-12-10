@@ -37,12 +37,12 @@ const data = {
 
     <div class="rounded-lg bg-neutral-200/90 backdrop-blur-sm p-4 text-center">
       <div class="flex items-center justify-center flex-col gap-2 max-w-3xl mx-auto">
-        <span class="font-bold uppercase text-orange-500 text-xl sm:text-3xl" set:html={data.title} />
+        <span class="font-bold uppercase text-accent-300 text-xl sm:text-3xl" set:html={data.title} />
         <p class="font-medium text-sm sm:text-lg" set:html={data.description} />
         <div class="flex justify-center align-middle items-center mt-4">
           <a
             href={data.cta.url}
-            class="text-center font-bebas uppercase py-3 px-6 rounded-sm duration-300 bg-orange-500 text-gray-900 font-medium -skew-x-12 mx-auto text-xl sm:text-3xl hover:bg-orange-400"
+            class="btn-accent"
           >
             {data.cta.text}
           </a>

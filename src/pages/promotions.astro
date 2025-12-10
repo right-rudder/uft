@@ -17,18 +17,21 @@ const { data } = promotions;
 
   {
     data.offerMenu && (
-      <section class="bg-white px-6 py-16 lg:py-24">
+      <section class="bg-white py-16 lg:py-24">
         <div class="max-w-7xl mx-auto">
-          <h2
-            class="mx-auto font-bebas text-center font-bold text-primary-800 whitespace-pre-line text-4xl mb-12 lg:text-6xl lg:max-w-5xl"
-            set:html={data.offerMenu.title}
-          />
-          <p class="mx-auto my-6 text-center text-xl font-light lg:max-w-3xl" set:html={data.offerMenu.description} />
-          <div class="flex flex-wrap justify-center gap-8">
+          <div class="px-6 sm:px-0">
+            <h2
+              class="mx-auto font-bebas text-center font-bold text-primary-800 whitespace-pre-line text-4xl mb-12 lg:text-6xl lg:max-w-5xl"
+              set:html={data.offerMenu.title}
+            />
+            <p class="mx-auto my-6 text-center text-xl font-light lg:max-w-3xl" set:html={data.offerMenu.description} />
+          </div>
+
+          <div class="mx-auto max-w-[640px] flex flex-col justify-center gap-8 lg:max-w-none lg:gap-4 lg:flex-row xl:gap-8">
             {data.offerMenu.offers.map((offer, index) => (
               <a
                 href={`#${data.offers[index].id}`}
-                class="bg-white flex-1 rounded-lg py-12 px-6 text-center flex flex-col justify-between shadow-lg gap-4 duration-300 transition-all ease-in-out min-w-80 lg:flex-none lg:w-[512px] hover:scale-105 hover:shadow-2xl"
+                class="bg-gray-200 flex-1 py-12 px-4 text-center flex flex-col justify-between shadow-lg gap-4 duration-300 transition-all ease-in-out min-w-80 sm:rounded-lg sm:px-6 hover:scale-105 hover:shadow-2xl"
               >
                 <h3 class="font-bold text-3xl" set:html={offer.title} />
                 <span class="text-accent-300 font-medium text-4xl">{offer.value}</span>
