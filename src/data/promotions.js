@@ -111,7 +111,7 @@ export const promotions = {
             },
           },
           {
-            paragraph:
+            callout:
               `<b class="text-xl mb-2 block">Perfect for</b>Serious beginners ready to start strong.`,
           },
         ],
@@ -123,7 +123,7 @@ export const promotions = {
         content: [
           {
             paragraph:
-              "A gift they’ll never forget. Designed for aspiring pilots starting from zero, this bundle provides the right mix of flight time, simulator training, and study support to build fundamental skills and confidence—setting them on a clear path toward their first solo flight.",
+              "A gift they’ll never forget. Designed for aspiring pilots starting from zero, this bundle provides the right mix of flight time, simulator training, and study support to build fundamental skills and confidence, setting them on a clear path toward their first solo flight.",
           },
           {
             bulletPoints: {
@@ -136,7 +136,7 @@ export const promotions = {
             },
           },
           {
-            paragraph:
+            callout:
               `<b class="text-xl mb-2 block">Perfect for</b>Anyone dreaming of learning to fly.`,
           },
         ],
@@ -161,7 +161,7 @@ export const promotions = {
             },
           },
           {
-            paragraph:
+            callout:
               `<b class="text-xl mb-2 block">Perfect for</b>Licensed pilots, aviation enthusiasts, and experience collectors.`,
           },
         ],
