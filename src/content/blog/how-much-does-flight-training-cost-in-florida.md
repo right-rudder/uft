@@ -31,8 +31,8 @@ While actual costs vary by student, here’s a general breakdown for a **Private
 | Written Exam & Checkride Fees                   | $800–$1,000          |
 | Headset, Supplies, Misc.                        | $300–$600            |
 
-**Total Estimated PPL Cost:** _$16,000–$20,000_  
-Advanced ratings such as Instrument, Commercial, and CFI can bring total professional training costs into the _$60,000–$75,000_ range.
+**Total Estimated PPL Cost: $16,000–$20,000**  
+Advanced ratings such as Instrument, Commercial, and CFI can bring total professional training costs into the **$60,000–$75,000** range.
 
 ## Why Florida (and UFT) Offers Cost Advantages
 
