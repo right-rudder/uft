@@ -88,6 +88,15 @@ const ourFleet = {
           link: "/contact",
           linkText: "Contact Us",
         },
+        {
+          title: "2022 Cessna T182",
+          imagePath: "/src/assets/cessna-t182-2022-n2315b-universal-flight-training-front.jpg",
+          imageAlt: "Universal Flight Training 2022 Cessna T182 N2315B parked",
+          description:
+            `N2315B is a 2022 Cessna T182 equipped with Garmin G1000Nxi avionics. With 200 total hours since new, this aircraft offers a reliable and capable platform for both training and rental. Perfect for pilots seeking a well-maintained, technically capable aircraft.<br>Rates:<br>$375/hr`,
+          link: "/contact",
+          linkText: "Contact Us",
+        },
         // {
         //   title: "2008 Piper Seminole",
         //   imagePath: "/src/assets/piper-seminole-aircraft.webp",
