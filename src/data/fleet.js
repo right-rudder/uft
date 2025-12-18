@@ -60,22 +60,11 @@ const ourFleet = {
           linkText: "Contact Us",
         },
         {
-          title: "1975 Piper Archer II",
-          imagePath: "/src/assets/piper-archer-aircraft.webp",
-          imageAlt:
-            "Universal Flight Training Piper Archer II parked at the airport",
+          title: "2022 Cessna T182",
+          imagePath: "/src/assets/cessna-t182-2022-n2315b-universal-flight-training-front.jpg",
+          imageAlt: "Universal Flight Training 2022 Cessna T182 N2315B parked",
           description:
-            `The Piper Archer II is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Archer II is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
-          link: "/contact",
-          linkText: "Contact Us",
-        },
-        {
-          title: "2000 Cessna Skyhawk 172s",
-          imagePath: "/src/assets/cessna-skyhawk-172s-aircraft.webp",
-          imageAlt:
-            "Universal Flight Training Cessna Skyhawk 172s parked at the airport",
-          description:
-            `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
+            `N2315B is a 2022 Cessna T182 equipped with Garmin G1000Nxi avionics. With 200 total hours since new, this aircraft offers a reliable and capable platform for both training and rental. Perfect for pilots seeking a well-maintained, technically capable aircraft.<br>Rates:<br>$375/hr`,
           link: "/contact",
           linkText: "Contact Us",
         },
@@ -89,11 +78,12 @@ const ourFleet = {
           linkText: "Contact Us",
         },
         {
-          title: "2022 Cessna T182",
-          imagePath: "/src/assets/cessna-t182-2022-n2315b-universal-flight-training-front.jpg",
-          imageAlt: "Universal Flight Training 2022 Cessna T182 N2315B parked",
+          title: "2000 Cessna Skyhawk 172s",
+          imagePath: "/src/assets/cessna-skyhawk-172s-aircraft.webp",
+          imageAlt:
+            "Universal Flight Training Cessna Skyhawk 172s parked at the airport",
           description:
-            `N2315B is a 2022 Cessna T182 equipped with Garmin G1000Nxi avionics. With 200 total hours since new, this aircraft offers a reliable and capable platform for both training and rental. Perfect for pilots seeking a well-maintained, technically capable aircraft.<br>Rates:<br>$375/hr`,
+            `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
           link: "/contact",
           linkText: "Contact Us",
         },
@@ -106,6 +96,17 @@ const ourFleet = {
         //   link: "/contact",
         //   linkText: "Contact Us",",
         // },
+        {
+          title: "1975 Piper Archer II",
+          imagePath: "/src/assets/piper-archer-aircraft.webp",
+          imageAlt:
+            "Universal Flight Training Piper Archer II parked at the airport",
+          description:
+            `The Piper Archer II is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Archer II is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
+          link: "/contact",
+          linkText: "Contact Us",
+        },
+        
         {
           title: "1975 Piper Cherokee",
           imagePath: "/src/assets/piper-cherokee-140-n3912x-sarasota-florida-flight-school-universal-flight-training-8367.jpeg",
