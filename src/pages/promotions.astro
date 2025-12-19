@@ -108,6 +108,58 @@ const { data } = promotions;
       </section>
     ))
   }
+  <div id="promotion-form-container">
+    <PromotionForm content={discoveryForm.data.info} />
+  </div>
 
-  <PromotionForm content={discoveryForm.data.info} />
+  <section id="expired-message" class="hidden text-center py-20 font-bold text-xl bg-gray-100">
+    <div class="max-w-5xl mx-auto">
+              <div class="rounded-md bg-red-200 p-4 font-sans2">
+                    <div class="flex">
+                      <div class="shrink-0">
+                        <svg
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          data-slot="icon"
+                          aria-hidden="true"
+                          class="size-5 text-red-500"
+                        >
+                          <path
+                            d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z"
+                            clip-rule="evenodd"
+                            fill-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <div class="ml-3 flex flex-col items-start">
+                        <h2>This promotion has ended</h2>
+                        <p class="text-base font-normal">This offer is no longer available, but new opportunities are coming soon.</p>
+                      </div>
+                    </div>
+                  </div>
+    </div>
+  </section>
 </BaseLayout>
+
+<style>
+  .hidden { display: none; }
+</style>
+
+<script is:inline>
+  function runKillSwitch() {
+    const killDate = new Date('2026-01-01T00:00:00');
+    const now = new Date();
+    if (now >= killDate) {
+      const form = document.getElementById('promotion-form-container');
+      if (form) {
+        form.remove();
+      }
+      const message = document.getElementById('expired-message');
+      if (message) {
+        message.classList.remove('hidden');
+        message.style.display = 'block';
+      }
+    }
+  }
+  runKillSwitch();
+</script>
