@@ -23,6 +23,8 @@ For pilots looking to sharpen their skills in a technically advanced aircraft, t
 
 ## A Modern Aircraft for Modern Pilots
 
+![DA50 Universal Flight Training N553RG Plane](/blog/fleet-N553RG_Universal-Flight-Training_Flight-School-sarasota-florida-2.jpeg)
+
 The Diamond DA50 is designed with the future of aviation in mind. Featuring a sleek composite airframe, advanced systems, and a spacious five-seat cabin, this aircraft delivers a premium training environment that goes well beyond traditional trainers.
 
 Its outstanding visibility, smooth handling, and refined ergonomics help pilots stay comfortable and focused, making each flight both confidence-inspiring and highly effective from a training perspective.
@@ -42,11 +44,15 @@ These skills are increasingly important as general aviation continues to move to
 
 ## Performance That Enhances Training
 
+![DA50 Universal Flight Training N553RG Plane](/blog/fleet-N553RG_Universal-Flight-Training_Flight-School-sarasota-florida-3.jpeg)
+
 Powered by a 300-horsepower Continental Centurion 3.0 engine, the DA50 delivers smooth, reliable performance with excellent fuel efficiency. Its stable flight characteristics make it an ideal platform for proficiency training, cross-country flying, and advanced skill development.
 
 Whether practicing precision maneuvers or gaining valuable cross-country experience, pilots benefit from an aircraft that responds predictably while still offering the performance expected of a modern touring airplane.
 
 ## Comfort, Confidence, and Capability
+
+![DA50 Universal Flight Training N553RG Plane](/blog/fleet-N553RG_Universal-Flight-Training_Flight-School-sarasota-florida-4.jpeg)
 
 With seating for up to five, a luxury interior, and a quiet, refined cabin, the Diamond DA50 turns training flights into enjoyable, productive experiences. The aircraft’s thoughtful design reduces pilot fatigue and enhances focus, allowing students to get the most out of every lesson.
 
@@ -56,4 +62,4 @@ For pilots seeking the latest in aircraft technology with unmatched refinement a
 
 The addition of the Diamond DA50 reflects Universal Flight Training’s commitment to providing pilots with access to modern, well-equipped aircraft that support safe, effective, and future-ready training.
 
-If you’re interested in experiencing the Diamond DA50 or learning more about training opportunities, **rates are available by request**. Contact our team today to see how this exceptional aircraft can elevate your flight training experience.
+If you’re interested in experiencing the Diamond DA50 or learning more about training opportunities, **rates are available by request**. [Contact our team today](/contact) to see how this exceptional aircraft can elevate your flight training experience.
