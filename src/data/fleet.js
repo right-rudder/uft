@@ -44,27 +44,41 @@ const ourFleet = {
       description: `Our fleet of aircrafts is designed to provide you with a diverse range of training options, from single-engine aircraft to multi-engine aircraft. Each aircraft is meticulously maintained to ensure your safety and comfort during your training. Explore our fleet below to learn more about each aircraft and its capabilities.`,
       aircraft: [
         {
+          title: "2024 Diamond DA50",
+          imagePath:
+            "/src/assets/fleet-N553RG_Universal-Flight-Training_Flight-School-sarasota-florida-2.jpeg",
+          imageAlt: "Universal Aircraft Maintenance Diamond DA50 N553RG",
+          description: `N553RG is a 2024 Diamond Aircraft DA50, a modern single-engine aircraft featuring a state-of-the-art glass cockpit, advanced avionics, and cutting-edge safety technology. Powered by a 300-horsepower Continental Centurion 3.0 engine, this aircraft delivers smooth performance, excellent fuel efficiency, and impressive cross-country capability.<br><br>
+  With seating for up to five, a spacious luxury interior, outstanding visibility, and refined handling characteristics, the DA50 offers a comfortable and confidence-inspiring flying experience. Its combination of modern design and advanced systems makes it ideal for proficiency training, travel, and pilots seeking the latest in aircraft technology.<br><strong>Rates:</strong><br>Call for details.`,
+          link: "/contact",
+          linkText: "Contact us",
+        },
+        {
           title: "2025 Cirrus SR22-G6",
-          imagePath: "/src/assets/fleet-uft-cirrus-sr22-g6-sarasota-flight-trainingIMG_8960.jpg",
-          imageAlt: "Universal Flight Training Cirrus SR22-G6 N96AT on the tarmac",
+          imagePath:
+            "/src/assets/fleet-uft-cirrus-sr22-g6-sarasota-flight-trainingIMG_8960.jpg",
+          imageAlt:
+            "Universal Flight Training Cirrus SR22-G6 N96AT on the tarmac",
           description: `N96AT is a brand-new 2025 Cirrus SR22-G6 featuring the Garmin “Perspective+” avionics system and a premium interior designed for both comfort and efficiency. Capable of cruising at 213 knots, this aircraft offers advanced safety features like CAPS and exceptional cross-country capability. It’s a perfect option for pilots looking to train in or rent a technically advanced aircraft.<br><strong>Rates:</strong><br>Please contact us for current rates and availability.`,
           link: "/contact",
           linkText: "Contact Us",
         },
         {
           title: "2024 Cirrus SR22-G6",
-          imagePath: "/src/assets/fleet-uft-cirrus-sr22-g6-sarasota-flight-trainingIMG_8962.jpg",
-          imageAlt: "Universal Flight Training Cirrus SR22-G6 N3183P parked on the ramp",
+          imagePath:
+            "/src/assets/fleet-uft-cirrus-sr22-g6-sarasota-flight-trainingIMG_8962.jpg",
+          imageAlt:
+            "Universal Flight Training Cirrus SR22-G6 N3183P parked on the ramp",
           description: `N3183P is a 2024 Cirrus SR22-G6 equipped with the Garmin “Perspective+” avionics suite. Known for its blend of luxury, safety, and speed, this aircraft is ideal for advanced students and renters looking for high-performance flight experience. With a cruise speed of 213 knots, it’s nearly twice as fast as our other aircraft and features the Cirrus Airframe Parachute System (CAPS), making it one of the safest aircraft in its class.<br><strong>Rates:</strong><br>Please contact us for current rates and availability.`,
           link: "/contact",
           linkText: "Contact Us",
         },
         {
           title: "2022 Cessna T182",
-          imagePath: "/src/assets/cessna-t182-2022-n2315b-universal-flight-training-front.jpg",
+          imagePath:
+            "/src/assets/cessna-t182-2022-n2315b-universal-flight-training-front.jpg",
           imageAlt: "Universal Flight Training 2022 Cessna T182 N2315B parked",
-          description:
-            `N2315B is a 2022 Cessna T182 equipped with Garmin G1000Nxi avionics. With 200 total hours since new, this aircraft offers a reliable and capable platform for both training and rental. Perfect for pilots seeking a well-maintained, technically capable aircraft.<br>Rates:<br>$375/hr`,
+          description: `N2315B is a 2022 Cessna T182 equipped with Garmin G1000Nxi avionics. With 200 total hours since new, this aircraft offers a reliable and capable platform for both training and rental. Perfect for pilots seeking a well-maintained, technically capable aircraft.<br>Rates:<br>$375/hr`,
           link: "/contact",
           linkText: "Contact Us",
         },
@@ -72,8 +86,7 @@ const ourFleet = {
           title: "2006 Cessna Skyhawk 172s",
           imagePath: "/src/assets/cessna-skyhawk-172s-aircraft-2006.webp",
           imageAlt: "Universal Flight Training Cessna Skyhawk 172s parked",
-          description:
-            `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$199/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
+          description: `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$199/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
           link: "/contact",
           linkText: "Contact Us",
         },
@@ -82,8 +95,7 @@ const ourFleet = {
           imagePath: "/src/assets/cessna-skyhawk-172s-aircraft.webp",
           imageAlt:
             "Universal Flight Training Cessna Skyhawk 172s parked at the airport",
-          description:
-            `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
+          description: `The Cessna Skyhawk 172s is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Skyhawk 172s is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
           link: "/contact",
           linkText: "Contact Us",
         },
@@ -101,18 +113,17 @@ const ourFleet = {
           imagePath: "/src/assets/piper-archer-aircraft.webp",
           imageAlt:
             "Universal Flight Training Piper Archer II parked at the airport",
-          description:
-            `The Piper Archer II is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Archer II is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
+          description: `The Piper Archer II is a single-engine aircraft that is perfect for students who are just beginning their flight training. The Archer II is known for its reliability and ease of use, making it an ideal aircraft for students who are new to flying.<br>Rates:<br>$185/hr wet + $10/hr Fuel Surcharge + $65/hr instructor`,
           link: "/contact",
           linkText: "Contact Us",
         },
-        
+
         {
           title: "1975 Piper Cherokee",
-          imagePath: "/src/assets/piper-cherokee-140-n3912x-sarasota-florida-flight-school-universal-flight-training-8367.jpeg",
+          imagePath:
+            "/src/assets/piper-cherokee-140-n3912x-sarasota-florida-flight-school-universal-flight-training-8367.jpeg",
           imageAlt: "Universal Flight Training Piper Cherokee N3912X parked",
-          description:
-            `The Piper Cherokee is a dependable single-engine trainer ideal for students pursuing their private pilot license or time building. N3912X is powered by a 180 hp Lycoming engine and offers stable, predictable handling for primary training and cross-country flights.<br>Rates:<br>$169/hr wet + $65/hr instructor`,
+          description: `The Piper Cherokee is a dependable single-engine trainer ideal for students pursuing their private pilot license or time building. N3912X is powered by a 180 hp Lycoming engine and offers stable, predictable handling for primary training and cross-country flights.<br>Rates:<br>$169/hr wet + $65/hr instructor`,
           link: "/contact",
           linkText: "Contact Us",
         },
@@ -127,14 +138,15 @@ const ourFleet = {
         {
           title: "Virtual Fly Solo Pro G1",
           imagePath: "/src/assets/virtual-fly-solo-pro-g1-simulator.webp",
-          imageAlt: "Universal Flight Training Virtual Fly Solo Pro G1 flight simulator setup",
+          imageAlt:
+            "Universal Flight Training Virtual Fly Solo Pro G1 flight simulator setup",
           description: `The Virtual Fly Solo Pro G1 is a FAA-approved Advanced Aviation Training Device (AATD) that offers a highly realistic flight training experience. It features a full cockpit layout with precise controls and realistic instrumentation, making it perfect for practicing instrument approaches, procedures, and maneuvers.<br>Rates:<br>$115/hr + $65/hr instructor`,
           link: "/about/our-simulator",
           linkText: "Check Simulator",
         },
       ],
     },
-    
+
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
       headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
