@@ -3,7 +3,7 @@ pubDate: "January 28, 2026"
 author: Jacob Kyser
 title: "Why Aviation Safety Standards Matter in Flight Training"
 description: "Strong aviation safety standards are the foundation of effective pilot training. Learn how Universal Flight Training in Sarasota builds safe habits through structure, oversight, and consistent instruction."
-heroImage: "/blog/speedometer.jpg"
+heroImage: "/blog/fleet-N553RG_Universal-Flight-Training_Flight-School-sarasota-florida-3.jpeg"
 readingTime: 6
 category: "Flight Training Safety"
 tags:
